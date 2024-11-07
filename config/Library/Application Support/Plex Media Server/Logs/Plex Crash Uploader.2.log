@@ -1,0 +1,4 @@
+Nov 07, 2024 21:44:50.921 [140142243429176] INFO - Crash Uploader - Platform: Linux ServerUUID: 6b5abb05011ffce06d674a3934088fde3fa5a7b6 UserId: noker5533@gmail.com Version: 1.41.1.9057-af5eaea7a
+Nov 07, 2024 21:44:50.922 [140142243429176] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.41.1.9057-af5eaea7a
+Nov 07, 2024 21:44:50.922 [140142243429176] INFO - Post-processed minidump directory: /tmp
+Nov 07, 2024 21:44:50.922 [140142271342600] INFO - Crash Uploader - Processing Complete.

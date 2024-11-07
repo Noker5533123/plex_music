@@ -1,0 +1,1174 @@
+Nov 05, 2024 23:13:34.047 [123168301787960] INFO - Plex Media Server v1.41.1.9057-af5eaea7a - Docker Docker Container x86_64 - build: linux-x86_64 debian - GMT 00:00
+Nov 05, 2024 23:13:34.047 [123168301787960] INFO - Linux version: 6.8.0-47-generic, language: en-US
+Nov 05, 2024 23:13:34.047 [123168301787960] INFO - Processor: 8-core Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Nov 05, 2024 23:13:34.047 [123168301787960] INFO - Compiler is - Clang 11.0.1 (https://plex.tv 9b997da8e5b47bdb4a9425b3a3b290be393b4b1f)
+Nov 05, 2024 23:13:34.048 [123168301787960] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Nov 05, 2024 23:13:34.012 [123168307997328] DEBUG - BPQ: [Idle] -> [Starting]
+Nov 05, 2024 23:13:34.014 [123168307997328] DEBUG - FeatureManager: Using cached data for features list
+Nov 05, 2024 23:13:34.029 [123168307997328] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Nov 05, 2024 23:13:34.030 [123168307997328] DEBUG - Relay: read 2 cached entries from hosts file
+Nov 05, 2024 23:13:34.030 [123168307997328] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 05, 2024 23:13:34.163 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/features
+Nov 05, 2024 23:13:34.257 [123168307997328] DEBUG - [CERT] Subject name is /CN=*.a68a0cc2604041758abb53a66e98c6f4.plex.direct
+Nov 05, 2024 23:13:34.257 [123168307997328] DEBUG - [CERT] Installed certificate with fingerprint 4e:0f:40:be:ad:89:ae:7e:19:09:37:e1:e8:88:d4:cf:b2:5e:90:11.
+Nov 05, 2024 23:13:34.257 [123168307997328] DEBUG - [CERT/OCSP] Stapling requests will be made to 'http://r10.o.lencr.org/'.
+Nov 05, 2024 23:13:34.258 [123168307997328] INFO - [CERT/OCSP] Successfully retrieved response from cache.
+Nov 05, 2024 23:13:34.258 [123168307997328] DEBUG - HttpServer: Listening on IPv6 as well as IPv4.
+Nov 05, 2024 23:13:34.258 [123168307997328] DEBUG - HttpServer: Listening on port 32400.
+Nov 05, 2024 23:13:34.259 [123168307997328] DEBUG - HttpServer: Listening on port 32401.
+Nov 05, 2024 23:13:34.259 [123168307997328] DEBUG - Running server...
+Nov 05, 2024 23:13:34.259 [123168280816440] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Nov 05, 2024 23:13:34.260 [123168307997328] INFO - Running migrations. (EPG 0)
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 0.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 1.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 2.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 3.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 4.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 5.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 6.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 7.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 8.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 9.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 10.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 11.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 12.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 13.
+Nov 05, 2024 23:13:34.261 [123168307997328] DEBUG - Captured session 14.
+Nov 05, 2024 23:13:34.262 [123168307997328] DEBUG - Captured session 15.
+Nov 05, 2024 23:13:34.262 [123168307997328] DEBUG - Captured session 16.
+Nov 05, 2024 23:13:34.262 [123168307997328] DEBUG - Captured session 17.
+Nov 05, 2024 23:13:34.262 [123168307997328] DEBUG - Captured session 18.
+Nov 05, 2024 23:13:34.262 [123168307997328] DEBUG - Captured session 19.
+Nov 05, 2024 23:13:34.271 [123168307997328] DEBUG - ChangestampAllocator: initialized to 8457612157627753852
+Nov 05, 2024 23:13:34.271 [123168307997328] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.39.4, threadsafe=1
+Nov 05, 2024 23:13:34.284 [123168307997328] INFO - Running migrations. (EPG 0)
+Nov 05, 2024 23:13:34.286 [123168307997328] DEBUG - Captured session 0.
+Nov 05, 2024 23:13:34.286 [123168307997328] DEBUG - Captured session 1.
+Nov 05, 2024 23:13:34.363 [123168293399352] DEBUG - Grabber: Cleaning up orphaned grabs.
+Nov 05, 2024 23:13:34.364 [123168293399352] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Nov 05, 2024 23:13:34.365 [123168307997328] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Nov 05, 2024 23:13:34.365 [123168293399352] DEBUG - [MediaProviderManager/HCl#1] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.366 [123168307997328] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Nov 05, 2024 23:13:34.366 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.367 [123168307997328] DEBUG - MyPlex: updating with 12 access tokens
+Nov 05, 2024 23:13:34.367 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.368 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.369 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.370 [123168268233528] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Nov 05, 2024 23:13:34.370 [123168268233528] DEBUG - [HCl#2] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.375 [123168307997328] DEBUG - Opening 1 database sessions to library (), SQLite 3.39.4, threadsafe=1
+Nov 05, 2024 23:13:34.381 [123168255650616] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a" changed: -1 => 2024-09-27 17:52:35 (1727459555).
+Nov 05, 2024 23:13:34.381 [123168255650616] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2024-11-05 18:17:02 (1730830622).
+Nov 05, 2024 23:13:34.381 [123168255650616] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a"
+Nov 05, 2024 23:13:34.389 [123168255650616] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Nov 05, 2024 23:13:34.389 [123168255650616] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Nov 05, 2024 23:13:34.389 [123168255650616] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/System.bundle.
+Nov 05, 2024 23:13:34.390 [123168255650616] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Nov 05, 2024 23:13:34.391 [123168255650616] DEBUG - Starting file watcher for com.plexapp.system
+Nov 05, 2024 23:13:34.392 [123168255650616] DEBUG - Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Nov 05, 2024 23:13:34.392 [123168255650616] DEBUG - Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Nov 05, 2024 23:13:34.395 [123168255650616] DEBUG - Spawned plug-in com.plexapp.system with PID 281
+Nov 05, 2024 23:13:34.395 [123168255650616] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Nov 05, 2024 23:13:34.941 [123168276622136] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:34.942 [123168293399352] DEBUG - [MediaProviderManager/HCl#3] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:35.026 [123168276622136] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.7s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:35.028 [123168268233528] DEBUG - MyPlex: updating with 12 access tokens
+Nov 05, 2024 23:13:35.028 [123168268233528] DEBUG - [HCl#4] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:35.099 [123168276622136] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:35.100 [123168293399352] DEBUG - [MediaProviderManager/HCl#5] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:35.193 [123168276622136] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:35.194 [123168251456312] DEBUG - [HCl#6] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:35.269 [123168276622136] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:35.270 [123168293399352] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Nov 05, 2024 23:13:35.270 [123168293399352] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Nov 05, 2024 23:13:35.270 [123168293399352] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 0)
+Nov 05, 2024 23:13:35.270 [123168264039224] DEBUG - [MediaProviderManager/HCl#8] HTTP requesting GET https://vod.provider.plex.tv?includePreferences=1
+Nov 05, 2024 23:13:35.371 [123168276622136] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:35.373 [123168251456312] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:35.716 [123168276622136] DEBUG - [HttpClient/HCl#8] HTTP/2.0 (0.4s) 200 response from GET https://vod.provider.plex.tv?includePreferences=1
+Nov 05, 2024 23:13:35.826 [123168293399352] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 1)
+Nov 05, 2024 23:13:35.826 [123168293399352] DEBUG - [MediaProviderManager] we had 0 cloud providers online, we now have 2
+Nov 05, 2024 23:13:35.826 [123168293399352] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Nov 05, 2024 23:13:35.826 [123168293399352] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Nov 05, 2024 23:13:35.826 [123168293399352] DEBUG - [MediaProviderManager/MetadataAgentManager] attempted to online our built-in agents but we're not yet signed in
+Nov 05, 2024 23:13:36.007 [123168264039224] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader "--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.41.1.9057-af5eaea7a" --version=1.41.1.9057-af5eaea7a --platform=Linux --platformVersion=6.8.0-47-generic --serverUuid=6b5abb05011ffce06d674a3934088fde3fa5a7b6 --userId=noker5533@gmail.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx --vendor=Docker --model=x86_64 "--device=Docker Container"
+Nov 05, 2024 23:13:36.008 [123168264039224] DEBUG - [JobRunner] Jobs: Starting child process with pid 285
+Nov 05, 2024 23:13:36.051 [123168297593656] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 285 is 0 (success)
+Nov 05, 2024 23:13:37.848 [123168259844920] DEBUG - Request: [127.0.0.1:57774 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #1 GZIP Token ()
+Nov 05, 2024 23:13:37.849 [123168247262008] DEBUG - Request: [127.0.0.1:57780 (Loopback)] GET / (3 live) #3 GZIP Token ()
+Nov 05, 2024 23:13:37.850 [123168285010744] DEBUG - Completed: [127.0.0.1:57774] 503 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (3 live) #1 GZIP 1ms 436 bytes
+Nov 05, 2024 23:13:37.850 [123168289205048] DEBUG - Completed: [127.0.0.1:57780] 503 GET / (3 live) #3 GZIP 1ms 436 bytes
+Nov 05, 2024 23:13:38.740 [123168259844920] DEBUG - Request: [[::1]:48554 (Loopback)] GET /identity (2 live) #4
+Nov 05, 2024 23:13:38.740 [123168285010744] DEBUG - Completed: [[::1]:48554] 503 GET /identity (2 live) #4 0ms 375 bytes (pipelined: 1)
+Nov 05, 2024 23:13:38.750 [123168247262008] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/index.html (2 live) #8 GZIP
+Nov 05, 2024 23:13:38.752 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 503 GET /web/index.html (2 live) #8 GZIP 1ms 465 bytes (pipelined: 1)
+Nov 05, 2024 23:13:39.697 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/index.html (2 live) #c GZIP
+Nov 05, 2024 23:13:39.698 [123168289205048] DEBUG - Completed: [172.18.0.1:52732] 503 GET /web/index.html (2 live) #c GZIP 1ms 465 bytes (pipelined: 2)
+Nov 05, 2024 23:13:40.451 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/index.html (2 live) #d GZIP
+Nov 05, 2024 23:13:40.452 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 503 GET /web/index.html (2 live) #d GZIP 1ms 465 bytes (pipelined: 3)
+Nov 05, 2024 23:13:40.579 [123168247262008] DEBUG - Request: [127.0.0.1:57790 (Loopback)] GET /servers (3 live) #b GZIP Token ()
+Nov 05, 2024 23:13:40.580 [123168289205048] DEBUG - Completed: [127.0.0.1:57790] 503 GET /servers (3 live) #b GZIP 1ms 436 bytes
+Nov 05, 2024 23:13:40.648 [123168255650616] DEBUG - Reading 486 bytes in the body, code is 200
+Nov 05, 2024 23:13:40.648 [123168255650616] DEBUG - [com.plexapp.system] Plug-in running on port 46445.
+Nov 05, 2024 23:13:40.648 [123168255650616] DEBUG -  * Plug-in handles prefix: /system
+Nov 05, 2024 23:13:40.648 [123168255650616] DEBUG -  * Plug-in handles prefix: /player
+Nov 05, 2024 23:13:40.648 [123168255650616] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Nov 05, 2024 23:13:40.649 [123168255650616] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Nov 05, 2024 23:13:40.649 [123168255650616] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Nov 05, 2024 23:13:40.649 [123168255650616] DEBUG - Updating the list of agents known by the system.
+Nov 05, 2024 23:13:40.649 [123168255650616] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Nov 05, 2024 23:13:40.649 [123168255650616] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:46445/system/agents
+Nov 05, 2024 23:13:40.650 [123168307997328] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Nov 05, 2024 23:13:40.651 [123168307997328] DEBUG - Transcoder: Cleaning old transcode directories.
+Nov 05, 2024 23:13:40.653 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.653 [123168307997328] DEBUG - MyPlex: updating with 12 access tokens
+Nov 05, 2024 23:13:40.654 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.655 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.655 [123168264039224] DEBUG - [MediaProviderManager/HCl#b] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.655 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.657 [123168307997328] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Nov 05, 2024 23:13:40.660 [123168307997328] DEBUG - MyPlex: username is juliocesarlopezprudencio, login is noker5533@gmail.com, home is 0, no pin
+Nov 05, 2024 23:13:40.666 [123168307997328] DEBUG - MyPlex: start public ip check and mapping - current mapped state: 'Unknown'.
+Nov 05, 2024 23:13:40.666 [123168307997328] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Nov 05, 2024 23:13:40.666 [123168307997328] DEBUG - PublicAddressManager: Starting.
+Nov 05, 2024 23:13:40.666 [123168307997328] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Nov 05, 2024 23:13:40.666 [123168268233528] DEBUG - PublicAddressManager: Obtaining public IP.
+Nov 05, 2024 23:13:40.666 [123168238873400] DEBUG - [HCl#c] HTTP requesting GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Nov 05, 2024 23:13:40.666 [123168268233528] DEBUG - [HCl#d] HTTP requesting GET https://v4.plex.tv/pms/:/ip
+Nov 05, 2024 23:13:40.666 [123168293399352] DEBUG - NAT: UPnP, attempting port mapping.
+Nov 05, 2024 23:13:40.668 [123168307997328] DEBUG - NetworkInterface: Starting watch thread.
+Nov 05, 2024 23:13:40.668 [123168307997328] DEBUG - Network change.
+Nov 05, 2024 23:13:40.668 [123168307997328] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Nov 05, 2024 23:13:40.668 [123168230484792] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Nov 05, 2024 23:13:40.669 [123168307997328] DEBUG - Detected primary interface: 172.18.0.2
+Nov 05, 2024 23:13:40.669 [123168307997328] DEBUG - Network interfaces:
+Nov 05, 2024 23:13:40.669 [123168307997328] DEBUG -  * 1 lo (127.0.0.1) (00-00-00-00-00-00) (loopback: 1)
+Nov 05, 2024 23:13:40.669 [123168307997328] DEBUG -  * 29 eth0 (172.18.0.2) (02-42-AC-12-00-02) (loopback: 0)
+Nov 05, 2024 23:13:40.669 [123168307997328] DEBUG -  * 1 lo (::1) (00-00-00-00-00-00) (loopback: 1)
+Nov 05, 2024 23:13:40.669 [123168307997328] DEBUG - Creating NetworkServices singleton.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkServices: Initializing...
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Creating new service.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 05, 2024 23:13:40.670 [123168226290488] DEBUG - Network change for advertiser.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Creating new service.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 05, 2024 23:13:40.670 [123168226290488] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Creating new service.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Creating new service.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Creating new service.
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 05, 2024 23:13:40.670 [123168307997328] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 05, 2024 23:13:40.671 [123168226290488] DEBUG - Network change for advertiser.
+Nov 05, 2024 23:13:40.671 [123168226290488] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410
+Nov 05, 2024 23:13:40.671 [123168307997328] DEBUG - NetworkService: Creating new service.
+Nov 05, 2024 23:13:40.671 [123168307997328] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 05, 2024 23:13:40.671 [123168307997328] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 05, 2024 23:13:40.671 [123168226290488] DEBUG - Network change for advertiser.
+Nov 05, 2024 23:13:40.671 [123168226290488] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412
+Nov 05, 2024 23:13:40.671 [123168226290488] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Nov 05, 2024 23:13:40.671 [123168226290488] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Browsing on interface 172.18.0.2 on broadcast address 172.18.255.255 (index: 1)
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Browsing on interface 172.18.0.2 on broadcast address 172.18.255.255 (index: 1)
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901
+Nov 05, 2024 23:13:40.672 [123168226290488] DEBUG - NetworkService: Browsing on interface 172.18.0.2 on broadcast address 239.255.255.250 (index: 0)
+Nov 05, 2024 23:13:40.676 [123168213707576] DEBUG - [ChildProcessMonitor] Plex Tuner Service starting.
+Nov 05, 2024 23:13:40.676 [123168217901880] DEBUG - DVR: Starting up.
+Nov 05, 2024 23:13:40.676 [123168213707576] DEBUG - [ChildProcessMonitor/JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Tuner Service" /usr/lib/plexmediaserver/Resources/Tuner/Private /usr/lib/plexmediaserver/Resources/Tuner/Shared 1.41.1.9057-af5eaea7a 32600
+Nov 05, 2024 23:13:40.677 [123168213707576] DEBUG - [ChildProcessMonitor/JobRunner] Jobs: Starting child process with pid 334
+Nov 05, 2024 23:13:40.680 [123168217901880] DEBUG - Activity: registered new activity a1547254-01ce-4d77-9391-711b8060c0d3 - "Processing subscriptions"
+Nov 05, 2024 23:13:40.839 [123168307997328] DEBUG - PublicAddressManager: Obtaining public address and mapping port.
+Nov 05, 2024 23:13:40.839 [123168307997328] DEBUG - [HCl#e] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.989 [123168276622136] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.3s) 200 response from GET http://127.0.0.1:46445/system/agents
+Nov 05, 2024 23:13:40.989 [123168276622136] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.3s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:40.990 [123168255650616] DEBUG - [com.plexapp.system] HTTP reply status 200, with 8986 bytes of content.
+Nov 05, 2024 23:13:40.991 [123168264039224] DEBUG - [MediaProviderManager/HCl#f] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:40.999 [123168255650616] DEBUG - The system knows about 12 agents.
+Nov 05, 2024 23:13:41.000 [123168209513272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/HTbackdrops.bundle.
+Nov 05, 2024 23:13:41.000 [123168205318968] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/PersonalMedia.bundle.
+Nov 05, 2024 23:13:41.000 [123168201124664] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/PlexThemeMusic.bundle.
+Nov 05, 2024 23:13:41.003 [123168255650616] DEBUG - Waiting for 16 plug-ins to finish starting.
+Nov 05, 2024 23:13:41.005 [123168209513272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Nov 05, 2024 23:13:41.006 [123168209513272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Fanart-TV.bundle.
+Nov 05, 2024 23:13:41.006 [123168205318968] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Nov 05, 2024 23:13:41.006 [123168205318968] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Scanners.bundle.
+Nov 05, 2024 23:13:41.007 [123168201124664] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Nov 05, 2024 23:13:41.007 [123168201124664] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/PlexMovie.bundle.
+Nov 05, 2024 23:13:41.012 [123168209513272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Nov 05, 2024 23:13:41.013 [123168209513272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/LocalMedia.bundle.
+Nov 05, 2024 23:13:41.013 [123168205318968] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Framework.bundle.
+Nov 05, 2024 23:13:41.016 [123168201124664] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Nov 05, 2024 23:13:41.017 [123168201124664] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Musicbrainz.bundle.
+Nov 05, 2024 23:13:41.020 [123168209513272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Nov 05, 2024 23:13:41.021 [123168209513272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle.
+Nov 05, 2024 23:13:41.022 [123168205318968] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/TheTVDBv4.bundle.
+Nov 05, 2024 23:13:41.024 [123168201124664] DEBUG - Perfect cache hit, we don't need to start [org.musicbrainz.agents.music] yet.
+Nov 05, 2024 23:13:41.024 [123168201124664] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/Media-Flags.bundle.
+Nov 05, 2024 23:13:41.028 [123168209513272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/TheMovieDB.bundle.
+Nov 05, 2024 23:13:41.030 [123168201124664] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/MoviePosterDB.bundle.
+Nov 05, 2024 23:13:41.030 [123168205318968] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Nov 05, 2024 23:13:41.031 [123168205318968] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/LastFM.bundle.
+Nov 05, 2024 23:13:41.035 [123168209513272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Nov 05, 2024 23:13:41.036 [123168209513272] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/LyricFind.bundle.
+Nov 05, 2024 23:13:41.038 [123168201124664] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Nov 05, 2024 23:13:41.038 [123168205318968] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Nov 05, 2024 23:13:41.040 [123168209513272] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Nov 05, 2024 23:13:41.041 [123168255650616] DEBUG - Starting scheduled updates, every 3600 seconds
+Nov 05, 2024 23:13:41.041 [123168255650616] INFO - LibraryUpdateManager path watching is disabled
+Nov 05, 2024 23:13:41.041 [123168255650616] DEBUG - Done waiting for all plug-ins to start.
+Nov 05, 2024 23:13:41.041 [123168255650616] DEBUG - PluginRepository::setStartState: 3, complete
+Nov 05, 2024 23:13:41.047 [123168217901880] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale sk
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale de
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale sl
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale cs_CZ
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale fr
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale ja_JP
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale zh_CN
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale en
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale pt
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale he
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale lt
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale ro
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale es
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale ru
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale pl
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale da
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale af
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale no
+Nov 05, 2024 23:13:41.048 [123168217901880] DEBUG - Translator: Found locale hr_HR
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale sr
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale fi
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale hu_HU
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale ar
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale ko
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale pt_BR
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale nl_BE
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale nl
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale et_EE
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale sv
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale uk
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale it
+Nov 05, 2024 23:13:41.049 [123168217901880] DEBUG - Translator: Found locale hu
+Nov 05, 2024 23:13:41.066 [123168217901880] DEBUG - [Req#11] Starting file watcher for com.plexapp.agents.imdb
+Nov 05, 2024 23:13:41.066 [123168217901880] DEBUG - [Req#11] Plugin: setting environment variable: 'PYTHONHOME=/usr/lib/plexmediaserver/Resources/Python'
+Nov 05, 2024 23:13:41.066 [123168217901880] DEBUG - [Req#11] Plugin: setting environment variable: 'PYTHONPATH=/usr/lib/plexmediaserver/Resources/Python/python27.zip:/usr/lib/plexmediaserver/Resources/Python/lib/python2.7/site-packages'
+Nov 05, 2024 23:13:41.069 [123168217901880] DEBUG - [Req#11] Spawned plug-in com.plexapp.agents.imdb with PID 370
+Nov 05, 2024 23:13:41.069 [123168217901880] DEBUG - [Req#11] [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Nov 05, 2024 23:13:41.116 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/index.html (2 live) #e GZIP Signed-in
+Nov 05, 2024 23:13:41.132 [123168259844920] DEBUG - [Req#e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/index.html"
+Nov 05, 2024 23:13:41.133 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/index.html is 30234 (of total: 30234).
+Nov 05, 2024 23:13:41.133 [123168289205048] DEBUG - Completed: [172.18.0.1:52732] 200 GET /web/index.html (2 live) #e GZIP 17ms 30234 bytes (pipelined: 4)
+Nov 05, 2024 23:13:41.202 [123168247262008] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/js/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.js (2 live) #12 GZIP Signed-in
+Nov 05, 2024 23:13:41.203 [123168247262008] DEBUG - [Req#12] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:41.203 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.js is 1970797 (of total: 1970797).
+Nov 05, 2024 23:13:41.218 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 200 GET /web/js/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.js (4 live) #12 GZIP 16ms 1970797 bytes (pipelined: 5)
+Nov 05, 2024 23:13:41.220 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.css (4 live) #13 GZIP Signed-in
+Nov 05, 2024 23:13:41.222 [123168247262008] DEBUG - Request: [172.18.0.1:53058 (Subnet)] GET /web/js/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.js (5 live) #f GZIP Signed-in
+Nov 05, 2024 23:13:41.224 [123168247262008] DEBUG - [Req#f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:41.225 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.js is 3436767 (of total: 3436767).
+Nov 05, 2024 23:13:41.226 [123168142404408] DEBUG - Request: [172.18.0.1:53078 (Subnet)] GET /web/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.css (5 live) #14 GZIP Signed-in
+Nov 05, 2024 23:13:41.227 [123168259844920] DEBUG - [Req#13] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:41.227 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.css is 87318 (of total: 87318).
+Nov 05, 2024 23:13:41.227 [123168142404408] DEBUG - [Req#14] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:41.228 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.css is 466188 (of total: 466188).
+Nov 05, 2024 23:13:41.232 [123168285010744] DEBUG - Completed: [172.18.0.1:53078] 200 GET /web/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.css (5 live) #14 GZIP 7ms 466188 bytes (pipelined: 1)
+Nov 05, 2024 23:13:41.235 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/3115-3115-b59084fb3c669dd9c1c0-plex-4.138.0-c2b7353.css (5 live) #13 GZIP 15ms 87318 bytes (pipelined: 1)
+Nov 05, 2024 23:13:41.259 [123168289205048] DEBUG - Completed: [172.18.0.1:53058] 200 GET /web/js/main-8792-3d10fb3a1f25330c50df-plex-4.138.0-c2b7353.js (5 live) #f GZIP 37ms 3436767 bytes (pipelined: 1)
+Nov 05, 2024 23:13:41.313 [123168276622136] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.3s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:41.319 [123168307997328] DEBUG - [DatabaseFixups] Running fix-ups.
+Nov 05, 2024 23:13:41.325 [123168307997328] DEBUG - [DatabaseFixups] Destroyed 0 transient items.
+Nov 05, 2024 23:13:41.335 [123168307997328] DEBUG - [DatabaseFixups] Running database fix-ups completed in 0.0 seconds.
+Nov 05, 2024 23:13:41.335 [123168307997328] DEBUG - [HCl#10] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:41.356 [123168276622136] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.7s) 200 response from GET https://plex.tv/api/v2/user?includeSubscriptions=1&includeProviders=1
+Nov 05, 2024 23:13:41.364 [123168251456312] DEBUG - MyPlex: username is juliocesarlopezprudencio, login is noker5533@gmail.com, home is 0, no pin
+Nov 05, 2024 23:13:41.391 [123168238873400] DEBUG - [HCl#11] HTTP requesting GET https://plex.tv/api/v2/geoip
+Nov 05, 2024 23:13:41.457 [123168276622136] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.8s) 200 response from GET https://v4.plex.tv/pms/:/ip
+Nov 05, 2024 23:13:41.457 [123168268233528] DEBUG - PublicAddressManager: Got public IP from v4.plex.tv: 187.189.93.44
+Nov 05, 2024 23:13:41.491 [123168276622136] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:41.493 [123168307997328] DEBUG - [HCl#12] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:41.547 [123168276622136] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/geoip (reused)
+Nov 05, 2024 23:13:41.548 [123168180153144] DEBUG - [HCl#13] HTTP requesting GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:41.551 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Resolving 45.33.119.35 port 443
+Nov 05, 2024 23:13:41.551 [123168238873400] DEBUG - [HCl#14] HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:41.552 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Resolved 45.33.119.35 to 45.33.119.35:443
+Nov 05, 2024 23:13:41.689 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Connected in 137 ms.
+Nov 05, 2024 23:13:41.690 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Wrote data, reading reply.
+Nov 05, 2024 23:13:41.866 [123168276622136] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.7s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:41.866 [123168276622136] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:41.866 [123168276622136] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/webhooks?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:41.868 [123168264039224] DEBUG - [MediaProviderManager/HCl#16] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:41.871 [123168307997328] DEBUG - [HCl#17] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Nov 05, 2024 23:13:41.998 [123168247262008] DEBUG - Request: [172.18.0.1:53058 (Subnet)] GET /web/static/icon-ipad@2x.png (5 live) #19 GZIP Signed-in
+Nov 05, 2024 23:13:41.999 [123168247262008] DEBUG - [Req#19] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/static/icon-ipad@2x.png"
+Nov 05, 2024 23:13:41.999 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/static/icon-ipad@2x.png is 14211 (of total: 14211).
+Nov 05, 2024 23:13:42.000 [123168142404408] DEBUG - Request: [172.18.0.1:53078 (Subnet)] GET /web/favicon.ico (5 live) #17 GZIP Signed-in
+Nov 05, 2024 23:13:42.001 [123168142404408] DEBUG - [Req#17] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/favicon.ico"
+Nov 05, 2024 23:13:42.002 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/favicon.ico is 5430 (of total: 5430).
+Nov 05, 2024 23:13:42.002 [123168289205048] DEBUG - Completed: [172.18.0.1:53058] 200 GET /web/static/icon-ipad@2x.png (5 live) #19 GZIP 4ms 14211 bytes (pipelined: 2)
+Nov 05, 2024 23:13:42.002 [123168289205048] DEBUG - Completed: [172.18.0.1:53078] 200 GET /web/favicon.ico (5 live) #17 GZIP 3ms 5430 bytes (pipelined: 2)
+Nov 05, 2024 23:13:42.029 [123168276622136] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:42.029 [123168276622136] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 1)
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] we had 2 cloud providers online, we now have 2
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Nov 05, 2024 23:13:42.030 [123168264039224] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Nov 05, 2024 23:13:42.030 [123168307997328] DEBUG - Waiting for server condition to be signaled.
+Nov 05, 2024 23:13:42.166 [123168276622136] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:42.169 [123168238873400] DEBUG - [HCl#18] HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:42.175 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Read HTTP reply header.
+Nov 05, 2024 23:13:42.175 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] MyPlex: We appear to have regained Internet connectivity.
+Nov 05, 2024 23:13:42.178 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] PublicAddressManager: Obtaining public address and mapping port.
+Nov 05, 2024 23:13:42.178 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Nov 05, 2024 23:13:42.178 [123168289205048] WARN - [EventSourceClient/pubsub/45.33.119.35:443] MyPlex: attempted a reachability check but we're not yet mapped.
+Nov 05, 2024 23:13:42.178 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Successfully connected to 45.33.119.35.
+Nov 05, 2024 23:13:42.178 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] EventSource: Got event [data] '<Message host="45.56.124.90" port="443" command="startRelay"/>'
+Nov 05, 2024 23:13:42.178 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443/HCl#19] HTTP requesting GET https://downloads.plex.tv/relay/relay_v1.pub
+Nov 05, 2024 23:13:42.335 [123168276622136] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:42.336 [123168238873400] DEBUG - [HCl#1a] HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:42.384 [123168276622136] DEBUG - [HttpClient/HCl#19] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/relay/relay_v1.pub
+Nov 05, 2024 23:13:42.384 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Relay: refreshed host key from https://downloads.plex.tv/relay/relay_v1.pub
+Nov 05, 2024 23:13:42.385 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Relay: starting relay.
+Nov 05, 2024 23:13:42.385 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443/JobRunner] Job running: PLEXTOKEN=xxxxxxxxxxxxxxxxxxxx "/usr/lib/plexmediaserver/Plex Relay" -p 443 -N -R 0:127.0.0.1:32401 -o StrictHostKeyChecking=yes -o "UserKnownHostsFile=/config/Library/Application Support/Plex Media Server/Cache/relayHostKey.txt" -o LogLevel=VERBOSE -o PreferredAuthentications=password -o PubkeyAuthentication=no -l juliocesarlopezprudencio -F /dev/null 45.56.124.90
+Nov 05, 2024 23:13:42.385 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443/JobRunner] Jobs: Starting child process with pid 381
+Nov 05, 2024 23:13:42.386 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] EventSource: Got event [data] '<Message host="45.56.124.90" port="443" command="startRelay"/>'
+Nov 05, 2024 23:13:42.386 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Relay: already have an active relay connection for this server
+Nov 05, 2024 23:13:42.546 [123168276622136] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:42.550 [123168238873400] DEBUG - [HCl#1b] HTTP requesting GET https://plex.tv/api/v2/server/users/features
+Nov 05, 2024 23:13:42.719 [123168276622136] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/features (reused)
+Nov 05, 2024 23:13:42.747 [123168238873400] DEBUG - CERT: Certificate will not expire soon; we'll check again in a week.
+Nov 05, 2024 23:13:42.748 [123168134015800] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Nov 05, 2024 23:13:42.748 [123168134015800] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Nov 05, 2024 23:13:42.749 [123168238873400] WARN - MyPlex: Invalid connection URL 'http://<localhost>:32400/'.
+Nov 05, 2024 23:13:42.749 [123168238873400] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Nov 05, 2024 23:13:42.750 [123168238873400] DEBUG - [HCl#1c] HTTP requesting PUT https://plex.tv/devices/6b5abb05011ffce06d674a3934088fde3fa5a7b6?Connection[][uri]=http://172.18.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:42.750 [123168134015800] DEBUG - MyPlex: Sending Server Info to myPlex (user=noker5533@gmail.com, ip=, port=0)
+Nov 05, 2024 23:13:42.750 [123168134015800] DEBUG - [HCl#1d] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:42.923 [123168276622136] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.2s) 200 response from PUT https://plex.tv/devices/6b5abb05011ffce06d674a3934088fde3fa5a7b6?Connection[][uri]=http://172.18.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:42.947 [123168276622136] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.2s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:42.948 [123168134015800] DEBUG - MyPlex: Published Mapping State response was 422
+Nov 05, 2024 23:13:42.948 [123168134015800] DEBUG - MyPlex: Got response for 6b5abb05011ffce06d674a3934088fde3fa5a7b6 ~ registered :0
+Nov 05, 2024 23:13:42.948 [123168134015800] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Nov 05, 2024 23:13:42.948 [123168134015800] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Nov 05, 2024 23:13:43.149 [123168259844920] DEBUG - [Req#16] [PlexRelay] Authenticated to 45.56.124.90 ([45.56.124.90]:443).
+Nov 05, 2024 23:13:43.257 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js (3 live) #18 GZIP Signed-in
+Nov 05, 2024 23:13:43.257 [123168247262008] DEBUG - [Req#18] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.257 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js is 45612 (of total: 45612).
+Nov 05, 2024 23:13:43.258 [123168142404408] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js (3 live) #15 GZIP Signed-in
+Nov 05, 2024 23:13:43.259 [123168142404408] DEBUG - [Req#15] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.259 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js (3 live) #18 GZIP 2ms 45612 bytes (pipelined: 2)
+Nov 05, 2024 23:13:43.259 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js is 22744 (of total: 22744).
+Nov 05, 2024 23:13:43.260 [123168289205048] DEBUG - Completed: [172.18.0.1:52732] 200 GET /web/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js (3 live) #15 GZIP 2ms 22744 bytes (pipelined: 6)
+Nov 05, 2024 23:13:43.262 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js (3 live) #29 GZIP Signed-in
+Nov 05, 2024 23:13:43.263 [123168247262008] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/js/chunk-3332-b2e5adced86889996a06-plex-4.138.0-c2b7353.js (3 live) #2a GZIP Signed-in
+Nov 05, 2024 23:13:43.263 [123168259844920] DEBUG - [Req#29] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.263 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js is 83966 (of total: 83966).
+Nov 05, 2024 23:13:43.263 [123168247262008] DEBUG - [Req#2a] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3332-b2e5adced86889996a06-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.263 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3332-b2e5adced86889996a06-plex-4.138.0-c2b7353.js is 3193 (of total: 3193).
+Nov 05, 2024 23:13:43.266 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js (3 live) #29 GZIP 3ms 83966 bytes (pipelined: 3)
+Nov 05, 2024 23:13:43.268 [123168289205048] DEBUG - Completed: [172.18.0.1:52732] 200 GET /web/js/chunk-3332-b2e5adced86889996a06-plex-4.138.0-c2b7353.js (3 live) #2a GZIP 5ms 3193 bytes (pipelined: 7)
+Nov 05, 2024 23:13:43.273 [123168142404408] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css (4 live) #2b GZIP Signed-in
+Nov 05, 2024 23:13:43.273 [123168142404408] DEBUG - [Req#2b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.273 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css is 17711 (of total: 17711).
+Nov 05, 2024 23:13:43.275 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css (4 live) #2b GZIP 2ms 17711 bytes (pipelined: 4)
+Nov 05, 2024 23:13:43.280 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css (4 live) #2e GZIP Signed-in
+Nov 05, 2024 23:13:43.281 [123168259844920] DEBUG - [Req#2e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.281 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css is 3317 (of total: 3317).
+Nov 05, 2024 23:13:43.282 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css (4 live) #2e GZIP 1ms 3317 bytes (pipelined: 5)
+Nov 05, 2024 23:13:43.346 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/translations/es.json (4 live) #2f GZIP Signed-in
+Nov 05, 2024 23:13:43.346 [123168247262008] DEBUG - [Req#2f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/translations/es.json"
+Nov 05, 2024 23:13:43.347 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/translations/es.json is 230647 (of total: 230647).
+Nov 05, 2024 23:13:43.348 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/translations/es.json (4 live) #2f GZIP 2ms 230647 bytes (pipelined: 6)
+Nov 05, 2024 23:13:43.361 [123168142404408] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js (4 live) #30 GZIP Signed-in
+Nov 05, 2024 23:13:43.361 [123168142404408] DEBUG - [Req#30] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.361 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js is 36351 (of total: 36351).
+Nov 05, 2024 23:13:43.362 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js (4 live) #30 GZIP 1ms 36351 bytes (pipelined: 7)
+Nov 05, 2024 23:13:43.369 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.css (4 live) #31 GZIP Signed-in
+Nov 05, 2024 23:13:43.369 [123168259844920] DEBUG - [Req#31] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.370 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.css is 5745 (of total: 5745).
+Nov 05, 2024 23:13:43.370 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.css (4 live) #31 GZIP 1ms 5745 bytes (pipelined: 8)
+Nov 05, 2024 23:13:43.376 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.js (4 live) #32 GZIP Signed-in
+Nov 05, 2024 23:13:43.376 [123168247262008] DEBUG - [Req#32] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.376 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.js is 33939 (of total: 33939).
+Nov 05, 2024 23:13:43.376 [123168142404408] DEBUG - Request: [172.18.0.1:53088 (Subnet)] GET /web/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.css (4 live) #26 GZIP Signed-in
+Nov 05, 2024 23:13:43.377 [123168142404408] DEBUG - [Req#26] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.377 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.css is 4931 (of total: 4931).
+Nov 05, 2024 23:13:43.377 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-152-bd96c313cd536727b99f-plex-4.138.0-c2b7353.js (4 live) #32 GZIP 1ms 33939 bytes (pipelined: 9)
+Nov 05, 2024 23:13:43.378 [123168289205048] DEBUG - Completed: [172.18.0.1:53088] 200 GET /web/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.css (4 live) #26 GZIP 1ms 4931 bytes (pipelined: 1)
+Nov 05, 2024 23:13:43.381 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/js/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.js (4 live) #2c GZIP Signed-in
+Nov 05, 2024 23:13:43.382 [123168259844920] DEBUG - [Req#2c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.382 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.js is 16548 (of total: 16548).
+Nov 05, 2024 23:13:43.386 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 200 GET /web/js/chunk-3345-6677d94f8fc167174034-plex-4.138.0-c2b7353.js (4 live) #2c GZIP 4ms 16548 bytes (pipelined: 8)
+Nov 05, 2024 23:13:43.386 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-45-8236340254803d617382-plex-4.138.0-c2b7353.js (5 live) #33 GZIP Signed-in
+Nov 05, 2024 23:13:43.387 [123168247262008] DEBUG - [Req#33] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-45-8236340254803d617382-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.387 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-45-8236340254803d617382-plex-4.138.0-c2b7353.js is 3268 (of total: 3268).
+Nov 05, 2024 23:13:43.388 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-45-8236340254803d617382-plex-4.138.0-c2b7353.js (5 live) #33 GZIP 3ms 3268 bytes (pipelined: 10)
+Nov 05, 2024 23:13:43.489 [123168142404408] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js (5 live) #37 GZIP Signed-in
+Nov 05, 2024 23:13:43.490 [123168142404408] DEBUG - [Req#37] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.490 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js is 101214 (of total: 101214).
+Nov 05, 2024 23:13:43.491 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js (5 live) #37 GZIP 1ms 101214 bytes (pipelined: 11)
+Nov 05, 2024 23:13:43.498 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-3497-16a863791226f17ca745-plex-4.138.0-c2b7353.js (5 live) #38 GZIP Signed-in
+Nov 05, 2024 23:13:43.498 [123168259844920] DEBUG - [Req#38] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3497-16a863791226f17ca745-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.498 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3497-16a863791226f17ca745-plex-4.138.0-c2b7353.js is 11912 (of total: 11912).
+Nov 05, 2024 23:13:43.500 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-3497-16a863791226f17ca745-plex-4.138.0-c2b7353.js (5 live) #38 GZIP 2ms 11912 bytes (pipelined: 12)
+Nov 05, 2024 23:13:43.505 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.css (5 live) #39 GZIP Signed-in
+Nov 05, 2024 23:13:43.505 [123168247262008] DEBUG - [Req#39] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.506 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.css is 19690 (of total: 19690).
+Nov 05, 2024 23:13:43.507 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.css (5 live) #39 GZIP 2ms 19690 bytes (pipelined: 13)
+Nov 05, 2024 23:13:43.509 [123168142404408] DEBUG - Request: [172.18.0.1:53088 (Subnet)] GET /web/js/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.js (5 live) #34 GZIP Signed-in
+Nov 05, 2024 23:13:43.509 [123168259844920] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-1800-873ad4c01919a351580f-plex-4.138.0-c2b7353.js (5 live) #2d GZIP Signed-in
+Nov 05, 2024 23:13:43.510 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.css (5 live) #3a GZIP Signed-in
+Nov 05, 2024 23:13:43.511 [123168259844920] DEBUG - [Req#2d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-1800-873ad4c01919a351580f-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.511 [123168142404408] DEBUG - [Req#34] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.511 [123168247262008] DEBUG - [Req#3a] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.511 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-1800-873ad4c01919a351580f-plex-4.138.0-c2b7353.js is 964 (of total: 964).
+Nov 05, 2024 23:13:43.511 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.js is 92474 (of total: 92474).
+Nov 05, 2024 23:13:43.511 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.css is 2084 (of total: 2084).
+Nov 05, 2024 23:13:43.513 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.css (5 live) #3a GZIP 3ms 2084 bytes (pipelined: 14)
+Nov 05, 2024 23:13:43.514 [123168289205048] DEBUG - Completed: [172.18.0.1:53088] 200 GET /web/js/chunk-4119-86ba48ba2e24bd18b7ca-plex-4.138.0-c2b7353.js (5 live) #34 GZIP 5ms 92474 bytes (pipelined: 2)
+Nov 05, 2024 23:13:43.514 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-1800-873ad4c01919a351580f-plex-4.138.0-c2b7353.js (5 live) #2d GZIP 5ms 964 bytes (pipelined: 1)
+Nov 05, 2024 23:13:43.548 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js (5 live) #3b GZIP Signed-in
+Nov 05, 2024 23:13:43.548 [123168247262008] DEBUG - [Req#3b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.548 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js is 101214 (of total: 101214).
+Nov 05, 2024 23:13:43.550 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-3582-82a1e3f87e8650d19943-plex-4.138.0-c2b7353.js (5 live) #3b GZIP 2ms 101214 bytes (pipelined: 15)
+Nov 05, 2024 23:13:43.557 [123168142404408] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js (5 live) #3e GZIP Signed-in
+Nov 05, 2024 23:13:43.557 [123168142404408] DEBUG - [Req#3e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.557 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js is 27788 (of total: 27788).
+Nov 05, 2024 23:13:43.558 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js (5 live) #3e GZIP 1ms 27788 bytes (pipelined: 16)
+Nov 05, 2024 23:13:43.560 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js (5 live) #3f GZIP Signed-in
+Nov 05, 2024 23:13:43.561 [123168247262008] DEBUG - Request: [172.18.0.1:53088 (Subnet)] GET /web/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css (5 live) #3c GZIP Signed-in
+Nov 05, 2024 23:13:43.562 [123168247262008] DEBUG - [Req#3c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.562 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css is 71154 (of total: 71154).
+Nov 05, 2024 23:13:43.564 [123168259844920] DEBUG - [Req#3f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.564 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js is 709003 (of total: 709003).
+Nov 05, 2024 23:13:43.568 [123168289205048] DEBUG - Completed: [172.18.0.1:53088] 200 GET /web/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css (5 live) #3c GZIP 6ms 71154 bytes (pipelined: 3)
+Nov 05, 2024 23:13:43.575 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js (5 live) #3f GZIP 15ms 709003 bytes (pipelined: 17)
+Nov 05, 2024 23:13:43.637 [123168142404408] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.js (5 live) #41 GZIP Signed-in
+Nov 05, 2024 23:13:43.637 [123168142404408] DEBUG - [Req#41] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.638 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.js is 24736 (of total: 24736).
+Nov 05, 2024 23:13:43.639 [123168289205048] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-2641-bac4d5434518ecf7e692-plex-4.138.0-c2b7353.js (5 live) #41 GZIP 1ms 24736 bytes (pipelined: 18)
+Nov 05, 2024 23:13:43.641 [123168259844920] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-8369-a856ec31720531c47ca2-plex-4.138.0-c2b7353.js (5 live) #42 GZIP Signed-in
+Nov 05, 2024 23:13:43.642 [123168259844920] DEBUG - [Req#42] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-8369-a856ec31720531c47ca2-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.642 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-8369-a856ec31720531c47ca2-plex-4.138.0-c2b7353.js is 79453 (of total: 79453).
+Nov 05, 2024 23:13:43.643 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-8369-a856ec31720531c47ca2-plex-4.138.0-c2b7353.js (5 live) #42 GZIP 1ms 79453 bytes (pipelined: 19)
+Nov 05, 2024 23:13:43.651 [123168247262008] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.css (5 live) #43 GZIP Signed-in
+Nov 05, 2024 23:13:43.653 [123168247262008] DEBUG - [Req#43] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.654 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.css is 11162 (of total: 11162).
+Nov 05, 2024 23:13:43.656 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.css (5 live) #43 GZIP 4ms 11162 bytes (pipelined: 20)
+Nov 05, 2024 23:13:43.662 [123168142404408] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /web/js/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.js (5 live) #44 GZIP Signed-in
+Nov 05, 2024 23:13:43.663 [123168259844920] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.js (5 live) #3d GZIP Signed-in
+Nov 05, 2024 23:13:43.663 [123168259844920] DEBUG - [Req#3d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.664 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.js is 1570 (of total: 1570).
+Nov 05, 2024 23:13:43.664 [123168259844920] DEBUG - Request: [172.18.0.1:53088 (Subnet)] GET /web/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.css (5 live) #40 GZIP Signed-in
+Nov 05, 2024 23:13:43.665 [123168259844920] DEBUG - [Req#40] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.665 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.css is 11162 (of total: 11162).
+Nov 05, 2024 23:13:43.665 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.js (5 live) #3d GZIP 2ms 1570 bytes (pipelined: 2)
+Nov 05, 2024 23:13:43.667 [123168285010744] DEBUG - Completed: [172.18.0.1:53088] 200 GET /web/chunk-3159-336b9c2dc94f55fabd9a-plex-4.138.0-c2b7353.css (5 live) #40 GZIP 4ms 11162 bytes (pipelined: 4)
+Nov 05, 2024 23:13:43.668 [123168142404408] DEBUG - [Req#44] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.668 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.js is 2398 (of total: 2398).
+Nov 05, 2024 23:13:43.671 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 200 GET /web/js/chunk-7516-1c460e43eb709bf3792d-plex-4.138.0-c2b7353.js (5 live) #44 GZIP 10ms 2398 bytes (pipelined: 21)
+Nov 05, 2024 23:13:43.682 [123168259844920] INFO - [Req#35] [PlexRelay] Allocated port 5817 for remote forward to 127.0.0.1:32401
+Nov 05, 2024 23:13:43.722 [123168285010744] DEBUG - Request: [172.18.0.1:53074 (Subnet)] GET /media/providers (6 live) #47 GZIP Signed-in
+Nov 05, 2024 23:13:43.724 [123168285010744] DEBUG - Completed: [172.18.0.1:53074] 401 GET /media/providers (6 live) #47 GZIP 0ms 357 bytes
+Nov 05, 2024 23:13:43.725 [123168285010744] DEBUG - Request: [172.18.0.1:53088 (Subnet)] GET / (5 live) #46 GZIP Signed-in
+Nov 05, 2024 23:13:43.726 [123168285010744] DEBUG - Completed: [172.18.0.1:53088] 401 GET / (5 live) #46 GZIP 0ms 435 bytes
+Nov 05, 2024 23:13:43.749 [123168247262008] DEBUG - Request: [172.18.0.1:53106 (Subnet)] GET /media/providers (4 live) #48 TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:43.759 [123168285010744] DEBUG - Completed: [172.18.0.1:53106] 200 GET /media/providers (4 live) #48 TLS GZIP 9ms 3920 bytes (pipelined: 1)
+Nov 05, 2024 23:13:43.801 [123168142404408] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-4861-182789aac86a49bd0392-plex-4.138.0-c2b7353.js (4 live) #45 GZIP Signed-in
+Nov 05, 2024 23:13:43.802 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /web/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.css (4 live) #36 GZIP Signed-in
+Nov 05, 2024 23:13:43.803 [123168259844920] DEBUG - [Req#36] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.804 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.css is 16316 (of total: 16316).
+Nov 05, 2024 23:13:43.805 [123168142404408] DEBUG - [Req#45] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-4861-182789aac86a49bd0392-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.806 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-4861-182789aac86a49bd0392-plex-4.138.0-c2b7353.js is 22555 (of total: 22555).
+Nov 05, 2024 23:13:43.808 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 200 GET /web/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.css (4 live) #36 GZIP 6ms 16316 bytes (pipelined: 9)
+Nov 05, 2024 23:13:43.813 [123168289205048] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-4861-182789aac86a49bd0392-plex-4.138.0-c2b7353.js (5 live) #45 GZIP 13ms 22555 bytes (pipelined: 3)
+Nov 05, 2024 23:13:43.817 [123168247262008] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.js (5 live) #52 GZIP Signed-in
+Nov 05, 2024 23:13:43.818 [123168247262008] DEBUG - [Req#52] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.818 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.js is 122176 (of total: 122176).
+Nov 05, 2024 23:13:43.827 [123168289205048] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-1211-2dde06a99824e4269c46-plex-4.138.0-c2b7353.js (5 live) #52 GZIP 9ms 122176 bytes (pipelined: 4)
+Nov 05, 2024 23:13:43.828 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.css (5 live) #4b GZIP Signed-in
+Nov 05, 2024 23:13:43.829 [123168259844920] DEBUG - [Req#4b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.829 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.css is 716 (of total: 716).
+Nov 05, 2024 23:13:43.830 [123168142404408] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.js (5 live) #53 GZIP Signed-in
+Nov 05, 2024 23:13:43.830 [123168142404408] DEBUG - [Req#53] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:43.830 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.js is 27174 (of total: 27174).
+Nov 05, 2024 23:13:43.832 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.css (5 live) #4b GZIP 4ms 716 bytes (pipelined: 1)
+Nov 05, 2024 23:13:43.836 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-9436-686b16d85133f290c07c-plex-4.138.0-c2b7353.js (5 live) #53 GZIP 6ms 27174 bytes (pipelined: 5)
+Nov 05, 2024 23:13:43.899 [123168247262008] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.css (5 live) #55 GZIP Signed-in
+Nov 05, 2024 23:13:43.905 [123168247262008] DEBUG - [Req#55] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:43.905 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.css is 1679 (of total: 1679).
+Nov 05, 2024 23:13:43.910 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.css (5 live) #55 GZIP 11ms 1679 bytes (pipelined: 6)
+Nov 05, 2024 23:13:43.923 [123168259844920] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /identity (5 live) #56 GZIP Signed-in
+Nov 05, 2024 23:13:43.925 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /identity (5 live) #56 GZIP 3ms 485 bytes (pipelined: 7)
+Nov 05, 2024 23:13:44.020 [123168142404408] DEBUG - Request: [172.18.0.1:53106 (Subnet)] GET /status/sessions (5 live) #4f TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.022 [123168142404408] DEBUG - [Req#4f] [Now] Adding 0 sessions.
+Nov 05, 2024 23:13:44.023 [123168285010744] DEBUG - Completed: [172.18.0.1:53106] 200 GET /status/sessions (5 live) #4f TLS GZIP 2ms 478 bytes (pipelined: 2)
+Nov 05, 2024 23:13:44.033 [123168247262008] DEBUG - Request: [172.18.0.1:53106 (Subnet)] GET /:/prefs (5 live) #58 TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.057 [123168289205048] DEBUG - Completed: [172.18.0.1:53106] 200 GET /:/prefs (5 live) #58 TLS GZIP 24ms 8317 bytes (pipelined: 3)
+Nov 05, 2024 23:13:44.075 [123168259844920] DEBUG - Request: [172.18.0.1:53106 (Subnet)] GET /updater/status (5 live) #59 TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.077 [123168285010744] DEBUG - Completed: [172.18.0.1:53106] 200 GET /updater/status (5 live) #59 TLS GZIP 1ms 561 bytes (pipelined: 4)
+Nov 05, 2024 23:13:44.106 [123168142404408] DEBUG - Request: [[::1]:56884 (Loopback)] GET /identity (7 live) #5b Signed-in
+Nov 05, 2024 23:13:44.106 [123168289205048] DEBUG - Completed: [[::1]:56884] 200 GET /identity (7 live) #5b 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:13:44.120 [123168247262008] DEBUG - Request: [172.18.0.1:53120 (Subnet)] GET /:/websockets/notifications (6 live) #51 TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.121 [123168247262008] DEBUG - WebSocket: Performing handshake from origin http://localhost:32401
+Nov 05, 2024 23:13:44.121 [123168247262008] DEBUG - Beginning read from WebSocket
+Nov 05, 2024 23:13:44.254 [123168259844920] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.js (6 live) #57 GZIP Signed-in
+Nov 05, 2024 23:13:44.254 [123168259844920] DEBUG - [Req#57] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:44.255 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.js is 20887 (of total: 20887).
+Nov 05, 2024 23:13:44.255 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.css (6 live) #54 GZIP Signed-in
+Nov 05, 2024 23:13:44.255 [123168142404408] DEBUG - [Req#54] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:44.255 [123168289205048] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-5002-a2e09e5a4e5397c9d1ae-plex-4.138.0-c2b7353.js (6 live) #57 GZIP 2ms 20887 bytes (pipelined: 8)
+Nov 05, 2024 23:13:44.255 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.css is 939 (of total: 939).
+Nov 05, 2024 23:13:44.256 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.css (6 live) #54 GZIP 1ms 939 bytes (pipelined: 2)
+Nov 05, 2024 23:13:44.281 [123168247262008] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js (6 live) #5f GZIP Signed-in
+Nov 05, 2024 23:13:44.281 [123168247262008] DEBUG - [Req#5f] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:44.282 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js is 27788 (of total: 27788).
+Nov 05, 2024 23:13:44.283 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-5449-5ba97d9dace847bc8ffe-plex-4.138.0-c2b7353.js (6 live) #5f GZIP 1ms 27788 bytes (pipelined: 9)
+Nov 05, 2024 23:13:44.284 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/js/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.js (6 live) #60 GZIP Signed-in
+Nov 05, 2024 23:13:44.285 [123168259844920] DEBUG - [Req#60] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:44.285 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.js is 4701 (of total: 4701).
+Nov 05, 2024 23:13:44.286 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/js/chunk-8303-ec4c134b0fcef483e3bc-plex-4.138.0-c2b7353.js (6 live) #60 GZIP 3ms 4701 bytes (pipelined: 3)
+Nov 05, 2024 23:13:44.287 [123168142404408] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css (6 live) #61 GZIP Signed-in
+Nov 05, 2024 23:13:44.288 [123168142404408] DEBUG - [Req#61] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:44.288 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css is 71154 (of total: 71154).
+Nov 05, 2024 23:13:44.289 [123168289205048] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.css (6 live) #61 GZIP 2ms 71154 bytes (pipelined: 10)
+Nov 05, 2024 23:13:44.290 [123168247262008] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js (6 live) #62 GZIP Signed-in
+Nov 05, 2024 23:13:44.291 [123168247262008] DEBUG - [Req#62] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:44.291 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js is 709003 (of total: 709003).
+Nov 05, 2024 23:13:44.296 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/js/chunk-2507-ba217619c845b16f0fc8-plex-4.138.0-c2b7353.js (6 live) #62 GZIP 6ms 709003 bytes (pipelined: 4)
+Nov 05, 2024 23:13:44.312 [123168289205048] DEBUG - WebSocket: client initiated close
+Nov 05, 2024 23:13:44.313 [123168289205048] DEBUG - NotificationStream: Removing because of close
+Nov 05, 2024 23:13:44.314 [123168285010744] DEBUG - handleStreamRead code 2: End of file
+Nov 05, 2024 23:13:44.314 [123168285010744] DEBUG - Completed after connection close: [172.18.0.1:53120] -3 GET /:/websockets/notifications (6 live) #51 TLS GZIP 193ms 2 bytes
+Nov 05, 2024 23:13:44.319 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /media/providers (5 live) #64 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.327 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /media/providers (5 live) #64 GZIP 7ms 3792 bytes (pipelined: 5)
+Nov 05, 2024 23:13:44.341 [123168142404408] DEBUG - Request: [172.18.0.1:53134 (Subnet)] GET /:/websockets/notifications (6 live) #5c TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.341 [123168142404408] DEBUG - WebSocket: Performing handshake from origin http://localhost:32401
+Nov 05, 2024 23:13:44.342 [123168142404408] DEBUG - Beginning read from WebSocket
+Nov 05, 2024 23:13:44.364 [123168201124664] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Nov 05, 2024 23:13:44.365 [123168201124664] DEBUG - Grabber: HDHomerun discovered 0 compatible devices.
+Nov 05, 2024 23:13:44.365 [123168201124664] DEBUG - [HCl#20] HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Nov 05, 2024 23:13:44.424 [123168247262008] DEBUG - Request: [172.18.0.1:53106 (Subnet)] PUT /updater/check?download=0 (6 live) #5a TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.425 [123168247262008] DEBUG - [Req#5a] AutoUpdate: requesting check endpoint: /updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.41.1.9057-af5eaea7a, download: NO
+Nov 05, 2024 23:13:44.425 [123168247262008] DEBUG - [Req#5a] Downloading document https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.41.1.9057-af5eaea7a
+Nov 05, 2024 23:13:44.425 [123168247262008] DEBUG - [Req#5a/HCl#21] HTTP requesting GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.41.1.9057-af5eaea7a
+Nov 05, 2024 23:13:44.435 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.css (6 live) #67 GZIP Signed-in
+Nov 05, 2024 23:13:44.435 [123168259844920] DEBUG - [Req#67] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:44.436 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.css is 0 (of total: 0).
+Nov 05, 2024 23:13:44.437 [123168259844920] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.css (6 live) #67 GZIP 2ms 0 bytes (pipelined: 6)
+Nov 05, 2024 23:13:44.437 [123168142404408] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/js/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.js (6 live) #63 GZIP Signed-in
+Nov 05, 2024 23:13:44.437 [123168142404408] DEBUG - [Req#63] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:44.438 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.js is 4609 (of total: 4609).
+Nov 05, 2024 23:13:44.439 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/js/chunk-5786-60931dbc1a959d669529-plex-4.138.0-c2b7353.js (6 live) #63 GZIP 1ms 4609 bytes (pipelined: 11)
+Nov 05, 2024 23:13:44.585 [123168259844920] DEBUG - Request: [172.18.0.1:53142 (Subnet)] GET /activities (7 live) #68 TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:44.587 [123168289205048] DEBUG - Completed: [172.18.0.1:53142] 200 GET /activities (7 live) #68 TLS GZIP 2ms 621 bytes (pipelined: 1)
+Nov 05, 2024 23:13:44.595 [123168276622136] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/updater/products/5/check.xml?build=linux-x86_64&channel=16&distribution=debian&version=1.41.1.9057-af5eaea7a (reused)
+Nov 05, 2024 23:13:44.596 [123168247262008] INFO - [Req#5a] AutoUpdate: no updates available
+Nov 05, 2024 23:13:44.597 [123168289205048] DEBUG - Completed: [172.18.0.1:53106] 200 PUT /updater/check?download=0 (7 live) #5a TLS GZIP 172ms 323 bytes (pipelined: 5)
+Nov 05, 2024 23:13:44.856 [123168142404408] DEBUG - Request: [127.0.0.1:53338 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (8 live) #6b GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:13:44.856 [123168142404408] DEBUG - [Req#6b] [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Nov 05, 2024 23:13:44.857 [123168142404408] DEBUG - [Req#6b/HCl#22] HTTP requesting GET http://127.0.0.1:46445/system/messaging/clear_events/com.plexapp.agents.imdb
+Nov 05, 2024 23:13:44.922 [123168276622136] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:46445/system/messaging/clear_events/com.plexapp.agents.imdb
+Nov 05, 2024 23:13:44.922 [123168142404408] DEBUG - [Req#6b] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Nov 05, 2024 23:13:44.923 [123168289205048] DEBUG - Completed: [127.0.0.1:53338] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (8 live) #6b GZIP 66ms 280 bytes
+Nov 05, 2024 23:13:45.326 [123168259844920] DEBUG - Request: [127.0.0.1:53346 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (8 live) #70 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:13:45.327 [123168259844920] DEBUG - [Req#70] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Nov 05, 2024 23:13:45.327 [123168259844920] DEBUG - [Req#70/HCl#23] HTTP requesting GET http://127.0.0.1:46445/:/plugins/com.plexapp.system/resourceHashes
+Nov 05, 2024 23:13:45.434 [123168276622136] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.1s) 404 response from GET http://127.0.0.1:46445/:/plugins/com.plexapp.system/resourceHashes
+Nov 05, 2024 23:13:45.435 [123168259844920] DEBUG - [Req#70] [com.plexapp.system] HTTP reply status 404, with 0 bytes of content.
+Nov 05, 2024 23:13:45.435 [123168289205048] DEBUG - Completed: [127.0.0.1:53346] 404 GET /:/plugins/com.plexapp.system/resourceHashes (8 live) #70 GZIP 108ms 261 bytes
+Nov 05, 2024 23:13:45.505 [123168247262008] DEBUG - Request: [127.0.0.1:53358 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (8 live) #72 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:13:45.505 [123168247262008] DEBUG - [Req#72] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 05, 2024 23:13:45.505 [123168247262008] DEBUG - [Req#72/HCl#24] HTTP requesting GET http://127.0.0.1:46445/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 05, 2024 23:13:45.511 [123168142404408] DEBUG - Request: [127.0.0.1:53372 (Loopback)] GET / (9 live) #74 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:13:45.517 [123168285010744] DEBUG - Completed: [127.0.0.1:53372] 200 GET / (9 live) #74 GZIP 6ms 3712 bytes
+Nov 05, 2024 23:13:45.524 [123168276622136] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46445/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 05, 2024 23:13:45.524 [123168247262008] DEBUG - [Req#72] [com.plexapp.system] HTTP reply status 200, with 516 bytes of content.
+Nov 05, 2024 23:13:45.525 [123168285010744] DEBUG - Completed: [127.0.0.1:53358] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (8 live) #72 GZIP 20ms 745 bytes
+Nov 05, 2024 23:13:45.672 [123168226290488] DEBUG - [NSB] NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (music-streaming)
+Nov 05, 2024 23:13:45.672 [123168226290488] DEBUG - [NSB] Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Nov 05, 2024 23:13:45.672 [123168226290488] DEBUG - [NSB] [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Nov 05, 2024 23:13:45.672 [123168226290488] DEBUG - [NSB/HCl#25] HTTP requesting GET http://127.0.0.1:46445/system/notify/serverUpdated?host=127.0.0.1
+Nov 05, 2024 23:13:45.693 [123168259844920] DEBUG - Request: [127.0.0.1:53384 (Loopback)] GET /servers (8 live) #75 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:13:45.695 [123168289205048] DEBUG - Completed: [127.0.0.1:53384] 200 GET /servers (8 live) #75 GZIP 2ms 494 bytes
+Nov 05, 2024 23:13:45.712 [123168276622136] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46445/system/notify/serverUpdated?host=127.0.0.1
+Nov 05, 2024 23:13:45.712 [123168226290488] DEBUG - [NSB] [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Nov 05, 2024 23:13:45.829 [123168188541752] DEBUG - [MediaProviderManager/MetadataAgentManager] [tv.plex.agents.movie] provider added to map
+Nov 05, 2024 23:13:45.830 [123168188541752] DEBUG - [MediaProviderManager/MetadataAgentManager] [tv.plex.agents.series] provider added to map
+Nov 05, 2024 23:13:45.832 [123168188541752] DEBUG - [MediaProviderManager/MetadataAgentManager] [tv.plex.agents.music] provider added to map
+Nov 05, 2024 23:13:45.834 [123168188541752] DEBUG - [MediaProviderManager/MetadataAgentManager] [org.musicbrainz.agents.music] provider added to map
+Nov 05, 2024 23:13:46.437 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /:/prefs (7 live) #69 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:46.455 [123168247262008] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /accounts/1 (7 live) #6a GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:46.456 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /:/prefs (7 live) #69 GZIP 19ms 8189 bytes (pipelined: 7)
+Nov 05, 2024 23:13:46.456 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /myplex/account (7 live) #50 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:46.460 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /accounts/1 (7 live) #6a GZIP 5ms 528 bytes (pipelined: 12)
+Nov 05, 2024 23:13:46.465 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 200 GET /myplex/account (7 live) #50 GZIP 9ms 2844 bytes (pipelined: 10)
+Nov 05, 2024 23:13:46.548 [123168167570232] DEBUG - [PubsubServerManager/process/HCl#26] HTTP requesting GET https://plex.tv/services/pubsub/servers
+Nov 05, 2024 23:13:46.704 [123168276622136] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/services/pubsub/servers (reused)
+Nov 05, 2024 23:13:46.732 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /:/prefs/get?id=MergedRecentlyAdded (7 live) #7a GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:46.734 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /:/prefs/get?id=MergedRecentlyAdded (7 live) #7a GZIP 1ms 455 bytes (pipelined: 8)
+Nov 05, 2024 23:13:46.816 [123168276622136] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (2.4s) 200 response from POST http://127.0.0.1:32600/devices/discover
+Nov 05, 2024 23:13:47.309 [123168247262008] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /:/prefs/get?id=MergedRecentlyAdded (7 live) #7d GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:47.310 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /:/prefs/get?id=MergedRecentlyAdded (7 live) #7d GZIP 1ms 455 bytes (pipelined: 9)
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 45.79.23.169 was 114 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 173.230.131.250 was 165 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 45.33.119.35 was 166 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 172.104.218.101 was 237 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 66.175.222.206 was 241 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 172.105.13.59 was 261 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.215.242 was 458 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 172.105.245.168 was 470 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.75.196 was 541 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Time to connect to 139.162.40.38 was 711 ms.
+Nov 05, 2024 23:13:47.419 [123168167570232] DEBUG - [PubsubServerManager/process] Another server (45.79.23.169) beat the current one (45.33.119.35).
+Nov 05, 2024 23:13:47.420 [123168167570232] DEBUG - [PubsubServerManager/process] Updating best host to 45.79.23.169.
+Nov 05, 2024 23:13:47.421 [123168167570232] DEBUG - [PubsubServerManager/process] Updating best ping time for 45.79.23.169 to 114 ms.
+Nov 05, 2024 23:13:47.421 [123168167570232] DEBUG - [PubsubServerManager/process] Relay: stopping relay connection to 45.56.124.90
+Nov 05, 2024 23:13:47.421 [123168167570232] DEBUG - [PubsubServerManager/process] Killing job.
+Nov 05, 2024 23:13:47.421 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Stopping.
+Nov 05, 2024 23:13:47.421 [123168167570232] DEBUG - [PubsubServerManager/process] Signalling job ID 381 with 9
+Nov 05, 2024 23:13:47.421 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Resolving 45.79.23.169 port 443
+Nov 05, 2024 23:13:47.422 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.33.119.35:443] Failure: 125 - Operation canceled.
+Nov 05, 2024 23:13:47.423 [123168297593656] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Relay' exit code for process 381 is -9 (signal: Killed)
+Nov 05, 2024 23:13:47.423 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Resolved 45.79.23.169 to 45.79.23.169:443
+Nov 05, 2024 23:13:47.615 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Connected in 192 ms.
+Nov 05, 2024 23:13:47.616 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Wrote data, reading reply.
+Nov 05, 2024 23:13:48.013 [123168247262008] DEBUG - Request: [127.0.0.1:53424 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (8 live) #78 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:13:48.014 [123168247262008] DEBUG - [Req#78] [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Nov 05, 2024 23:13:48.014 [123168247262008] DEBUG - [Req#78/HCl#27] HTTP requesting GET http://127.0.0.1:46445/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Nov 05, 2024 23:13:48.039 [123168276622136] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46445/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (reused)
+Nov 05, 2024 23:13:48.039 [123168247262008] DEBUG - [Req#78] [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Nov 05, 2024 23:13:48.040 [123168289205048] DEBUG - Completed: [127.0.0.1:53424] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (8 live) #78 GZIP 26ms 415 bytes
+Nov 05, 2024 23:13:48.069 [123168217901880] DEBUG - [Req#11] Reading 148 bytes in the body, code is 200
+Nov 05, 2024 23:13:48.069 [123168217901880] DEBUG - [Req#11] [com.plexapp.agents.imdb] Plug-in running on port 33267.
+Nov 05, 2024 23:13:48.069 [123168217901880] DEBUG - [Req#11] Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Nov 05, 2024 23:13:48.070 [123168217901880] DEBUG - [Req#11] [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Nov 05, 2024 23:13:48.070 [123168217901880] DEBUG - [Req#11/HCl#28] HTTP requesting GET http://127.0.0.1:33267/:/plugins/com.plexapp.agents.imdb/prefs
+Nov 05, 2024 23:13:48.116 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Read HTTP reply header.
+Nov 05, 2024 23:13:48.116 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] MyPlex: We appear to have regained Internet connectivity.
+Nov 05, 2024 23:13:48.119 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] PublicAddressManager: Obtaining public address and mapping port.
+Nov 05, 2024 23:13:48.119 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] MyPlex: async reachability check - current mapped state: 'Not Mapped'.
+Nov 05, 2024 23:13:48.119 [123168285010744] WARN - [EventSourceClient/pubsub/45.79.23.169:443] MyPlex: attempted a reachability check but we're not yet mapped.
+Nov 05, 2024 23:13:48.119 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Successfully connected to 45.79.23.169.
+Nov 05, 2024 23:13:48.154 [123168276622136] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.1s) 200 response from GET http://127.0.0.1:33267/:/plugins/com.plexapp.agents.imdb/prefs
+Nov 05, 2024 23:13:48.155 [123168217901880] DEBUG - [Req#11] [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Nov 05, 2024 23:13:48.156 [123168217901880] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as 4daf8adc6c720a8ea61e504eecce621291c01e1b
+Nov 05, 2024 23:13:48.156 [123168217901880] DEBUG - IVA: Downloading trailer lists.
+Nov 05, 2024 23:13:48.423 [123168217901880] DEBUG - IVA: Downloaded 17 trailers for source 1.
+Nov 05, 2024 23:13:48.498 [123168217901880] DEBUG - IVA: Downloaded 8 trailers for source 2.
+Nov 05, 2024 23:13:49.304 [123168259844920] DEBUG - Request: [[::1]:56886 (Loopback)] GET /identity (8 live) #7f Signed-in
+Nov 05, 2024 23:13:49.304 [123168285010744] DEBUG - Completed: [[::1]:56886] 200 GET /identity (8 live) #7f 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:13:50.681 [123168175958840] DEBUG - Grabber: Cleaning up orphaned grabs.
+Nov 05, 2024 23:13:50.682 [123168175958840] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Nov 05, 2024 23:13:50.682 [123168175958840] DEBUG - Activity: registered new activity 74bc69a1-9364-49b7-8873-20a808689760 - "Processing subscriptions"
+Nov 05, 2024 23:13:50.683 [123168175958840] DEBUG - Subscription: Scheduling subscriptions.
+Nov 05, 2024 23:13:50.683 [123168175958840] DEBUG - Subscription: Initialized 0 schedulers.
+Nov 05, 2024 23:13:50.683 [123168175958840] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Nov 05, 2024 23:13:50.683 [123168175958840] DEBUG - Subscription: Scheduled all subscriptions in 0 ms.
+Nov 05, 2024 23:13:50.684 [123168175958840] DEBUG - Activity: Ended activity 74bc69a1-9364-49b7-8873-20a808689760.
+Nov 05, 2024 23:13:50.685 [123168175958840] DEBUG - Subscription: There are 0 active grabs at the end.
+Nov 05, 2024 23:13:50.686 [123168175958840] DEBUG - Activity: Ended activity a1547254-01ce-4d77-9391-711b8060c0d3.
+Nov 05, 2024 23:13:50.686 [123168175958840] DEBUG - Subscription: Refreshed all content in 6 ms.
+Nov 05, 2024 23:13:51.548 [123168163375928] DEBUG - [HCl#2d] HTTP requesting GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:51.720 [123168276622136] DEBUG - [HttpClient/HCl#2d] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/resources.xml?includeHttps=1&includeRelay=1&auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:51.722 [123168163375928] DEBUG - Connection Tester: Testing the server DESKTOP-BCQJT4F with 1 URLs.
+Nov 05, 2024 23:13:51.723 [123168163375928] DEBUG - [HCl#2e] HTTP requesting GET https://172-17-121-201.ee63f66aea644afd9583aed4f00e14ec.plex.direct:32400
+Nov 05, 2024 23:13:52.682 [123168293399352] DEBUG - NAT: UPnP, didn't find usable IGD.
+Nov 05, 2024 23:13:52.682 [123168293399352] DEBUG - NAT: PMP, attempting mapping.
+Nov 05, 2024 23:13:52.933 [123168293399352] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Nov 05, 2024 23:13:52.933 [123168293399352] DEBUG - NAT: UPnP, attempting port mapping.
+Nov 05, 2024 23:13:53.469 [123168268233528] DEBUG - NAT: UPnP, getPublicIP didn't find usable IGD.
+Nov 05, 2024 23:13:53.479 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js (7 live) #7e GZIP Signed-in
+Nov 05, 2024 23:13:53.479 [123168142404408] DEBUG - [Req#7e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:53.480 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js is 45612 (of total: 45612).
+Nov 05, 2024 23:13:53.481 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/js/chunk-9769-698f56337b72c8e1b525-plex-4.138.0-c2b7353.js (7 live) #7e GZIP 1ms 45612 bytes (pipelined: 10)
+Nov 05, 2024 23:13:53.497 [123168247262008] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js (7 live) #8b GZIP Signed-in
+Nov 05, 2024 23:13:53.497 [123168247262008] DEBUG - [Req#8b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:53.498 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js is 22744 (of total: 22744).
+Nov 05, 2024 23:13:53.498 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/js/chunk-2825-09c4a3b6b400d8a5fe45-plex-4.138.0-c2b7353.js (7 live) #8b GZIP 1ms 22744 bytes (pipelined: 11)
+Nov 05, 2024 23:13:53.515 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css (7 live) #8c GZIP Signed-in
+Nov 05, 2024 23:13:53.516 [123168259844920] DEBUG - [Req#8c] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:53.516 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css is 17711 (of total: 17711).
+Nov 05, 2024 23:13:53.518 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.css (7 live) #8c GZIP 2ms 17711 bytes (pipelined: 12)
+Nov 05, 2024 23:13:53.524 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js (7 live) #8d GZIP Signed-in
+Nov 05, 2024 23:13:53.524 [123168142404408] DEBUG - [Req#8d] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:53.525 [123168142404408] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js is 83966 (of total: 83966).
+Nov 05, 2024 23:13:53.526 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/js/chunk-3126-1f7fc252c7993bdd35ef-plex-4.138.0-c2b7353.js (7 live) #8d GZIP 2ms 83966 bytes (pipelined: 13)
+Nov 05, 2024 23:13:53.526 [123168247262008] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /web/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css (7 live) #7b GZIP Signed-in
+Nov 05, 2024 23:13:53.526 [123168247262008] DEBUG - [Req#7b] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css"
+Nov 05, 2024 23:13:53.527 [123168247262008] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css is 3317 (of total: 3317).
+Nov 05, 2024 23:13:53.527 [123168289205048] DEBUG - Completed: [172.18.0.1:53100] 200 GET /web/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.css (7 live) #7b GZIP 1ms 3317 bytes (pipelined: 13)
+Nov 05, 2024 23:13:53.529 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /web/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js (7 live) #8e GZIP Signed-in
+Nov 05, 2024 23:13:53.529 [123168259844920] DEBUG - [Req#8e] Final path: "/usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js"
+Nov 05, 2024 23:13:53.529 [123168259844920] DEBUG - Content-Length of /usr/lib/plexmediaserver/Resources/Plug-ins-af5eaea7a/WebClient.bundle/Contents/Resources/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js is 36351 (of total: 36351).
+Nov 05, 2024 23:13:53.530 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /web/js/chunk-2622-e434d981492374c7dc19-plex-4.138.0-c2b7353.js (7 live) #8e GZIP 1ms 36351 bytes (pipelined: 14)
+Nov 05, 2024 23:13:53.696 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /hubs?count=12&includeLibraryPlaylists=1&includeStations=1&includeRecentChannels=1&includeMeta=1&includeExternalMetadata=1&excludeFields=summary (7 live) #90 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:53.698 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.continue/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.continue/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.698 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.ondeck/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.ondeck/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.699 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.ondeck/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 1 ms.
+Nov 05, 2024 23:13:53.699 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.continue/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 1 ms.
+Nov 05, 2024 23:13:53.700 [123168142404408] DEBUG - [Req#90] HubCache: Retrieving '1/home.ondeck/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' from the cache.
+Nov 05, 2024 23:13:53.700 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.movies.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.movies.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.700 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.movies.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 0 ms.
+Nov 05, 2024 23:13:53.701 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.television.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.television.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.701 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.television.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 0 ms.
+Nov 05, 2024 23:13:53.701 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.music.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.music.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.702 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.music.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 0 ms.
+Nov 05, 2024 23:13:53.702 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.photos.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.photos.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.703 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.photos.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 0 ms.
+Nov 05, 2024 23:13:53.703 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.videos.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.videos.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.703 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.videos.recent/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 0 ms.
+Nov 05, 2024 23:13:53.704 [123168142404408] DEBUG - [Req#90] HubCache: Adding '1/home.playlists/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' to the cache (1/home.playlists/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1).
+Nov 05, 2024 23:13:53.708 [123168142404408] DEBUG - [Req#90] HubCache: Computed '1/home.playlists/1/hubs/esexternal-media,indirect-media,hub-style-list/combinedRecentlyAdded=1&count=12&excludeFields=summary&includeExternalMetadata=1&includeLibraryPlaylists=1&includeMeta=1&includeRecentChannels=1&includeStations=1' in 3 ms.
+Nov 05, 2024 23:13:53.710 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /hubs?count=12&includeLibraryPlaylists=1&includeStations=1&includeRecentChannels=1&includeMeta=1&includeExternalMetadata=1&excludeFields=summary (7 live) #90 GZIP 14ms 830 bytes (pipelined: 15)
+Nov 05, 2024 23:13:53.720 [123168268233528] WARN - NAT: PMP, got an error: Not Supported by gateway.
+Nov 05, 2024 23:13:53.721 [123168268233528] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Nov 05, 2024 23:13:53.721 [123168268233528] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Nov 05, 2024 23:13:53.724 [123168268233528] DEBUG - MyPlex: Sending Server Info to myPlex (user=noker5533@gmail.com, ip=187.189.93.44, port=0)
+Nov 05, 2024 23:13:53.724 [123168268233528] DEBUG - [HCl#2f] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:54.017 [123168276622136] DEBUG - [HttpClient/HCl#2f] HTTP/1.1 (0.3s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:54.017 [123168268233528] DEBUG - MyPlex: Published Mapping State response was 422
+Nov 05, 2024 23:13:54.017 [123168268233528] DEBUG - MyPlex: Got response for 6b5abb05011ffce06d674a3934088fde3fa5a7b6 ~ registered :0
+Nov 05, 2024 23:13:54.017 [123168268233528] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Nov 05, 2024 23:13:54.017 [123168268233528] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Nov 05, 2024 23:13:54.020 [123168268233528] WARN - MyPlex: Invalid connection URL 'http://<localhost>:32400/'.
+Nov 05, 2024 23:13:54.020 [123168268233528] DEBUG - MyPlex: Updating device connections (from timer: 0)
+Nov 05, 2024 23:13:54.020 [123168268233528] DEBUG - [HCl#30] HTTP requesting PUT https://plex.tv/devices/6b5abb05011ffce06d674a3934088fde3fa5a7b6?Connection[][uri]=http://172.18.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:13:54.323 [123168276622136] DEBUG - [HttpClient/HCl#30] HTTP/1.1 (0.3s) 200 response from PUT https://plex.tv/devices/6b5abb05011ffce06d674a3934088fde3fa5a7b6?Connection[][uri]=http://172.18.0.2:32400&httpsEnabled=1&httpsRequired=0&dnsRebindingProtection=0&natLoopbackSupported=0&X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:13:54.553 [123168142404408] DEBUG - Request: [[::1]:58206 (Loopback)] GET /identity (8 live) #82 Signed-in
+Nov 05, 2024 23:13:54.554 [123168285010744] DEBUG - Completed: [[::1]:58206] 200 GET /identity (8 live) #82 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:13:54.762 [123168247262008] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /media/providers (7 live) #7c GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:54.766 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 200 GET /media/providers (7 live) #7c GZIP 4ms 3792 bytes (pipelined: 11)
+Nov 05, 2024 23:13:56.203 [123168259844920] DEBUG - Request: [172.18.0.1:52732 (Subnet)] GET /system/agents?mediaType=8 (7 live) #a2 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:56.207 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /system/scanners/8 (7 live) #93 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:56.208 [123168142404408] DEBUG - [Req#93] [com.plexapp.system] Sending command over HTTP (GET): /system/scanners/8
+Nov 05, 2024 23:13:56.208 [123168142404408] DEBUG - [Req#93/HCl#31] HTTP requesting GET http://127.0.0.1:46445/system/scanners/8
+Nov 05, 2024 23:13:56.218 [123168285010744] DEBUG - Completed: [172.18.0.1:52732] 200 GET /system/agents?mediaType=8 (7 live) #a2 GZIP 15ms 1168 bytes (pipelined: 12)
+Nov 05, 2024 23:13:56.222 [123168276622136] DEBUG - [HttpClient/HCl#31] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:46445/system/scanners/8
+Nov 05, 2024 23:13:56.223 [123168142404408] DEBUG - [Req#93] [com.plexapp.system] HTTP reply status 200, with 264 bytes of content.
+Nov 05, 2024 23:13:56.225 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /system/scanners/8 (7 live) #93 GZIP 17ms 472 bytes (pipelined: 16)
+Nov 05, 2024 23:13:56.725 [123168276622136] DEBUG - [HttpClient/HCl#2e] HTTP simulating 408 after curl timeout
+Nov 05, 2024 23:13:56.725 [123168146598712] WARN - Connection Tester: Error testing media server DESKTOP-BCQJT4F in 5002 ms.
+Nov 05, 2024 23:13:56.725 [123168146598712] DEBUG - PromiseQueue: promise resolved (queued: 0, active: 0)
+Nov 05, 2024 23:13:56.726 [123168163375928] DEBUG - Media Server: Tested all servers in 5.0 seconds.
+Nov 05, 2024 23:13:59.798 [123168259844920] DEBUG - Request: [[::1]:58214 (Loopback)] GET /identity (8 live) #9e Signed-in
+Nov 05, 2024 23:13:59.799 [123168285010744] DEBUG - Completed: [[::1]:58214] 200 GET /identity (8 live) #9e 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:13:59.873 [123168142404408] INFO - Request: [172.18.0.1:52732 (Subnet)] GET /services/browse?includeFiles=1 (7 live) #a3 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: overlay Path: / Name: overlay
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: cgroup2 Path: /sys/fs/cgroup Name: cgroup
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: mqueue Path: /dev/mqueue Name: mqueue
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /data Name: /dev/sda3
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /config Name: /dev/sda3
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /transcode Name: /dev/sda3
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /music Name: /dev/sda3
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /etc/resolv.conf Name: /dev/sda3
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /etc/hostname Name: /dev/sda3
+Nov 05, 2024 23:13:59.874 [123168142404408] DEBUG - [Req#a3] Filesystem Type: ext4 Path: /etc/hosts Name: /dev/sda3
+Nov 05, 2024 23:13:59.876 [123168285010744] INFO - Completed: [172.18.0.1:52732] 200 GET /services/browse?includeFiles=1 (7 live) #a3 GZIP 2ms 588 bytes (pipelined: 13)
+Nov 05, 2024 23:13:59.929 [123168247262008] INFO - Request: [172.18.0.1:53114 (Subnet)] GET /services/browse/Lw==?includeFiles=1 (7 live) #a4 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:13:59.930 [123168247262008] DEBUG - [Req#a4] DirectoryBrowser: Decoded [Lw==] to [/]
+Nov 05, 2024 23:13:59.932 [123168289205048] INFO - Completed: [172.18.0.1:53114] 200 GET /services/browse/Lw==?includeFiles=1 (7 live) #a4 GZIP 3ms 911 bytes (pipelined: 17)
+Nov 05, 2024 23:14:01.831 [123168142404408] INFO - Request: [172.18.0.1:52732 (Subnet)] GET /services/browse/L211c2lj?includeFiles=1 (7 live) #a8 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:01.832 [123168142404408] DEBUG - [Req#a8] DirectoryBrowser: Decoded [L211c2lj] to [/music]
+Nov 05, 2024 23:14:01.833 [123168289205048] INFO - Completed: [172.18.0.1:52732] 200 GET /services/browse/L211c2lj?includeFiles=1 (7 live) #a8 GZIP 2ms 350 bytes (pipelined: 14)
+Nov 05, 2024 23:14:04.293 [123168192736056] DEBUG - [HCl#32] HTTP requesting GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=6b5abb05011ffce06d674a3934088fde3fa5a7b6
+Nov 05, 2024 23:14:04.549 [123168259844920] INFO - Request: [172.18.0.1:52732 (Subnet)] POST /library/sections?name=M%C3%BAsica&type=artist&agent=tv.plex.agents.music&scanner=Plex%20Music&language=es-ES&importFromiTunes=&enableAutoPhotoTags=&location=%2Fmusic (7 live) #aa GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:04.567 [123168259844920] DEBUG - [Req#aa] Flushing directory modification time cache.
+Nov 05, 2024 23:14:04.567 [123168171764536] DEBUG - [Req#aa] MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Nov 05, 2024 23:14:04.567 [123168171764536] DEBUG - [Req#aa] MyPlex: mapping state set to 'Unknown'.
+Nov 05, 2024 23:14:04.569 [123168259844920] DEBUG - [Req#aa] Library Updater: Requested that section 8 be updated, force=0, subdir= iTunes=0
+Nov 05, 2024 23:14:04.569 [123168259844920] DEBUG - [Req#aa] Library Updater: Queueing section 8
+Nov 05, 2024 23:14:04.570 [123168259844920] INFO - [Req#aa] LibraryUpdateManager path watching is disabled
+Nov 05, 2024 23:14:04.571 [123168285010744] INFO - Completed: [172.18.0.1:52732] 201 POST /library/sections?name=M%C3%BAsica&type=artist&agent=tv.plex.agents.music&scanner=Plex%20Music&language=es-ES&importFromiTunes=&enableAutoPhotoTags=&location=%2Fmusic (7 live) #aa GZIP 22ms 832 bytes (pipelined: 15)
+Nov 05, 2024 23:14:04.572 [123168171764536] DEBUG - [Req#aa] MyPlex: Sending Server Info to myPlex (user=noker5533@gmail.com, ip=187.189.93.44, port=0)
+Nov 05, 2024 23:14:04.573 [123168171764536] DEBUG - [Req#aa/HCl#34] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:04.573 [123168264039224] DEBUG - Activity: registered new activity febd4db3-586c-4504-bdec-1e5fd7c54385 - "Scanning"
+Nov 05, 2024 23:14:04.573 [123168264039224] DEBUG - Scanning section 8
+Nov 05, 2024 23:14:04.574 [123168264039224] DEBUG - Activity: updated activity febd4db3-586c-4504-bdec-1e5fd7c54385 - completed 0.0% - Scanning Música
+Nov 05, 2024 23:14:04.575 [123168264039224] DEBUG - Asked to cull library timeline before time 1730847244, we're starting with 0 items.
+Nov 05, 2024 23:14:04.575 [123168264039224] DEBUG - Library timeline cull complete with 0 items left.
+Nov 05, 2024 23:14:04.575 [123168264039224] DEBUG - Scanning Música using es-ES(Plex Music) with 0 current media items and 1 section locations in the database.
+Nov 05, 2024 23:14:04.575 [123168264039224] DEBUG - Performing a scan with 'Plex Music' (language: es-ES virtual: 0).
+Nov 05, 2024 23:14:04.575 [123168264039224] DEBUG -   * Scanning /music
+Nov 05, 2024 23:14:04.575 [123168264039224] DEBUG -   * Marking media not available in /music
+Nov 05, 2024 23:14:04.576 [123168264039224] DEBUG -   * Taking 0 items out of the map (which has 0 items) for being unavailable.
+Nov 05, 2024 23:14:04.576 [123168264039224] DEBUG -   * Taking 0 directories out of the map (which has 0 dirs) for being unavailable.
+Nov 05, 2024 23:14:04.577 [123168264039224] DEBUG - Activity: updated activity febd4db3-586c-4504-bdec-1e5fd7c54385 - completed 99.0% - Scanning Música
+Nov 05, 2024 23:14:04.577 [123168264039224] DEBUG - Scanner [Plex Music]: Idle and left with 0 media items.
+Nov 05, 2024 23:14:04.577 [123168264039224] DEBUG - Removing 0 media items that were left.
+Nov 05, 2024 23:14:04.577 [123168264039224] DEBUG - Removing 0 directories that were left.
+Nov 05, 2024 23:14:04.579 [123168264039224] DEBUG - Collections: Found 0 collections tags in section 8.
+Nov 05, 2024 23:14:04.580 [123168264039224] DEBUG - Collections: We had 0 collections in the library already.
+Nov 05, 2024 23:14:04.580 [123168264039224] DEBUG - Collections: Synced tags in section 8 in 0ms.
+Nov 05, 2024 23:14:04.580 [123168264039224] DEBUG - Collections: Found 0 collections tags in section 8.
+Nov 05, 2024 23:14:04.580 [123168264039224] DEBUG - Collections: We had 0 collections in the library already.
+Nov 05, 2024 23:14:04.580 [123168264039224] DEBUG - Collections: Synced tags in section 8 in 1ms.
+Nov 05, 2024 23:14:04.581 [123168264039224] DEBUG - Collections: Found 0 collections tags in section 8.
+Nov 05, 2024 23:14:04.581 [123168264039224] DEBUG - Collections: We had 0 collections in the library already.
+Nov 05, 2024 23:14:04.581 [123168264039224] DEBUG - Collections: Synced tags in section 8 in 2ms.
+Nov 05, 2024 23:14:04.590 [123168264039224] DEBUG - Collections: Refreshed attributes for 0 collections in section 8 in 8ms.
+Nov 05, 2024 23:14:04.592 [123168264039224] DEBUG - Collection: Refreshed visibility in section 8 in 1ms.
+Nov 05, 2024 23:14:04.594 [123168264039224] DEBUG - Activity: updated activity febd4db3-586c-4504-bdec-1e5fd7c54385 - completed 100.0% - Scanning Música
+Nov 05, 2024 23:14:04.594 [123168264039224] DEBUG - Refreshing section 8 of type: 8
+Nov 05, 2024 23:14:04.595 [123168222096184] DEBUG - Refreshing 0 IDs.
+Nov 05, 2024 23:14:04.597 [123168264039224] DEBUG - Activity: registered new activity 3f227fbd-a336-4bc3-ad12-83a5f72a7fc8 - "Processing subscriptions"
+Nov 05, 2024 23:14:04.598 [123168264039224] DEBUG - Activity: Ended activity febd4db3-586c-4504-bdec-1e5fd7c54385.
+Nov 05, 2024 23:14:04.598 [123168146598712] DEBUG - Grabber: Cleaning up orphaned grabs.
+Nov 05, 2024 23:14:04.602 [123168146598712] DEBUG - Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Nov 05, 2024 23:14:04.604 [123168146598712] DEBUG - Activity: registered new activity 3bcb4cc6-4993-45a9-b17a-12194f8a3d73 - "Processing subscriptions"
+Nov 05, 2024 23:14:04.604 [123168146598712] DEBUG - Subscription: Scheduling subscriptions.
+Nov 05, 2024 23:14:04.605 [123168146598712] DEBUG - Subscription: Initialized 0 schedulers.
+Nov 05, 2024 23:14:04.605 [123168146598712] DEBUG - Subscription: Starting with 0 grabs, scheduled 0 active ones preemptively.
+Nov 05, 2024 23:14:04.605 [123168146598712] DEBUG - Subscription: Scheduled all subscriptions in 1 ms.
+Nov 05, 2024 23:14:04.606 [123168146598712] DEBUG - Activity: Ended activity 3bcb4cc6-4993-45a9-b17a-12194f8a3d73.
+Nov 05, 2024 23:14:04.607 [123168146598712] DEBUG - Subscription: There are 0 active grabs at the end.
+Nov 05, 2024 23:14:04.609 [123168146598712] DEBUG - Activity: Ended activity 3f227fbd-a336-4bc3-ad12-83a5f72a7fc8.
+Nov 05, 2024 23:14:04.610 [123168146598712] DEBUG - Subscription: Refreshed all content in 12 ms.
+Nov 05, 2024 23:14:04.651 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /media/providers (5 live) #a9 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:04.656 [123168247262008] DEBUG - Request: [172.18.0.1:53100 (Subnet)] GET /library/sections (5 live) #8f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:04.661 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /media/providers (5 live) #a9 GZIP 10ms 4014 bytes (pipelined: 18)
+Nov 05, 2024 23:14:04.663 [123168285010744] DEBUG - Completed: [172.18.0.1:53100] 200 GET /library/sections (5 live) #8f GZIP 6ms 680 bytes (pipelined: 14)
+Nov 05, 2024 23:14:04.783 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /library/sections/8/all?type=9&sort=addedAt%3Adesc&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (5 live) #c9 Page 0-49 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:04.803 [123168259844920] ERROR - [Req#c9] Unknown metadata type: folder
+Nov 05, 2024 23:14:04.805 [123168259844920] DEBUG - [Req#c9] Setting container serialization range to [0, 49] (total=-1)
+Nov 05, 2024 23:14:04.818 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /library/sections/8/all?type=9&sort=addedAt%3Adesc&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (5 live) #c9 GZIP Page 0-49 35ms 2297 bytes (pipelined: 19)
+Nov 05, 2024 23:14:04.871 [123168142404408] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /library/sections/8/all?type=9&sort=addedAt%3Adesc&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (5 live) #cb Page 0-49 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:04.878 [123168142404408] ERROR - [Req#cb] Unknown metadata type: folder
+Nov 05, 2024 23:14:04.879 [123168142404408] DEBUG - [Req#cb] Setting container serialization range to [0, 49] (total=-1)
+Nov 05, 2024 23:14:04.895 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /library/sections/8/all?type=9&sort=addedAt%3Adesc&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (5 live) #cb GZIP Page 0-49 23ms 2297 bytes (pipelined: 20)
+Nov 05, 2024 23:14:04.898 [123168276622136] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/api/v2/shared_sources/owned?machineIdentifier=6b5abb05011ffce06d674a3934088fde3fa5a7b6
+Nov 05, 2024 23:14:04.900 [123168192736056] DEBUG - [HCl#35] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:04.945 [123168293399352] DEBUG - NAT: UPnP, didn't find usable IGD.
+Nov 05, 2024 23:14:04.945 [123168293399352] DEBUG - PublicAddressManager: Mapping failed.
+Nov 05, 2024 23:14:04.948 [123168293399352] DEBUG - MyPlex: mapping state set to 'Mapped - Not Published'.
+Nov 05, 2024 23:14:05.050 [123168247262008] DEBUG - Request: [172.18.0.1:43034 (Subnet)] GET /media/providers (6 live) #a5 TLS GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:05.051 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /library/sections (6 live) #cc GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:05.056 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /library/sections (6 live) #cc GZIP 4ms 680 bytes (pipelined: 21)
+Nov 05, 2024 23:14:05.059 [123168285010744] DEBUG - Completed: [172.18.0.1:43034] 200 GET /media/providers (6 live) #a5 TLS GZIP 9ms 4140 bytes (pipelined: 1)
+Nov 05, 2024 23:14:05.068 [123168276622136] DEBUG - [HttpClient/HCl#35] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.070 [123168192736056] DEBUG - MyPlex: updating with 12 access tokens
+Nov 05, 2024 23:14:05.070 [123168192736056] DEBUG - [HCl#36] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.071 [123168163375928] DEBUG - [MediaProviderManager/HCl#37] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.079 [123168142404408] DEBUG - Request: [[::1]:54702 (Loopback)] GET /identity (7 live) #cf Signed-in
+Nov 05, 2024 23:14:05.080 [123168285010744] DEBUG - Completed: [[::1]:54702] 200 GET /identity (7 live) #cf 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:05.320 [123168276622136] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.7s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.320 [123168276622136] DEBUG - [HttpClient/HCl#36] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.320 [123168171764536] DEBUG - [Req#aa] MyPlex: Published Mapping State response was 422
+Nov 05, 2024 23:14:05.320 [123168171764536] DEBUG - [Req#aa] MyPlex: Got response for 6b5abb05011ffce06d674a3934088fde3fa5a7b6 ~ registered :0
+Nov 05, 2024 23:14:05.320 [123168171764536] DEBUG - [Req#aa] MyPlex: updating mapped state - current state: 'Not Mapped'
+Nov 05, 2024 23:14:05.320 [123168171764536] DEBUG - [Req#aa] MyPlex: mapping state set to 'Not Mapped'.
+Nov 05, 2024 23:14:05.320 [123168293399352] DEBUG - MyPlex: sendMapping resetting state - previous mapping state: 'Not Mapped'.
+Nov 05, 2024 23:14:05.320 [123168293399352] DEBUG - MyPlex: mapping state set to 'Unknown'.
+Nov 05, 2024 23:14:05.320 [123168171764536] DEBUG - [Req#aa/HCl#38] HTTP requesting GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.321 [123168251456312] DEBUG - [HCl#39] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.325 [123168293399352] DEBUG - MyPlex: Sending Server Info to myPlex (user=noker5533@gmail.com, ip=187.189.93.44, port=0)
+Nov 05, 2024 23:14:05.325 [123168293399352] DEBUG - [HCl#3a] HTTP requesting POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.402 [123168259844920] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /library/sections/8/all?type=9&sort=addedAt%3Adesc&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (6 live) #d1 Page 0-49 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:05.404 [123168259844920] ERROR - [Req#d1] Unknown metadata type: folder
+Nov 05, 2024 23:14:05.404 [123168259844920] DEBUG - [Req#d1] Setting container serialization range to [0, 49] (total=-1)
+Nov 05, 2024 23:14:05.412 [123168285010744] DEBUG - Completed: [172.18.0.1:53114] 200 GET /library/sections/8/all?type=9&sort=addedAt%3Adesc&includeCollections=1&includeExternalMedia=1&includeAdvanced=1&includeMeta=1 (6 live) #d1 GZIP Page 0-49 10ms 2297 bytes (pipelined: 22)
+Nov 05, 2024 23:14:05.552 [123168247262008] DEBUG - Request: [172.18.0.1:53114 (Subnet)] GET /media/providers (6 live) #de GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 05, 2024 23:14:05.559 [123168289205048] DEBUG - Completed: [172.18.0.1:53114] 200 GET /media/providers (6 live) #de GZIP 7ms 4014 bytes (pipelined: 23)
+Nov 05, 2024 23:14:05.583 [123168276622136] DEBUG - [HttpClient/HCl#38] HTTP/1.1 (0.3s) 200 response from GET https://plex.tv/api/v2/server/access_tokens?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.583 [123168276622136] DEBUG - [HttpClient/HCl#39] HTTP/1.1 (0.3s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.585 [123168251456312] DEBUG - MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.585 [123168171764536] DEBUG - [Req#aa] MyPlex: updating with 12 access tokens
+Nov 05, 2024 23:14:05.586 [123168171764536] DEBUG - [Req#aa/HCl#3b] HTTP requesting GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.625 [123168276622136] DEBUG - [HttpClient/HCl#37] HTTP/1.1 (0.6s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.626 [123168163375928] DEBUG - [MediaProviderManager/HCl#3c] HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.754 [123168276622136] DEBUG - [HttpClient/HCl#3b] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.755 [123168251456312] DEBUG - [Req#aa/HCl#3d] HTTP requesting GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.786 [123168276622136] DEBUG - [HttpClient/HCl#3c] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/media/providers?X-Plex-Token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.786 [123168163375928] DEBUG - [MediaProviderManager] discovered cloud provider (Movies & Shows)
+Nov 05, 2024 23:14:05.786 [123168163375928] DEBUG - [MediaProviderManager] discovered cloud provider (Metadata)
+Nov 05, 2024 23:14:05.787 [123168163375928] DEBUG - [MediaProviderManager] loading cloud provider details (Metadata) (alive: 1)
+Nov 05, 2024 23:14:05.787 [123168163375928] DEBUG - [MediaProviderManager] loading cloud provider details (Movies & Shows) (alive: 1)
+Nov 05, 2024 23:14:05.787 [123168163375928] DEBUG - [MediaProviderManager] we had 2 cloud providers online, we now have 2
+Nov 05, 2024 23:14:05.787 [123168163375928] DEBUG - [MediaProviderManager] cloud provider (Metadata) is online and available
+Nov 05, 2024 23:14:05.787 [123168163375928] DEBUG - [MediaProviderManager] cloud provider (Movies & Shows) is online and available
+Nov 05, 2024 23:14:05.931 [123168276622136] DEBUG - [HttpClient/HCl#3d] HTTP/1.1 (0.2s) 200 response from GET https://plex.tv/api/v2/server/users/subscriptions?auth_token=xxxxxxxxxxxxxxxxxxxx (reused)
+Nov 05, 2024 23:14:05.933 [123168251456312] DEBUG - [Req#aa] MyPlex: using cached data for request for https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.989 [123168276622136] DEBUG - [HttpClient/HCl#3a] HTTP/1.1 (0.7s) 422 response from POST https://plex.tv/servers.xml?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:14:05.989 [123168293399352] DEBUG - MyPlex: Published Mapping State response was 422
+Nov 05, 2024 23:14:05.989 [123168293399352] DEBUG - MyPlex: Got response for 6b5abb05011ffce06d674a3934088fde3fa5a7b6 ~ registered :0
+Nov 05, 2024 23:14:05.989 [123168293399352] DEBUG - MyPlex: updating mapped state - current state: 'Not Mapped'
+Nov 05, 2024 23:14:05.989 [123168293399352] DEBUG - MyPlex: mapping state set to 'Not Mapped'.
+Nov 05, 2024 23:14:05.993 [123168293399352] WARN - MyPlex: Invalid connection URL 'http://<localhost>:32400/'.
+Nov 05, 2024 23:14:05.993 [123168293399352] DEBUG - MyPlex: Last published value didn't change, we're done.
+Nov 05, 2024 23:14:06.408 [123168285010744] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] EventSource: Got event [data] '<Message command="notifyFavoritesChange"/>'
+Nov 05, 2024 23:14:10.316 [123168259844920] DEBUG - Request: [[::1]:54718 (Loopback)] GET /identity (7 live) #d3 Signed-in
+Nov 05, 2024 23:14:10.317 [123168285010744] DEBUG - Completed: [[::1]:54718] 200 GET /identity (7 live) #d3 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:15.551 [123168247262008] DEBUG - Request: [[::1]:48982 (Loopback)] GET /identity (7 live) #e7 Signed-in
+Nov 05, 2024 23:14:15.551 [123168285010744] DEBUG - Completed: [[::1]:48982] 200 GET /identity (7 live) #e7 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:20.773 [123168247262008] DEBUG - Request: [[::1]:60120 (Loopback)] GET /identity (7 live) #ea Signed-in
+Nov 05, 2024 23:14:20.773 [123168285010744] DEBUG - Completed: [[::1]:60120] 200 GET /identity (7 live) #ea 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:26.029 [123168247262008] DEBUG - Request: [[::1]:60136 (Loopback)] GET /identity (3 live) #ed Signed-in
+Nov 05, 2024 23:14:26.030 [123168285010744] DEBUG - Completed: [[::1]:60136] 200 GET /identity (3 live) #ed 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:31.262 [123168247262008] DEBUG - Request: [[::1]:33598 (Loopback)] GET /identity (4 live) #f7 Signed-in
+Nov 05, 2024 23:14:31.262 [123168289205048] DEBUG - Completed: [[::1]:33598] 200 GET /identity (4 live) #f7 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:31.579 [123168285010744] DEBUG - Request: didn't get any data from [::ffff:172.18.0.1]:45332: End of file
+Nov 05, 2024 23:14:36.514 [123168247262008] DEBUG - Request: [[::1]:33606 (Loopback)] GET /identity (4 live) #f8 Signed-in
+Nov 05, 2024 23:14:36.514 [123168285010744] DEBUG - Completed: [[::1]:33606] 200 GET /identity (4 live) #f8 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:41.746 [123168247262008] DEBUG - Request: [[::1]:36602 (Loopback)] GET /identity (4 live) #fb Signed-in
+Nov 05, 2024 23:14:41.746 [123168285010744] DEBUG - Completed: [[::1]:36602] 200 GET /identity (4 live) #fb 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:47.003 [123168247262008] DEBUG - Request: [[::1]:36606 (Loopback)] GET /identity (3 live) #fe Signed-in
+Nov 05, 2024 23:14:47.004 [123168289205048] DEBUG - Completed: [[::1]:36606] 200 GET /identity (3 live) #fe 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:52.245 [123168247262008] DEBUG - Request: [[::1]:39692 (Loopback)] GET /identity (3 live) #102 Signed-in
+Nov 05, 2024 23:14:52.246 [123168285010744] DEBUG - Completed: [[::1]:39692] 200 GET /identity (3 live) #102 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:14:57.459 [123168247262008] DEBUG - Request: [[::1]:39700 (Loopback)] GET /identity (3 live) #105 Signed-in
+Nov 05, 2024 23:14:57.459 [123168285010744] DEBUG - Completed: [[::1]:39700] 200 GET /identity (3 live) #105 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:02.662 [123168247262008] DEBUG - Request: [[::1]:35982 (Loopback)] GET /identity (3 live) #108 Signed-in
+Nov 05, 2024 23:15:02.662 [123168289205048] DEBUG - Completed: [[::1]:35982] 200 GET /identity (3 live) #108 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:07.876 [123168247262008] DEBUG - Request: [[::1]:35998 (Loopback)] GET /identity (3 live) #10b Signed-in
+Nov 05, 2024 23:15:07.877 [123168285010744] DEBUG - Completed: [[::1]:35998] 200 GET /identity (3 live) #10b 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:13.056 [123168247262008] DEBUG - Request: [[::1]:60492 (Loopback)] GET /identity (3 live) #10e Signed-in
+Nov 05, 2024 23:15:13.057 [123168285010744] DEBUG - Completed: [[::1]:60492] 200 GET /identity (3 live) #10e 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:18.255 [123168247262008] DEBUG - Request: [[::1]:60498 (Loopback)] GET /identity (3 live) #111 Signed-in
+Nov 05, 2024 23:15:18.255 [123168285010744] DEBUG - Completed: [[::1]:60498] 200 GET /identity (3 live) #111 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:23.449 [123168247262008] DEBUG - Request: [[::1]:36932 (Loopback)] GET /identity (3 live) #114 Signed-in
+Nov 05, 2024 23:15:23.450 [123168289205048] DEBUG - Completed: [[::1]:36932] 200 GET /identity (3 live) #114 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:28.651 [123168247262008] DEBUG - Request: [[::1]:36934 (Loopback)] GET /identity (3 live) #117 Signed-in
+Nov 05, 2024 23:15:28.652 [123168285010744] DEBUG - Completed: [[::1]:36934] 200 GET /identity (3 live) #117 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:33.854 [123168247262008] DEBUG - Request: [[::1]:58620 (Loopback)] GET /identity (3 live) #11a Signed-in
+Nov 05, 2024 23:15:33.854 [123168285010744] DEBUG - Completed: [[::1]:58620] 200 GET /identity (3 live) #11a 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:34.014 [123168259844920] DEBUG - BPQ: [Starting] -> [Processing]
+Nov 05, 2024 23:15:34.016 [123168259844920] DEBUG - BPQ: generating queue items from 0 generator(s)
+Nov 05, 2024 23:15:34.016 [123168259844920] DEBUG - BPQ: generated 0 item(s) for queue
+Nov 05, 2024 23:15:34.017 [123168259844920] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Nov 05, 2024 23:15:34.017 [123168259844920] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Nov 05, 2024 23:15:34.018 [123168259844920] DEBUG - BPQ: [Processing] -> [Idle]
+Nov 05, 2024 23:15:39.056 [123168247262008] DEBUG - Request: [[::1]:58626 (Loopback)] GET /identity (3 live) #11d Signed-in
+Nov 05, 2024 23:15:39.057 [123168285010744] DEBUG - Completed: [[::1]:58626] 200 GET /identity (3 live) #11d 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:40.580 [123168247262008] DEBUG - Request: [127.0.0.1:37900 (Loopback)] GET /servers (3 live) #122 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:15:40.581 [123168285010744] DEBUG - Completed: [127.0.0.1:37900] 200 GET /servers (3 live) #122 GZIP 1ms 494 bytes
+Nov 05, 2024 23:15:40.588 [123168247262008] DEBUG - Request: [127.0.0.1:37910 (Loopback)] GET / (3 live) #125 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:15:40.591 [123168285010744] DEBUG - Completed: [127.0.0.1:37910] 200 GET / (3 live) #125 GZIP 3ms 3712 bytes
+Nov 05, 2024 23:15:40.599 [123168247262008] DEBUG - Request: [127.0.0.1:37914 (Loopback)] GET /library/sections (3 live) #127 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:15:40.601 [123168285010744] DEBUG - Completed: [127.0.0.1:37914] 200 GET /library/sections (3 live) #127 GZIP 2ms 682 bytes
+Nov 05, 2024 23:15:40.607 [123168247262008] DEBUG - Request: [127.0.0.1:37916 (Loopback)] GET /channels/all (3 live) #129 GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:15:40.608 [123168289205048] DEBUG - Completed: [127.0.0.1:37916] 200 GET /channels/all (3 live) #129 GZIP 1ms 387 bytes
+Nov 05, 2024 23:15:40.618 [123168247262008] DEBUG - Request: [127.0.0.1:37922 (Loopback)] GET /library/sections (3 live) #12b GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:15:40.620 [123168289205048] DEBUG - Completed: [127.0.0.1:37922] 200 GET /library/sections (3 live) #12b GZIP 2ms 682 bytes
+Nov 05, 2024 23:15:40.625 [123168247262008] DEBUG - Request: [127.0.0.1:37938 (Loopback)] GET /channels/all (3 live) #12d GZIP Signed-in Token (juliocesarlopezprudencio)
+Nov 05, 2024 23:15:40.627 [123168289205048] DEBUG - Completed: [127.0.0.1:37938] 200 GET /channels/all (3 live) #12d GZIP 1ms 387 bytes
+Nov 05, 2024 23:15:44.258 [123168247262008] DEBUG - Request: [[::1]:40030 (Loopback)] GET /identity (3 live) #12f Signed-in
+Nov 05, 2024 23:15:44.258 [123168289205048] DEBUG - Completed: [[::1]:40030] 200 GET /identity (3 live) #12f 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:49.497 [123168247262008] DEBUG - Request: [[::1]:40038 (Loopback)] GET /identity (3 live) #131 Signed-in
+Nov 05, 2024 23:15:49.498 [123168289205048] DEBUG - Completed: [[::1]:40038] 200 GET /identity (3 live) #131 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:54.719 [123168247262008] DEBUG - Request: [[::1]:46788 (Loopback)] GET /identity (3 live) #134 Signed-in
+Nov 05, 2024 23:15:54.720 [123168289205048] DEBUG - Completed: [[::1]:46788] 200 GET /identity (3 live) #134 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:15:59.931 [123168247262008] DEBUG - Request: [[::1]:46798 (Loopback)] GET /identity (3 live) #137 Signed-in
+Nov 05, 2024 23:15:59.932 [123168289205048] DEBUG - Completed: [[::1]:46798] 200 GET /identity (3 live) #137 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:05.166 [123168247262008] DEBUG - Request: [[::1]:59636 (Loopback)] GET /identity (3 live) #13a Signed-in
+Nov 05, 2024 23:16:05.166 [123168285010744] DEBUG - Completed: [[::1]:59636] 200 GET /identity (3 live) #13a 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:10.421 [123168247262008] DEBUG - Request: [[::1]:59638 (Loopback)] GET /identity (3 live) #13d Signed-in
+Nov 05, 2024 23:16:10.422 [123168289205048] DEBUG - Completed: [[::1]:59638] 200 GET /identity (3 live) #13d 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:15.626 [123168247262008] DEBUG - Request: [[::1]:35350 (Loopback)] GET /identity (3 live) #140 Signed-in
+Nov 05, 2024 23:16:15.626 [123168289205048] DEBUG - Completed: [[::1]:35350] 200 GET /identity (3 live) #140 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:20.834 [123168247262008] DEBUG - Request: [[::1]:60416 (Loopback)] GET /identity (3 live) #143 Signed-in
+Nov 05, 2024 23:16:20.834 [123168285010744] DEBUG - Completed: [[::1]:60416] 200 GET /identity (3 live) #143 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:26.039 [123168247262008] DEBUG - Request: [[::1]:60418 (Loopback)] GET /identity (3 live) #146 Signed-in
+Nov 05, 2024 23:16:26.039 [123168289205048] DEBUG - Completed: [[::1]:60418] 200 GET /identity (3 live) #146 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:31.250 [123168247262008] DEBUG - Request: [[::1]:47902 (Loopback)] GET /identity (3 live) #149 Signed-in
+Nov 05, 2024 23:16:31.251 [123168285010744] DEBUG - Completed: [[::1]:47902] 200 GET /identity (3 live) #149 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:36.454 [123168247262008] DEBUG - Request: [[::1]:47904 (Loopback)] GET /identity (3 live) #14c Signed-in
+Nov 05, 2024 23:16:36.454 [123168289205048] DEBUG - Completed: [[::1]:47904] 200 GET /identity (3 live) #14c 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:41.680 [123168247262008] DEBUG - Request: [[::1]:59946 (Loopback)] GET /identity (3 live) #14f Signed-in
+Nov 05, 2024 23:16:41.680 [123168289205048] DEBUG - Completed: [[::1]:59946] 200 GET /identity (3 live) #14f 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:46.877 [123168247262008] DEBUG - Request: [[::1]:59958 (Loopback)] GET /identity (3 live) #152 Signed-in
+Nov 05, 2024 23:16:46.877 [123168289205048] DEBUG - Completed: [[::1]:59958] 200 GET /identity (3 live) #152 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:52.103 [123168247262008] DEBUG - Request: [[::1]:38830 (Loopback)] GET /identity (3 live) #155 Signed-in
+Nov 05, 2024 23:16:52.103 [123168285010744] DEBUG - Completed: [[::1]:38830] 200 GET /identity (3 live) #155 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:16:57.297 [123168247262008] DEBUG - Request: [[::1]:38836 (Loopback)] GET /identity (3 live) #158 Signed-in
+Nov 05, 2024 23:16:57.298 [123168289205048] DEBUG - Completed: [[::1]:38836] 200 GET /identity (3 live) #158 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:02.504 [123168247262008] DEBUG - Request: [[::1]:37694 (Loopback)] GET /identity (3 live) #15b Signed-in
+Nov 05, 2024 23:17:02.504 [123168289205048] DEBUG - Completed: [[::1]:37694] 200 GET /identity (3 live) #15b 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:07.718 [123168247262008] DEBUG - Request: [[::1]:37704 (Loopback)] GET /identity (3 live) #15e Signed-in
+Nov 05, 2024 23:17:07.719 [123168289205048] DEBUG - Completed: [[::1]:37704] 200 GET /identity (3 live) #15e 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:12.925 [123168247262008] DEBUG - Request: [[::1]:52710 (Loopback)] GET /identity (3 live) #161 Signed-in
+Nov 05, 2024 23:17:12.925 [123168285010744] DEBUG - Completed: [[::1]:52710] 200 GET /identity (3 live) #161 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:18.122 [123168247262008] DEBUG - Request: [[::1]:52724 (Loopback)] GET /identity (3 live) #164 Signed-in
+Nov 05, 2024 23:17:18.122 [123168285010744] DEBUG - Completed: [[::1]:52724] 200 GET /identity (3 live) #164 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:23.334 [123168247262008] DEBUG - Request: [[::1]:42046 (Loopback)] GET /identity (3 live) #167 Signed-in
+Nov 05, 2024 23:17:23.334 [123168285010744] DEBUG - Completed: [[::1]:42046] 200 GET /identity (3 live) #167 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:28.542 [123168247262008] DEBUG - Request: [[::1]:42048 (Loopback)] GET /identity (3 live) #16a Signed-in
+Nov 05, 2024 23:17:28.542 [123168285010744] DEBUG - Completed: [[::1]:42048] 200 GET /identity (3 live) #16a 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:33.745 [123168247262008] DEBUG - Request: [[::1]:34640 (Loopback)] GET /identity (3 live) #16d Signed-in
+Nov 05, 2024 23:17:33.745 [123168289205048] DEBUG - Completed: [[::1]:34640] 200 GET /identity (3 live) #16d 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:38.949 [123168247262008] DEBUG - Request: [[::1]:34644 (Loopback)] GET /identity (3 live) #170 Signed-in
+Nov 05, 2024 23:17:38.949 [123168289205048] DEBUG - Completed: [[::1]:34644] 200 GET /identity (3 live) #170 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:44.152 [123168247262008] DEBUG - Request: [[::1]:39380 (Loopback)] GET /identity (3 live) #173 Signed-in
+Nov 05, 2024 23:17:44.152 [123168285010744] DEBUG - Completed: [[::1]:39380] 200 GET /identity (3 live) #173 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:49.368 [123168247262008] DEBUG - Request: [[::1]:39394 (Loopback)] GET /identity (3 live) #176 Signed-in
+Nov 05, 2024 23:17:49.368 [123168289205048] DEBUG - Completed: [[::1]:39394] 200 GET /identity (3 live) #176 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:54.589 [123168247262008] DEBUG - Request: [[::1]:56098 (Loopback)] GET /identity (3 live) #179 Signed-in
+Nov 05, 2024 23:17:54.590 [123168285010744] DEBUG - Completed: [[::1]:56098] 200 GET /identity (3 live) #179 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:17:59.782 [123168247262008] DEBUG - Request: [[::1]:56100 (Loopback)] GET /identity (3 live) #17c Signed-in
+Nov 05, 2024 23:17:59.782 [123168285010744] DEBUG - Completed: [[::1]:56100] 200 GET /identity (3 live) #17c 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:04.981 [123168247262008] DEBUG - Request: [[::1]:44812 (Loopback)] GET /identity (3 live) #17f Signed-in
+Nov 05, 2024 23:18:04.982 [123168289205048] DEBUG - Completed: [[::1]:44812] 200 GET /identity (3 live) #17f 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:10.190 [123168247262008] DEBUG - Request: [[::1]:44820 (Loopback)] GET /identity (3 live) #182 Signed-in
+Nov 05, 2024 23:18:10.190 [123168285010744] DEBUG - Completed: [[::1]:44820] 200 GET /identity (3 live) #182 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:15.386 [123168247262008] DEBUG - Request: [[::1]:33160 (Loopback)] GET /identity (3 live) #185 Signed-in
+Nov 05, 2024 23:18:15.387 [123168289205048] DEBUG - Completed: [[::1]:33160] 200 GET /identity (3 live) #185 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:20.593 [123168247262008] DEBUG - Request: [[::1]:33166 (Loopback)] GET /identity (3 live) #188 Signed-in
+Nov 05, 2024 23:18:20.593 [123168289205048] DEBUG - Completed: [[::1]:33166] 200 GET /identity (3 live) #188 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:25.786 [123168247262008] DEBUG - Request: [[::1]:48972 (Loopback)] GET /identity (3 live) #18b Signed-in
+Nov 05, 2024 23:18:25.787 [123168285010744] DEBUG - Completed: [[::1]:48972] 200 GET /identity (3 live) #18b 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:31.003 [123168247262008] DEBUG - Request: [[::1]:50318 (Loopback)] GET /identity (3 live) #18e Signed-in
+Nov 05, 2024 23:18:31.003 [123168285010744] DEBUG - Completed: [[::1]:50318] 200 GET /identity (3 live) #18e 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:36.210 [123168247262008] DEBUG - Request: [[::1]:50334 (Loopback)] GET /identity (3 live) #191 Signed-in
+Nov 05, 2024 23:18:36.210 [123168289205048] DEBUG - Completed: [[::1]:50334] 200 GET /identity (3 live) #191 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:41.413 [123168247262008] DEBUG - Request: [[::1]:60886 (Loopback)] GET /identity (3 live) #194 Signed-in
+Nov 05, 2024 23:18:41.413 [123168289205048] DEBUG - Completed: [[::1]:60886] 200 GET /identity (3 live) #194 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:46.613 [123168247262008] DEBUG - Request: [[::1]:60894 (Loopback)] GET /identity (3 live) #197 Signed-in
+Nov 05, 2024 23:18:46.614 [123168285010744] DEBUG - Completed: [[::1]:60894] 200 GET /identity (3 live) #197 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:51.822 [123168247262008] DEBUG - Request: [[::1]:33050 (Loopback)] GET /identity (3 live) #19a Signed-in
+Nov 05, 2024 23:18:51.823 [123168289205048] DEBUG - Completed: [[::1]:33050] 200 GET /identity (3 live) #19a 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:18:57.023 [123168247262008] DEBUG - Request: [[::1]:33062 (Loopback)] GET /identity (3 live) #19d Signed-in
+Nov 05, 2024 23:18:57.023 [123168289205048] DEBUG - Completed: [[::1]:33062] 200 GET /identity (3 live) #19d 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:02.227 [123168247262008] DEBUG - Request: [[::1]:47502 (Loopback)] GET /identity (3 live) #1a0 Signed-in
+Nov 05, 2024 23:19:02.227 [123168285010744] DEBUG - Completed: [[::1]:47502] 200 GET /identity (3 live) #1a0 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:07.437 [123168247262008] DEBUG - Request: [[::1]:47510 (Loopback)] GET /identity (3 live) #1a3 Signed-in
+Nov 05, 2024 23:19:07.437 [123168285010744] DEBUG - Completed: [[::1]:47510] 200 GET /identity (3 live) #1a3 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:12.662 [123168247262008] DEBUG - Request: [[::1]:39236 (Loopback)] GET /identity (3 live) #1a6 Signed-in
+Nov 05, 2024 23:19:12.662 [123168285010744] DEBUG - Completed: [[::1]:39236] 200 GET /identity (3 live) #1a6 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:17.866 [123168247262008] DEBUG - Request: [[::1]:39242 (Loopback)] GET /identity (3 live) #1a9 Signed-in
+Nov 05, 2024 23:19:17.866 [123168285010744] DEBUG - Completed: [[::1]:39242] 200 GET /identity (3 live) #1a9 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:23.072 [123168247262008] DEBUG - Request: [[::1]:44572 (Loopback)] GET /identity (3 live) #1ac Signed-in
+Nov 05, 2024 23:19:23.072 [123168289205048] DEBUG - Completed: [[::1]:44572] 200 GET /identity (3 live) #1ac 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:28.267 [123168247262008] DEBUG - Request: [[::1]:44578 (Loopback)] GET /identity (3 live) #1af Signed-in
+Nov 05, 2024 23:19:28.268 [123168289205048] DEBUG - Completed: [[::1]:44578] 200 GET /identity (3 live) #1af 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:33.470 [123168247262008] DEBUG - Request: [[::1]:53802 (Loopback)] GET /identity (3 live) #1b2 Signed-in
+Nov 05, 2024 23:19:33.470 [123168285010744] DEBUG - Completed: [[::1]:53802] 200 GET /identity (3 live) #1b2 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:38.699 [123168247262008] DEBUG - Request: [[::1]:53812 (Loopback)] GET /identity (3 live) #1b5 Signed-in
+Nov 05, 2024 23:19:38.700 [123168285010744] DEBUG - Completed: [[::1]:53812] 200 GET /identity (3 live) #1b5 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:43.909 [123168247262008] DEBUG - Request: [[::1]:58796 (Loopback)] GET /identity (3 live) #1b8 Signed-in
+Nov 05, 2024 23:19:43.909 [123168285010744] DEBUG - Completed: [[::1]:58796] 200 GET /identity (3 live) #1b8 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:49.117 [123168247262008] DEBUG - Request: [[::1]:58806 (Loopback)] GET /identity (3 live) #1bb Signed-in
+Nov 05, 2024 23:19:49.118 [123168289205048] DEBUG - Completed: [[::1]:58806] 200 GET /identity (3 live) #1bb 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:54.322 [123168247262008] DEBUG - Request: [[::1]:58186 (Loopback)] GET /identity (3 live) #1be Signed-in
+Nov 05, 2024 23:19:54.322 [123168289205048] DEBUG - Completed: [[::1]:58186] 200 GET /identity (3 live) #1be 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:19:59.539 [123168247262008] DEBUG - Request: [[::1]:58190 (Loopback)] GET /identity (3 live) #1c1 Signed-in
+Nov 05, 2024 23:19:59.539 [123168289205048] DEBUG - Completed: [[::1]:58190] 200 GET /identity (3 live) #1c1 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:04.739 [123168247262008] DEBUG - Request: [[::1]:60982 (Loopback)] GET /identity (3 live) #1c4 Signed-in
+Nov 05, 2024 23:20:04.739 [123168285010744] DEBUG - Completed: [[::1]:60982] 200 GET /identity (3 live) #1c4 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:09.942 [123168247262008] DEBUG - Request: [[::1]:60994 (Loopback)] GET /identity (3 live) #1c7 Signed-in
+Nov 05, 2024 23:20:09.943 [123168289205048] DEBUG - Completed: [[::1]:60994] 200 GET /identity (3 live) #1c7 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:15.154 [123168247262008] DEBUG - Request: [[::1]:33202 (Loopback)] GET /identity (3 live) #1ca Signed-in
+Nov 05, 2024 23:20:15.155 [123168285010744] DEBUG - Completed: [[::1]:33202] 200 GET /identity (3 live) #1ca 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:20.371 [123168247262008] DEBUG - Request: [[::1]:33214 (Loopback)] GET /identity (3 live) #1cd Signed-in
+Nov 05, 2024 23:20:20.372 [123168285010744] DEBUG - Completed: [[::1]:33214] 200 GET /identity (3 live) #1cd 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:25.593 [123168247262008] DEBUG - Request: [[::1]:56290 (Loopback)] GET /identity (3 live) #1d0 Signed-in
+Nov 05, 2024 23:20:25.594 [123168285010744] DEBUG - Completed: [[::1]:56290] 200 GET /identity (3 live) #1d0 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:30.812 [123168247262008] DEBUG - Request: [[::1]:36088 (Loopback)] GET /identity (3 live) #1d3 Signed-in
+Nov 05, 2024 23:20:30.812 [123168289205048] DEBUG - Completed: [[::1]:36088] 200 GET /identity (3 live) #1d3 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:36.013 [123168247262008] DEBUG - Request: [[::1]:36100 (Loopback)] GET /identity (3 live) #1d6 Signed-in
+Nov 05, 2024 23:20:36.013 [123168285010744] DEBUG - Completed: [[::1]:36100] 200 GET /identity (3 live) #1d6 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:41.216 [123168247262008] DEBUG - Request: [[::1]:48970 (Loopback)] GET /identity (3 live) #1d9 Signed-in
+Nov 05, 2024 23:20:41.217 [123168285010744] DEBUG - Completed: [[::1]:48970] 200 GET /identity (3 live) #1d9 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:44.549 [123168192736056] DEBUG - [ViewStateSync] Starting
+Nov 05, 2024 23:20:44.549 [123168192736056] DEBUG - [ViewStateSync] Fetching user tokens
+Nov 05, 2024 23:20:44.549 [123168192736056] DEBUG - [ViewStateSync/HCl#3e] HTTP requesting GET https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:20:45.215 [123168276622136] DEBUG - [HttpClient/HCl#3e] HTTP/1.1 (0.7s) 200 response from GET https://plex.tv/api/v2/server/users/services?auth_token=xxxxxxxxxxxxxxxxxxxx
+Nov 05, 2024 23:20:45.218 [123168259844920] DEBUG - [ViewStateSync] No user tokens found; stopping
+Nov 05, 2024 23:20:46.423 [123168247262008] DEBUG - Request: [[::1]:48986 (Loopback)] GET /identity (3 live) #1dc Signed-in
+Nov 05, 2024 23:20:46.423 [123168285010744] DEBUG - Completed: [[::1]:48986] 200 GET /identity (3 live) #1dc 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:51.625 [123168247262008] DEBUG - Request: [[::1]:37458 (Loopback)] GET /identity (3 live) #1df Signed-in
+Nov 05, 2024 23:20:51.626 [123168285010744] DEBUG - Completed: [[::1]:37458] 200 GET /identity (3 live) #1df 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:20:56.828 [123168247262008] DEBUG - Request: [[::1]:37474 (Loopback)] GET /identity (3 live) #1e2 Signed-in
+Nov 05, 2024 23:20:56.828 [123168285010744] DEBUG - Completed: [[::1]:37474] 200 GET /identity (3 live) #1e2 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:02.030 [123168247262008] DEBUG - Request: [[::1]:48812 (Loopback)] GET /identity (3 live) #1e5 Signed-in
+Nov 05, 2024 23:21:02.030 [123168289205048] DEBUG - Completed: [[::1]:48812] 200 GET /identity (3 live) #1e5 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:07.229 [123168247262008] DEBUG - Request: [[::1]:48818 (Loopback)] GET /identity (3 live) #1e8 Signed-in
+Nov 05, 2024 23:21:07.230 [123168289205048] DEBUG - Completed: [[::1]:48818] 200 GET /identity (3 live) #1e8 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:12.461 [123168247262008] DEBUG - Request: [[::1]:43630 (Loopback)] GET /identity (3 live) #1eb Signed-in
+Nov 05, 2024 23:21:12.462 [123168285010744] DEBUG - Completed: [[::1]:43630] 200 GET /identity (3 live) #1eb 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:17.689 [123168247262008] DEBUG - Request: [[::1]:43640 (Loopback)] GET /identity (3 live) #1ee Signed-in
+Nov 05, 2024 23:21:17.690 [123168289205048] DEBUG - Completed: [[::1]:43640] 200 GET /identity (3 live) #1ee 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:22.897 [123168247262008] DEBUG - Request: [[::1]:33344 (Loopback)] GET /identity (3 live) #1f1 Signed-in
+Nov 05, 2024 23:21:22.898 [123168289205048] DEBUG - Completed: [[::1]:33344] 200 GET /identity (3 live) #1f1 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:28.118 [123168247262008] DEBUG - Request: [[::1]:33358 (Loopback)] GET /identity (3 live) #1f4 Signed-in
+Nov 05, 2024 23:21:28.119 [123168289205048] DEBUG - Completed: [[::1]:33358] 200 GET /identity (3 live) #1f4 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:33.304 [123168247262008] DEBUG - Request: [[::1]:52728 (Loopback)] GET /identity (3 live) #1f7 Signed-in
+Nov 05, 2024 23:21:33.304 [123168289205048] DEBUG - Completed: [[::1]:52728] 200 GET /identity (3 live) #1f7 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:38.527 [123168247262008] DEBUG - Request: [[::1]:52744 (Loopback)] GET /identity (3 live) #1fa Signed-in
+Nov 05, 2024 23:21:38.527 [123168289205048] DEBUG - Completed: [[::1]:52744] 200 GET /identity (3 live) #1fa 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:43.727 [123168247262008] DEBUG - Request: [[::1]:39364 (Loopback)] GET /identity (3 live) #1fd Signed-in
+Nov 05, 2024 23:21:43.727 [123168289205048] DEBUG - Completed: [[::1]:39364] 200 GET /identity (3 live) #1fd 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:48.928 [123168247262008] DEBUG - Request: [[::1]:39374 (Loopback)] GET /identity (3 live) #200 Signed-in
+Nov 05, 2024 23:21:48.928 [123168289205048] DEBUG - Completed: [[::1]:39374] 200 GET /identity (3 live) #200 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:54.139 [123168247262008] DEBUG - Request: [[::1]:36412 (Loopback)] GET /identity (3 live) #203 Signed-in
+Nov 05, 2024 23:21:54.140 [123168285010744] DEBUG - Completed: [[::1]:36412] 200 GET /identity (3 live) #203 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:21:59.344 [123168247262008] DEBUG - Request: [[::1]:36426 (Loopback)] GET /identity (3 live) #206 Signed-in
+Nov 05, 2024 23:21:59.344 [123168289205048] DEBUG - Completed: [[::1]:36426] 200 GET /identity (3 live) #206 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:04.542 [123168247262008] DEBUG - Request: [[::1]:51404 (Loopback)] GET /identity (3 live) #209 Signed-in
+Nov 05, 2024 23:22:04.543 [123168289205048] DEBUG - Completed: [[::1]:51404] 200 GET /identity (3 live) #209 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:09.751 [123168247262008] DEBUG - Request: [[::1]:51414 (Loopback)] GET /identity (3 live) #20c Signed-in
+Nov 05, 2024 23:22:09.752 [123168289205048] DEBUG - Completed: [[::1]:51414] 200 GET /identity (3 live) #20c 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:14.957 [123168247262008] DEBUG - Request: [[::1]:48372 (Loopback)] GET /identity (3 live) #20f Signed-in
+Nov 05, 2024 23:22:14.958 [123168285010744] DEBUG - Completed: [[::1]:48372] 200 GET /identity (3 live) #20f 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:20.165 [123168247262008] DEBUG - Request: [[::1]:48378 (Loopback)] GET /identity (3 live) #212 Signed-in
+Nov 05, 2024 23:22:20.166 [123168285010744] DEBUG - Completed: [[::1]:48378] 200 GET /identity (3 live) #212 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:25.392 [123168247262008] DEBUG - Request: [[::1]:41150 (Loopback)] GET /identity (3 live) #215 Signed-in
+Nov 05, 2024 23:22:25.392 [123168289205048] DEBUG - Completed: [[::1]:41150] 200 GET /identity (3 live) #215 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:30.603 [123168247262008] DEBUG - Request: [[::1]:41164 (Loopback)] GET /identity (3 live) #218 Signed-in
+Nov 05, 2024 23:22:30.603 [123168289205048] DEBUG - Completed: [[::1]:41164] 200 GET /identity (3 live) #218 0ms 417 bytes (pipelined: 1)
+Nov 05, 2024 23:22:35.817 [123168247262008] DEBUG - Request: [[::1]:40074 (Loopback)] GET /identity (3 live) #21b Signed-in
+Nov 05, 2024 23:22:35.818 [123168285010744] DEBUG - Completed: [[::1]:40074] 200 GET /identity (3 live) #21b 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 17:20:51.960 [123168247262008] DEBUG - Request: [[::1]:58342 (Loopback)] GET /identity (3 live) #21e Signed-in
+Nov 07, 2024 17:20:51.960 [123168285010744] DEBUG - Completed: [[::1]:58342] 200 GET /identity (3 live) #21e 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 17:20:52.593 [123168209513272] DEBUG - Putting plug-in com.plexapp.agents.imdb to sleep.
+Nov 07, 2024 17:20:52.593 [123168209513272] DEBUG - Stopping [com.plexapp.agents.imdb].
+Nov 07, 2024 17:20:52.593 [123168209513272] DEBUG - [com.plexapp.agents.imdb] Killing.
+Nov 07, 2024 17:20:52.601 [123168297593656] WARN - JobManager: Could not find job for handle 370
+Nov 07, 2024 17:20:55.076 [123168247262008] DEBUG - Request: [172.18.0.1:37336 (Subnet)] GET /media/providers (3 live) #221 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 17:20:55.081 [123168289205048] DEBUG - Completed: [172.18.0.1:37336] 200 GET /media/providers (3 live) #221 GZIP 4ms 4012 bytes (pipelined: 1)
+Nov 07, 2024 17:20:57.152 [123168247262008] DEBUG - Request: [[::1]:58358 (Loopback)] GET /identity (4 live) #224 Signed-in
+Nov 07, 2024 17:20:57.153 [123168285010744] DEBUG - Completed: [[::1]:58358] 200 GET /identity (4 live) #224 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 17:21:02.464 [123168247262008] DEBUG - Request: [[::1]:54018 (Loopback)] GET /identity (4 live) #227 Signed-in
+Nov 07, 2024 17:21:02.465 [123168285010744] DEBUG - Completed: [[::1]:54018] 200 GET /identity (4 live) #227 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 17:21:02.594 [123168209513272] DEBUG - Stopping file watcher for com.plexapp.agents.imdb
+Nov 07, 2024 17:21:06.559 [123168247262008] DEBUG - Request: [172.18.0.1:37336 (Subnet)] GET /media/providers (3 live) #226 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 17:21:06.563 [123168285010744] DEBUG - Completed: [172.18.0.1:37336] 200 GET /media/providers (3 live) #226 GZIP 4ms 4012 bytes (pipelined: 2)
+Nov 07, 2024 17:21:07.379 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Failure: 125 - Operation canceled.
+Nov 07, 2024 17:21:07.379 [123168289205048] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] MyPlex: We appear to have lost Internet connectivity, resetting device URL cache.
+Nov 07, 2024 17:21:07.379 [123168289205048] ERROR - [EventSourceClient/pubsub/45.79.23.169:443] Retrying in 15 seconds.
+Nov 07, 2024 17:21:07.650 [123168247262008] DEBUG - Request: [[::1]:54034 (Loopback)] GET /identity (4 live) #22a Signed-in
+Nov 07, 2024 17:21:07.650 [123168289205048] DEBUG - Completed: [[::1]:54034] 200 GET /identity (4 live) #22a 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 17:21:12.866 [123168247262008] DEBUG - Request: [[::1]:35966 (Loopback)] GET /identity (4 live) #22f Signed-in
+Nov 07, 2024 17:21:12.867 [123168289205048] DEBUG - Completed: [[::1]:35966] 200 GET /identity (4 live) #22f 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 17:21:15.396 [123168146598712] DEBUG - Statistics: Flushing 4 expired bandwidth entries, 0 expired media entries.
+Nov 07, 2024 17:21:15.761 [123168297593656] DEBUG - Shutting down with signal 15 (Terminated)
+Nov 07, 2024 17:21:15.761 [123168297593656] DEBUG - Ordered to stop server.
+Nov 07, 2024 17:21:15.761 [123168297593656] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader --sessionStatus=exited --sessionStart=1730848414 --sessionDuration=151661 --version=1.41.1.9057-af5eaea7a --userId=noker5533@gmail.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Nov 07, 2024 17:21:15.769 [123168297593656] DEBUG - [JobRunner] Jobs: Starting child process with pid 1397
+Nov 07, 2024 17:21:15.769 [123168307997328] DEBUG - Stopping server...
+Nov 07, 2024 17:21:15.769 [123168307997328] DEBUG - HttpServer: Stopping server.
+Nov 07, 2024 17:21:15.771 [123168280816440] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Nov 07, 2024 17:21:15.772 [123168280816440] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Nov 07, 2024 17:21:15.772 [123168280816440] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Nov 07, 2024 17:21:15.773 [123168307997328] DEBUG - Server stopped.
+Nov 07, 2024 17:21:15.773 [123168307997328] DEBUG - NetworkService: Stopping advertisement.
+Nov 07, 2024 17:21:15.773 [123168307997328] DEBUG - Killing plug-ins.
+Nov 07, 2024 17:21:16.027 [123168307997328] DEBUG - [com.plexapp.system] Killing.
+Nov 07, 2024 17:21:16.073 [123168297593656] WARN - JobManager: Could not find job for handle 281
+Nov 07, 2024 17:21:16.083 [123168307997328] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Nov 07, 2024 17:21:16.083 [123168307997328] DEBUG - [JobRunner] Signalling job ID 334 with 2
+Nov 07, 2024 17:21:16.121 [123168297593656] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 334 is 0 (success)
+Nov 07, 2024 17:21:16.121 [123168213707576] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Nov 07, 2024 17:21:16.122 [123168307997328] DEBUG - Job was already killed, not killing again.
+Nov 07, 2024 17:21:16.122 [123168307997328] DEBUG - Database: Shutting down.
+Nov 07, 2024 17:21:17.036 [123168307997328] DEBUG - Database: Shutting down.

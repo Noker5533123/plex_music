@@ -1,0 +1,826 @@
+Nov 07, 2024 21:54:41.812 [125723093633792] INFO - Plex Media Scanner v1.41.1.9057-af5eaea7a - Docker Docker Container x86_64 - build: linux-x86_64 - GMT 00:00
+Nov 07, 2024 21:54:41.813 [125723093633792] INFO - Linux version: 6.8.0-47-generic, language: en-US
+Nov 07, 2024 21:54:41.813 [125723093633792] INFO - Processor: 8-core Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Nov 07, 2024 21:54:41.813 [125723093633792] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 8 --log-file-suffix  Matcher --files @/tmp/2616-73a2-c745-4782.txt
+Nov 07, 2024 21:54:41.815 [125723094159104] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 07, 2024 21:54:42.285 [125723094159104] INFO - Match: Disc 1 started with track -1 (/music/A mì.mp3), we won't use this method.
+Nov 07, 2024 21:54:42.285 [125723094159104] DEBUG - Match: Filename match didn't work, trying text match.
+Nov 07, 2024 21:54:42.285 [125723094159104] DEBUG - [MI] Opening input file: "/music/A mì.mp3"
+Nov 07, 2024 21:54:42.351 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/A mì.mp3' for reading
+Nov 07, 2024 21:54:42.357 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:42.444 [125723094159104] DEBUG - [FFMPEG] - Format ogg probed with size=2048 and score=100
+Nov 07, 2024 21:54:42.501 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12656 bytes read:130843 seeks:3 nb_streams:1
+Nov 07, 2024 21:54:42.536 [125723094159104] DEBUG - [FFMPEG] - skip 312 / discard 0 samples due to side data
+Nov 07, 2024 21:54:42.536 [125723094159104] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 07, 2024 21:54:42.536 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:42.536 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 12656 bytes read:130843 seeks:3 frames:1
+Nov 07, 2024 21:54:42.538 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:42.538 [125723094159104] DEBUG - [MI] Closing input file: "/music/A mì.mp3"
+Nov 07, 2024 21:54:42.538 [125723094159104] DEBUG - [MI] Opening input file: "/music/Believer.mp3"
+Nov 07, 2024 21:54:42.538 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Believer.mp3' for reading
+Nov 07, 2024 21:54:42.538 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:43.123 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=524288 and score=51
+Nov 07, 2024 21:54:43.123 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:387147
+Nov 07, 2024 21:54:43.127 [125723094159104] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:43.127 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 388201 bytes read:425984 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=259976
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=259974
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=259956
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=259887
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=259818
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259799
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259769
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259678
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259649
+Nov 07, 2024 21:54:43.129 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:43.130 [125723094159104] DEBUG - [FFMPEG] - escaping removed 748 bytes
+Nov 07, 2024 21:54:43.130 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=259578
+Nov 07, 2024 21:54:43.130 [125723094159104] DEBUG - [FFMPEG] - marker parser used 258830 bytes (2070640 bits)
+Nov 07, 2024 21:54:43.130 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:43.130 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:43.131 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:43.132 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:43.132 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 441449 bytes read:458752 seeks:0 frames:51
+Nov 07, 2024 21:54:43.132 [125723094159104] INFO - CodecManager: obtaining decoder 'mp3'
+Nov 07, 2024 21:54:43.132 [125723094159104] DEBUG - [HCl#1] HTTP requesting GET https://plex.tv/api/codecs/mp3_decoder?build=linux-x86_64-standard&deviceId=ec56ece6-f362-4c69-be13-e21cde863e9e&oldestPreviousVersion=legacy&version=7592546-570471557d92948f58893deb
+Nov 07, 2024 21:54:43.859 [125723083569920] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.7s) 200 response from GET https://plex.tv/api/codecs/mp3_decoder?build=linux-x86_64-standard&deviceId=ec56ece6-f362-4c69-be13-e21cde863e9e&oldestPreviousVersion=legacy&version=7592546-570471557d92948f58893deb
+Nov 07, 2024 21:54:43.860 [125723081571072] DEBUG - [GetFile/HCl#2] HTTP requesting GET https://downloads.plex.tv/codecs/7592546-570471557d92948f58893deb/linux-x86_64-standard/libmp3_decoder.so
+Nov 07, 2024 21:54:44.056 [125723083569920] DEBUG - [HttpClient/HCl#2] HTTP/2.0 (0.2s) 200 response from GET https://downloads.plex.tv/codecs/7592546-570471557d92948f58893deb/linux-x86_64-standard/libmp3_decoder.so
+Nov 07, 2024 21:54:44.078 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:44.079 [125723094159104] DEBUG - [MI] Closing input file: "/music/Believer.mp3"
+Nov 07, 2024 21:54:44.079 [125723094159104] DEBUG - [MI] Opening input file: "/music/Cuando te vayas.mp3"
+Nov 07, 2024 21:54:44.079 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Cuando te vayas.mp3' for reading
+Nov 07, 2024 21:54:44.079 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:44.182 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:44.182 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:133668
+Nov 07, 2024 21:54:44.183 [125723094159104] DEBUG - [FFMPEG] - pad 576 1680
+Nov 07, 2024 21:54:44.183 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 134095 bytes read:163840 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=129326
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=129324
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=129306
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=129237
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=129168
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=129149
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=129120
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 108681 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=129093
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 20412 bytes (163296 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=108673
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 95648 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=108623
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 12975 bytes (103800 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=95621
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 92648 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=95581
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 2933 bytes (23464 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=92640
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 90634 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=92600
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1966 bytes (15728 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=90627
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 87448 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=90571
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 3123 bytes (24984 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=87434
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 63470 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=87389
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 23919 bytes (191352 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 54949 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=63400
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 8451 bytes (67608 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=54531
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 48283 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=54496
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 6213 bytes (49704 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=48265
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 42550 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=48229
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 5679 bytes (45432 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=42531
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - escaping removed 197 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=42489
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker parser used 42292 bytes (338336 bits)
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:44.184 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:44.185 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:44.185 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:44.185 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:44.185 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 155599 bytes read:163840 seeks:0 frames:51
+Nov 07, 2024 21:54:44.186 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:44.186 [125723094159104] DEBUG - [MI] Closing input file: "/music/Cuando te vayas.mp3"
+Nov 07, 2024 21:54:44.187 [125723094159104] DEBUG - [MI] Opening input file: "/music/Demons.mp3"
+Nov 07, 2024 21:54:44.187 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Demons.mp3' for reading
+Nov 07, 2024 21:54:44.187 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:44.289 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:44.289 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:161454
+Nov 07, 2024 21:54:44.290 [125723094159104] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:44.290 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 162508 bytes read:196608 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:44.291 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=152558
+Nov 07, 2024 21:54:44.291 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.291 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=152556
+Nov 07, 2024 21:54:44.291 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:44.291 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=152538
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=152469
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 1
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=152400
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=152381
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=152350
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - escaping removed 124279 bytes
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=152321
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 28042 bytes (224336 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=124240
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - escaping removed 88006 bytes
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=124179
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 36173 bytes (289384 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=87895
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - escaping removed 83159 bytes
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=87843
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 4684 bytes (37472 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=83143
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - escaping removed 76553 bytes
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=83092
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 6539 bytes (52312 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=76524
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - escaping removed 57208 bytes
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=76440
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 19232 bytes (153856 bits)
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=57143
+Nov 07, 2024 21:54:44.292 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - escaping removed 29766 bytes
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=57098
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 27332 bytes (218656 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - escaping removed 21230 bytes
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=29681
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 8451 bytes (67608 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - escaping removed 20549 bytes
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=21193
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 644 bytes (5152 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=20504
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - escaping removed 19517 bytes
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=20465
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 948 bytes (7584 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=19444
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - escaping removed 109 bytes
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=19399
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker parser used 19290 bytes (154320 bits)
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:44.293 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:44.295 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:44.295 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 215756 bytes read:229376 seeks:0 frames:51
+Nov 07, 2024 21:54:44.296 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:44.296 [125723094159104] DEBUG - [MI] Closing input file: "/music/Demons.mp3"
+Nov 07, 2024 21:54:44.297 [125723094159104] DEBUG - [MI] Opening input file: "/music/Diles.mp3"
+Nov 07, 2024 21:54:44.297 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Diles.mp3' for reading
+Nov 07, 2024 21:54:44.297 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:44.498 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:44.498 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:217505
+Nov 07, 2024 21:54:44.499 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 218141 bytes read:229376 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=216161
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=216159
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=e1 avail_size_in_buf=216141
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 75 bytes (600 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=ed avail_size_in_buf=216063
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 55 bytes (440 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=216005
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 637x637
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215986
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215953
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.500 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215770
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215737
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=215554
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 0
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=215485
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 1
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker=dd avail_size_in_buf=215416
+Nov 07, 2024 21:54:44.501 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.502 [125723094159104] DEBUG - [FFMPEG] - escaping removed 1584 bytes
+Nov 07, 2024 21:54:44.502 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=215410
+Nov 07, 2024 21:54:44.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 213826 bytes (1710608 bits)
+Nov 07, 2024 21:54:44.502 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:44.502 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:44.504 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:44.504 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 249885 bytes read:262144 seeks:0 frames:51
+Nov 07, 2024 21:54:44.505 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:44.505 [125723094159104] DEBUG - [MI] Closing input file: "/music/Diles.mp3"
+Nov 07, 2024 21:54:44.505 [125723094159104] DEBUG - [MI] Opening input file: "/music/Enemy.mp3"
+Nov 07, 2024 21:54:44.506 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Enemy.mp3' for reading
+Nov 07, 2024 21:54:44.506 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:44.733 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:44.733 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:203870
+Nov 07, 2024 21:54:44.734 [125723094159104] DEBUG - [FFMPEG] - pad 576 1439
+Nov 07, 2024 21:54:44.734 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 204088 bytes read:229376 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=203662
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=203660
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=203642
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=203573
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 3
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=203504
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 1059x1059
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203485
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203454
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203345
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203315
+Nov 07, 2024 21:54:44.735 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:44.736 [125723094159104] DEBUG - [FFMPEG] - escaping removed 616 bytes
+Nov 07, 2024 21:54:44.736 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=203236
+Nov 07, 2024 21:54:44.736 [125723094159104] DEBUG - [FFMPEG] - marker parser used 202620 bytes (1620960 bits)
+Nov 07, 2024 21:54:44.736 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:44.736 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:44.737 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:44.737 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:44.737 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:44.738 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:44.738 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 221496 bytes read:229376 seeks:0 frames:51
+Nov 07, 2024 21:54:44.739 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:44.739 [125723094159104] DEBUG - [MI] Closing input file: "/music/Enemy.mp3"
+Nov 07, 2024 21:54:44.740 [125723094159104] DEBUG - [MI] Opening input file: "/music/Forever Alone.mp3"
+Nov 07, 2024 21:54:44.740 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Forever Alone.mp3' for reading
+Nov 07, 2024 21:54:44.740 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.400 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=524288 and score=51
+Nov 07, 2024 21:54:45.400 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:403729
+Nov 07, 2024 21:54:45.402 [125723094159104] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:45.402 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 404783 bytes read:425984 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=398520
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=398518
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=398500
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=398431
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 1
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=398362
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 1400x1400
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=398343
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=398312
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - escaping removed 366318 bytes
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=398282
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 31964 bytes (255712 bits)
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=366304
+Nov 07, 2024 21:54:45.403 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - escaping removed 297631 bytes
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=366247
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 68616 bytes (548928 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=297339
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - escaping removed 292931 bytes
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=297269
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 4338 bytes (34704 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=292917
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - escaping removed 290978 bytes
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=292866
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1888 bytes (15104 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=290966
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - escaping removed 236743 bytes
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=290888
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 54145 bytes (433160 bits)
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=236503
+Nov 07, 2024 21:54:45.404 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - escaping removed 148344 bytes
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=236462
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 88118 bytes (704944 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - escaping removed 136698 bytes
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=148196
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 11498 bytes (91984 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=136694
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - escaping removed 133463 bytes
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=136645
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 3182 bytes (25456 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=133444
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - escaping removed 131715 bytes
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=133398
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1683 bytes (13464 bits)
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=131710
+Nov 07, 2024 21:54:45.405 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - escaping removed 481 bytes
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=131670
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - marker parser used 131189 bytes (1049512 bits)
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:45.406 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:45.407 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.407 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 458031 bytes read:458752 seeks:0 frames:51
+Nov 07, 2024 21:54:45.408 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.409 [125723094159104] DEBUG - [MI] Closing input file: "/music/Forever Alone.mp3"
+Nov 07, 2024 21:54:45.409 [125723094159104] DEBUG - [MI] Opening input file: "/music/Pelicula.mp3"
+Nov 07, 2024 21:54:45.409 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Pelicula.mp3' for reading
+Nov 07, 2024 21:54:45.409 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.412 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=8192 and score=51
+Nov 07, 2024 21:54:45.413 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:35
+Nov 07, 2024 21:54:45.413 [125723094159104] DEBUG - [FFMPEG] - pad 576 1476
+Nov 07, 2024 21:54:45.413 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1089 bytes read:32768 seeks:0 nb_streams:1
+Nov 07, 2024 21:54:45.413 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:45.414 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:45.414 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:45.414 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.414 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 54337 bytes read:65536 seeks:0 frames:50
+Nov 07, 2024 21:54:45.415 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.415 [125723094159104] DEBUG - [MI] Closing input file: "/music/Pelicula.mp3"
+Nov 07, 2024 21:54:45.415 [125723094159104] DEBUG - [MI] Opening input file: "/music/Recièn soltera.mp3"
+Nov 07, 2024 21:54:45.415 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Recièn soltera.mp3' for reading
+Nov 07, 2024 21:54:45.415 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.501 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:45.501 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:148646
+Nov 07, 2024 21:54:45.501 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 149073 bytes read:163840 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=143783
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=143781
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=143763
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=143694
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=143625
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=143606
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=143576
+Nov 07, 2024 21:54:45.502 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 122167 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=143549
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 21382 bytes (171056 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=122158
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 100139 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=122110
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 21971 bytes (175768 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=100055
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 96588 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=100014
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 3426 bytes (27408 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=96577
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 93904 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=96539
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 2635 bytes (21080 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=93897
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 90689 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=93839
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 3150 bytes (25200 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=90682
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 66047 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=90639
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 24592 bytes (196736 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 61748 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=65980
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 4232 bytes (33856 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=61729
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 57031 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=61693
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 4662 bytes (37296 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=57000
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 52855 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=56964
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 4109 bytes (32872 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=52838
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - escaping removed 190 bytes
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=52797
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker parser used 52607 bytes (420856 bits)
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:45.503 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:45.505 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.505 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 170577 bytes read:196608 seeks:0 frames:51
+Nov 07, 2024 21:54:45.506 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.507 [125723094159104] DEBUG - [MI] Closing input file: "/music/Recièn soltera.mp3"
+Nov 07, 2024 21:54:45.507 [125723094159104] DEBUG - [MI] Opening input file: "/music/She don`t give a fo.mp3"
+Nov 07, 2024 21:54:45.507 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/She don`t give a fo.mp3' for reading
+Nov 07, 2024 21:54:45.507 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.527 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=65536 and score=51
+Nov 07, 2024 21:54:45.527 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:43870
+Nov 07, 2024 21:54:45.527 [125723094159104] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:45.527 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 44297 bytes read:65536 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=33989
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=33987
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=33969
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 3
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=33900
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 7
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=33831
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 720x720
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=33812
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=33784
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 29546 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=33757
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 4211 bytes (33688 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=29532
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 27111 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=29483
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 2372 bytes (18976 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=27100
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 26123 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=27054
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 931 bytes (7448 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=26121
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 25492 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=26080
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 588 bytes (4704 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=25490
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 24616 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=25443
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 827 bytes (6616 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=24613
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 21080 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=24572
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker parser used 3492 bytes (27936 bits)
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - escaping removed 19533 bytes
+Nov 07, 2024 21:54:45.528 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=21065
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1532 bytes (12256 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=19530
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - escaping removed 17991 bytes
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=19487
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1496 bytes (11968 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=17982
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - escaping removed 16767 bytes
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=17942
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1175 bytes (9400 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=16759
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - escaping removed 41 bytes
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=16717
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16676 bytes (133408 bits)
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:45.529 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:45.530 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.530 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 65801 bytes read:98304 seeks:0 frames:51
+Nov 07, 2024 21:54:45.531 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.531 [125723094159104] DEBUG - [MI] Closing input file: "/music/She don`t give a fo.mp3"
+Nov 07, 2024 21:54:45.531 [125723094159104] DEBUG - [MI] Opening input file: "/music/Solo pienso en ti.mp3"
+Nov 07, 2024 21:54:45.532 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Solo pienso en ti.mp3' for reading
+Nov 07, 2024 21:54:45.532 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.543 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=32768 and score=51
+Nov 07, 2024 21:54:45.543 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:17039
+Nov 07, 2024 21:54:45.543 [125723094159104] DEBUG - [FFMPEG] - pad 576 827
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 17466 bytes read:32768 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=11587
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=11585
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=11567
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=11498
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=11429
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 250x250
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=11410
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=11381
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - escaping removed 9943 bytes
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=11353
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1410 bytes (11280 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - escaping removed 8787 bytes
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=9894
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1107 bytes (8856 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - escaping removed 7896 bytes
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=8738
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 842 bytes (6736 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=7891
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - escaping removed 7491 bytes
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=7851
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 360 bytes (2880 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=7488
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - escaping removed 6488 bytes
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=7435
+Nov 07, 2024 21:54:45.544 [125723094159104] DEBUG - [FFMPEG] - marker parser used 947 bytes (7576 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - escaping removed 4877 bytes
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=6445
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 1568 bytes (12544 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - escaping removed 4474 bytes
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=4871
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 397 bytes (3176 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - escaping removed 3488 bytes
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=4432
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 944 bytes (7552 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=3483
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - escaping removed 2838 bytes
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=3448
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 610 bytes (4880 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=2835
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - escaping removed 12 bytes
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=2792
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker parser used 2780 bytes (22240 bits)
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:45.545 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:45.546 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.546 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 38970 bytes read:65536 seeks:0 frames:51
+Nov 07, 2024 21:54:45.547 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.547 [125723094159104] DEBUG - [MI] Closing input file: "/music/Solo pienso en ti.mp3"
+Nov 07, 2024 21:54:45.547 [125723094159104] DEBUG - [MI] Opening input file: "/music/Young Miko Bizarrap.mp3"
+Nov 07, 2024 21:54:45.547 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/Young Miko Bizarrap.mp3' for reading
+Nov 07, 2024 21:54:45.547 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.722 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:45.722 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:224058
+Nov 07, 2024 21:54:45.723 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 224068 bytes read:262144 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=219517
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=219515
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=219497
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=219428
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - qscale[1]: 2
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=219359
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - sof0: picture: 640x640
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219340
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219308
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219230
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219201
+Nov 07, 2024 21:54:45.724 [125723094159104] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:45.726 [125723094159104] DEBUG - [FFMPEG] - escaping removed 900 bytes
+Nov 07, 2024 21:54:45.726 [125723094159104] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=219130
+Nov 07, 2024 21:54:45.726 [125723094159104] DEBUG - [FFMPEG] - marker parser used 218230 bytes (1745840 bits)
+Nov 07, 2024 21:54:45.726 [125723094159104] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:45.726 [125723094159104] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:45.727 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.727 [125723094159104] WARN - [FFMPEG] - Estimating duration from bitrate, this may be inaccurate
+Nov 07, 2024 21:54:45.727 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 272196 bytes read:294912 seeks:0 frames:51
+Nov 07, 2024 21:54:45.728 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.728 [125723094159104] DEBUG - [MI] Closing input file: "/music/Young Miko Bizarrap.mp3"
+Nov 07, 2024 21:54:45.729 [125723094159104] DEBUG - [MI] Opening input file: "/music/siente màs.mp3"
+Nov 07, 2024 21:54:45.729 [125723094159104] DEBUG - [FFMPEG] - Opening '/music/siente màs.mp3' for reading
+Nov 07, 2024 21:54:45.729 [125723094159104] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:45.730 [125723094159104] DEBUG - [FFMPEG] - Format mp3 probed with size=2048 and score=50
+Nov 07, 2024 21:54:45.730 [125723094159104] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:1413299
+Nov 07, 2024 21:54:45.732 [125723094159104] DEBUG - [FFMPEG] - pad 576 1067
+Nov 07, 2024 21:54:45.732 [125723094159104] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1414077 bytes read:1446067 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:45.810 [125723094159104] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:45.810 [125723094159104] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:45.810 [125723094159104] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:45.811 [125723094159104] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:45.812 [125723094159104] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1446845 bytes read:1478835 seeks:0 frames:51
+Nov 07, 2024 21:54:45.813 [125723094159104] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:45.813 [125723094159104] DEBUG - [MI] Closing input file: "/music/siente màs.mp3"
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG - Match: Read data for  /  (-1)
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 00 / 00 - A mì
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 00 / 01 - Believer
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 20 - Cuando Te Vayas
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 04 - Demons
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 04 - Diles
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 00 / 01 - Enemy
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 01 - Forever Alone
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 00 / 00 - Pelicula
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 01 - Recién Soltera
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 01 - She Don't Give a Fo
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 00 / 00 - Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 01 / 01 - Young Miko: Bzrp Music Sessions, Vol. 58
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG -  ∙ 00 / 00 - Kevin Kaarl - siente más (Video Oficial)
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG - Match: Finding matches for paulo londra - 
+Nov 07, 2024 21:54:45.814 [125723094159104] DEBUG - Match: Album might be Various Artists: 1
+Nov 07, 2024 21:54:46.571 [125723094159104] DEBUG - Match: Candidate: Paulo Londra - Adán y Eva (e450e9ba-2928-4652-8d09-97ebb330a420)
+Nov 07, 2024 21:54:46.572 [125723094159104] DEBUG - Match: Computing track assignment (13 x 1)
+Nov 07, 2024 21:54:46.573 [125723094159104] DEBUG - Match: Distance between 01 / 01 - 'Recién Soltera' and 01 / 01 - 'Adán y Eva' is 0.628571 ({'track_index': [0.00000], 'track_length': [1.00000], 'track_title': [0.71429]})
+Nov 07, 2024 21:54:46.573 [125723094159104] DEBUG - Match: Album distance 0.754 — {'album': [1.00000], 'artist': [0.00000], 'tracks': [0.62857], 'unmatched_tracks': [1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000]}
+Nov 07, 2024 21:54:46.573 [125723094159104] DEBUG - Match: Candidate: Paulo Londra - Me tiene mal (d1306ac5-e380-41de-95c7-fdade61475d5)
+Nov 07, 2024 21:54:46.574 [125723094159104] DEBUG - Match: Computing track assignment (13 x 1)
+Nov 07, 2024 21:54:46.575 [125723094159104] DEBUG - Match: Distance between 00 / 00 - 'Kevin Kaarl - siente más (Video Oficial)' (Kevin Kaarl) and 01 / 01 - 'Me tiene mal' is 0.541667 ({'track_length': [0.00000], 'track_title': [0.72222]})
+Nov 07, 2024 21:54:46.575 [125723094159104] DEBUG - Match: Album distance 0.742 — {'album': [1.00000], 'artist': [0.00000], 'tracks': [0.54167], 'unmatched_tracks': [1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000]}
+Nov 07, 2024 21:54:46.575 [125723094159104] DEBUG - Match: Candidate: Paulo Londra - Cámara lenta (c05be46f-59ab-47d4-a39f-0c49e6a80f49)
+Nov 07, 2024 21:54:46.576 [125723094159104] DEBUG - Match: Computing track assignment (13 x 1)
+Nov 07, 2024 21:54:46.576 [125723094159104] DEBUG - Match: Distance between 00 / 01 - 'Believer' (Imagine Dragons) and 01 / 01 - 'Cámara lenta' is 0.000000 ({'track_index': [0.00000], 'track_length': [0.00000]})
+Nov 07, 2024 21:54:46.576 [125723094159104] DEBUG - Match: Album distance 0.671 — {'album': [1.00000], 'artist': [0.00000], 'tracks': [0.00000], 'unmatched_tracks': [1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000]}
+Nov 07, 2024 21:54:46.576 [125723094159104] DEBUG - Match: Candidate: Paulo Londra - Luna llena (74576c63-43d4-4d3e-89f6-b0b6a70e5510)
+Nov 07, 2024 21:54:46.578 [125723094159104] DEBUG - Match: Computing track assignment (13 x 1)
+Nov 07, 2024 21:54:46.578 [125723094159104] DEBUG - Match: Distance between 00 / 01 - 'Enemy' (Imagine Dragons, JID) and 01 / 01 - 'Luna llena' is 0.000000 ({'track_index': [0.00000], 'track_length': [0.00000]})
+Nov 07, 2024 21:54:46.578 [125723094159104] DEBUG - Match: Album distance 0.671 — {'album': [1.00000], 'artist': [0.00000], 'tracks': [0.00000], 'unmatched_tracks': [1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000]}
+Nov 07, 2024 21:54:46.578 [125723094159104] DEBUG - Match: Candidate: Paulo Londra - Relax (5251199b-37f1-49a0-be06-6501070bbb63)
+Nov 07, 2024 21:54:46.579 [125723094159104] DEBUG - Match: Computing track assignment (13 x 1)
+Nov 07, 2024 21:54:46.579 [125723094159104] DEBUG - Match: Distance between 01 / 01 - 'Forever Alone' and 01 / 01 - 'Relax' is 0.508158 ({'track_index': [0.00000], 'track_length': [0.23310], 'track_title': [0.76923]})
+Nov 07, 2024 21:54:46.579 [125723094159104] DEBUG - Match: Album distance 0.738 — {'album': [1.00000], 'artist': [0.00000], 'tracks': [0.50816], 'unmatched_tracks': [1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000, 1.00000]}
+Nov 07, 2024 21:54:46.580 [125723079248640] DEBUG - Match: Fingerprinting file '/music/A mì.mp3'
+Nov 07, 2024 21:54:46.580 [125723079101184] DEBUG - Match: Fingerprinting file '/music/siente màs.mp3'
+Nov 07, 2024 21:54:46.580 [125723079248640] DEBUG - [JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Media Fingerprinter" '/music/A mì.mp3'
+Nov 07, 2024 21:54:46.603 [125723079248640] DEBUG - [JobRunner] Jobs: Starting child process with pid 558
+Nov 07, 2024 21:54:46.603 [125723079101184] DEBUG - [JobRunner] Job running: "/usr/lib/plexmediaserver/Plex Media Fingerprinter" '/music/siente màs.mp3'
+Nov 07, 2024 21:54:46.604 [125723079101184] DEBUG - [JobRunner] Jobs: Starting child process with pid 559
+Nov 07, 2024 21:54:48.061 [125723079101184] ERROR - BufferingLineReader: failed to read line (error: -1)
+Nov 07, 2024 21:54:48.061 [125723079101184] DEBUG - Killing job.
+Nov 07, 2024 21:54:48.061 [125723079101184] DEBUG - Signalling job ID 559 with 9
+Nov 07, 2024 21:54:48.061 [125723093932800] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Media Fingerprinter' exit code for process 559 is 0 (success)
+Nov 07, 2024 21:54:48.062 [125723079101184] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/user/services/acoustid
+Nov 07, 2024 21:54:48.065 [125723083569920] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/user/services/acoustid
+Nov 07, 2024 21:54:48.066 [125723079101184] DEBUG - [HCl#a] HTTP requesting GET https://acoustid.plex.tv/lookup?client=yjCl9dilxU&duration=246&fingerprint=AQADtEmkJIqyJalwoj9KHTp8HAx_HJ18XIf4Be-QC0fqpMVF4ofVQqwy8NAJ_vgLq5nw45Vy-Lh1XNOOTzz44Mxh7viRl0ElTUffg-pRHl8kBc_Rh2NwKlEK44wRaht0XG6GjGxWtGPB93Cpg6mSpcelDxf2BNpzuHrwhB76E8mNfAp34cYlf3hw_BA_PFHK4NpzPLOO5_AT4WKOH5fyhMhnJONzwY9lXGxS1MnxdHieY9-ObF50JFciPMdJDv1D-EqESjyelBIuKk6CPEiWi-g3vB-eRcMeG32H6lkxMwidOjLEUGGRbMd_3MSXZOFx4coHHvpxNEuiaUGVSIyJH3uG5jr6sLiOPPmR7BThMYtkwSeLfplS1NZhJ8tR4T3GzkhOJkZe4leIkNeiQZwUhHXS4bgWN-hxR6BeEyWJyQueyohvGNqLiTfEKkyRNhd6EFd5rIqPSzmS78iPHvcaPIoOb0G_5Hge3OGKdNqO5C9-PHfQ4znOD3ZQK8elI1-J5Exq7JEufFISLagyaxmaWMZxPA0YykbjIc6aQ3WyII8-_LiegsmPkhWxR9nxHdVx5hT64dRxScd_5A-SHR6X4w-uHX0Y47zxPPAWGs-CpzvyQTs3mA98QiX-wx-eDXYP9UQO9ww-Bc-FH-6Bl4d_9CpxZV3wM9hztEjj5IGURV8Q_0Hzo48wNwo-4nj0HLkNPziP58VPC_oROmgeTil-wph5ghfhPDmixodK_NC5FPnY4GjRzDv2BXx41EqOZHmRM8d3CiWzFO4pPJrBo9_xfJi5EU2tEOEbQo8sIf-QRw-qG9qDfD7eFD6PiyfxI0zaDNqJnDvcag8uTFlQkkE-StCTa0L-CDyG5AhpPEY4LVFWaI-Rxjzq6DieolmPI2G4H-Gu4z-chPieEQ_s5MWlJcE3uBKLPWGFC82KitEyQY0iMuiDZh92_XiHJ3iQR3SgF1p-VJYe5E8QLyJ1iFuyINeP_YFvsMFJShK2Jgz-Ij-SJczRDU0s5eilBtNlZMnwKDx0JS_05Ag_NO9RSjmmkAqPrzGaZxQxnQkaUxV6HnyPj3kQig60XMb44KfQefFxikaphEHeG2WGpi8u1CLRJFeI8WfRg1qi4Mq34VLht0j2jEfkB0-O8xHKH72OBz_yPUiq_dikB2-E2IN-uAuLo8k_PPCDsiw-zQga9EcJxw36B2iOKheu48djow7M4yd2vHj9BF3OJNAvPBSc4w-eC58O78LzHMnzRIjIo0nYgOGNP-B15NhmBceT47nwo3oMK4Sm7SKOPLiYY3p2NAcT9JgTHh81OMSPOCF0Hk8gNM9QPMSeQ9-D0B-oo8d-vDHxB30C74Q_9EwW5CSDSroELVKFh-3QH03FFHpw_HiVokt7bA_yTxMoC8d0G5eUB-3R9Hhy3Dbxo12OlxRKD6-CVRqa6BPqHcelo7HwRSHCcPygT_h9pGq4gk-OT7kMnw5-PLjUEHu44TnyRtShY-fR5JCy4Xos8Ni_QuSY4zOeH-HRnKnwHM-Op0jaErnQB82zD_sYsHyw50JTHX2OpMgnKTuuSR9cx8h16EfDHZHe4srBeEj3XEj-iZiyh-gfuFSKKzz-4UUfvMZVLgg1aBFP5BLa7Gh6IeThE_rGIyVRfnixw-ZBRkY1mpgyJsfh_riFR8kRizh04WHx49B2w1EjiDf6C2EZuMd1_PCTAdt3MEqeY_SNH8-RA3qiHP6N7_jRKE8e9MeJH7V9-BBXoi2OQ7fR6rjw4w_eo5l04UfzoGsEXDJ6mNmOn0P644eFMzpKiShzbEf47NBfvEeNZn2CZxMHx8zxMMSULTnOKBS8acGh6XjeBP3wwio-6B1CPg_-AJ2kYUodED-mC18OF1_Yo89xnciRHF8TEn2YHs56XOSGo3vRo2FU_Ee-QP0sJMu54Tzx32iVC-8c40Cfo_lk_EZ0ikiW6AnRk3iPmSTRIz1NfOgVC__xEflx08OPZjNC9zgj6BTy_PgjxGi6UYeiM3inI_0SzNPxo5HCB-dh_Iefo9sVXKhINMeLXBf2P7h2lAdl9MdTYc8Z1IeWP3iWDdcfdDuaVMOPoumNc4eWPein4UKoL8UUZT2-S2CZB5OPi8YTE94utG9wMTiP-Bn05Ahpo-GHK_iF8IKWM0euBV0OxwsVvEh4BblbPOPhsehDnDbeovkm9Fly_EiqI0wpBu0WPDpy9sTzoFdWND_0Q_fxHn9wFk2P_ngDWbfw4dC841-Qo9jxXngQ9od_yDl83Dn0B7aKHqUOJsezI8ekanGQHz7-oJRzvIKO6kEjT_hRasthKjwuNA_2oZIsB9bEHPQJxwVz4rh8TNeDR_Br-DDHoz2-By96WM_RP-iJwze2B89gjomDLjwh_eiH5sGh9wjL4zkefNuB__j34AJ1XvjwqB983MfzBMl9pOOSYtqN95jEH_4O5sEV9OeRXMoO8Snio0rD4wmPO8ednHjqIzaR-GFw7sSs7BtMnFLwnCt-UXAj4k9IJH-HfPzR7DWu4sSdo3uRPxGUHzlOJjaeUfgqoTyOB-YuhC-R7NnxF45D-MJ3BeexF8kTAKMIA4sCggyAghgDFKTAMCYQAAAZAYAQjDBFCSAAAQkEBYBwBBQRhFAnCEIEaQAUUIRRoQgwBBAoARIKEUKEAsgwQJgyChhFDBDCEI4McQgoQ4ATQAgCJEOQAqcAEYQTIgQgyggGDBOCAoEMwgQhE5AAliFIDDFAACeUQgAjAizgAAjIFACCkE0FMYoRoBwABEgGiJCAGaCEMMQAQgATzDADsBJKGAEcMB5woxQFBgnAkAKGAIMAEcIQRIABRAEDADHAAIYIQkwJQ4EGQgChjACIG8EEMIwQZAQQChAgnFBAEMYIMoiAqQhBVIkDgACAACABoQRhZwwgEhGpAAGQGEMM0gQ5xRgixgDAkMBAIEOAQMgAAgAEBgBBgAIAMIIgEEghgwQgwljGDEECEGScEMAYYgghAhIijSNGbQCEQAJJgBAyggChhBJKAUOok8pQaAQxCAinRSRQEGKECRgoALJQxEAkhEBCEGMcEQYYAKwCxGBFgZFUEUYYIkhhYAAgAgCgGBJECeKFIABoJYRTCCjAKDPAW0CAEYgqAAQAjiiiBKECCCQEIswIohwBijAnAHBaNQiGAAWZrKxARCEBFEJMMSCUQBZBDRhQxAAjgBCGOKKdJUAMYgBQDBgEACFCGQAAckYAApQQBghBgDWCIIKAgARQayARygAJNAAEIVCUIEQAwQQRRBGnkGBAAWWQFYoQQSwjgjhiIBDACSIAAIYpQ5AgEAGllBMKAKEAUoASIQBhQAiHGDBCIgYgYIgh6iAQ1DDBPHAGAECtcEQI5pAAyCknhFAGGCUFUIQI6ThDBHAiHPCCEBKAMEIgAIUJ0CBSGaJAaG2AFYIgBIAARAAkABJSMMeEUIIwZZgwhiAYABKUCkIAAQAgQJwBCCgBCCGGKCGQQgAQAJAxSCFGCBEEGEMAAQoRYIgABDEAiBDAOMKksAwJASghSBDjIA&format=xml&meta=recordings+releases+sources
+Nov 07, 2024 21:54:48.355 [125723079248640] ERROR - BufferingLineReader: failed to read line (error: -1)
+Nov 07, 2024 21:54:48.355 [125723079248640] DEBUG - Killing job.
+Nov 07, 2024 21:54:48.355 [125723079248640] DEBUG - Signalling job ID 558 with 9
+Nov 07, 2024 21:54:48.355 [125723093932800] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Media Fingerprinter' exit code for process 558 is 0 (success)
+Nov 07, 2024 21:54:48.355 [125723079248640] DEBUG - [HCl#b] HTTP requesting GET https://acoustid.plex.tv/lookup?client=yjCl9dilxU&duration=233&fingerprint=AQADtIyihlG4wE0ulFKGXjtco2pO_Ojhh_jRi8cVouqPHw-lBy-R69B-fPhltIfXQweuo9SLPLrQHs6FPzjh_XjgHslDI3-OhtJw8vjx-cJ1vMcZdD384zsO_7hQXUHlw7pwesKJpxvO4tLho5RioZ9WHN6DPojoQ1ZQtUd-0DLyg6X2Qj_S41mCKSODD29ydEMTKpyO5wrxK8hjlMwCXXCaHD1xzQhzoWIi4ehreEd_4VuKeAoSPJJ0nD96Cc9R9niN76j0Iz0P7Xhz5Ki3G82P42gyEqV1HD1cB32QjM8RhssuPMf1DP9R88Xxbvhxwjlqof7xw0cvhBAf5Hhe9FmF0BrCHH-E64tQ9YXH46eRfxB95DseNHuERz_uKCk6Z5XwX9jRF9-Ht7h5bBojPIrCIz-0X3hzIn-OPtmPH3_QPAr6FH-OK8mZCVdy43nQfEP44pkOlcGXHPktNNErhCX3QDmyMcUjxjm2yQ--4D966WjOdMhzJA-PK1FU46Jb_If1B_9VnA-OfIOv4zpmC2wWhhmmN1SK9Ee_RviHotGN_kIYHb8ItYqJt1TQnEOZMcQz4il-TJsCTcyGX3io45KsoHFr1GpunFmTYP7RhLE5dNuD-BmaD8Wv4pfRTFvQ7sK74EXPHE0o5fiSROGRH1rkI33xSD3qJMePykzRPEnwKzhP4ZHq4GLQE2GOO0sEXceDO-kR0g_CZMuyGTp9ROQL_qjVx5iyJMd33IG_UPgDHWeOZ6qFC40uVM_xH8-JcwiPJk6EW8Ga3ASnPpiuBc1HxNLW4FKO5j_6LBOa-OgVxNSiDXqU48wFZ6fw9HgPVFDWJDuaLgp-6Fn04HSCpqmEiV2q44_w-BCjJUuNTx_yFE2cHbXwo7ZVNGPI4qTw42Hh45ESDrHEH3rQn0j3w2Ky-OjxHk2crKgevCEuncSTJE9xpwySJd8QDl-O5_h0dMmSFGFmhYH6cUfEp8eVgo6tY5vEPDiOpykPf0f8OkTiHU8U4lLGTTiHRkef4_qKh0e-wTmuYLYgTTmF_UkKLTm6MsSTXEE3NLnxH-LxKMOZJA-uHOXRRFl5yM2RGz_eYGSM8zi3I7_QzJVQ28IVLdVxoc_RjNko5KJRNQyHRg2O-ygLO9nR4z8ab0WfHLVEwtx1_Ej7Q0_yIB1z9MWeH83noDoatUepJGeKJ1Fq_AjzQVtDnDpyPOnRLD0qMcsiJP-DiHQKdkcjRXWCLjq-YPzRSwlVNM8eJLWP_HiSVPgndD-aH3_xB2eQK4MvrI3wGNIUPgkUXYZzoos241E-NEH4GpVzhNFFfE0ynEny4DmaKA-DLh2PPPiPY52y4FGEI6myaEd5JUivKQipJCwesQn-QdyR7wneNgqaZA_6LMdRNNNjCT--HFcihA8UJdaJPFk-XMyJ_vCFJ7EQSs-LRyfyXjjctMe34D-eHV9xJeFxSkTY5DnkEz4JTSN5nC_y4xbOFLWOKnSxU2vwgE-FJA8RKzFFPMrRF0-M5lKO38Z1PHlw8QgvhHkUYvbx3ODZCJPgH3GWZIcLcWiXB2eSpLhy40pSB9fRQ9wpVP_wF8dwKhm-HE8enGZQPYJfXBR-jD-8B-YQkj--AxdaK-jxM3iyRJpxvUOoHcnyLDh53GnwHA8XXMwuPEWeQbkyIU26LEf1oNljPLwwnSHSUtDUI9-U4EeeQzPSNFFIfCJxlI20oB-VwIyCnBMShtVwbM-DUqrx4zfyLVTA5Pjh48mhJTn-I8_BMrPwjNgR6ocFTdzw_AKe41lenCGuJBeuHLqPvkLzLA6ekh2-pMGF8PkG_0bP46kunGi4GNWpHHF8DbrLYttOPDu0Z1tSNM5y5B-ofcLfEFcO7wJPLXgwoemS4JmO-Iee4_yQR2qFRz9-9MkKq0NX6fiCR7FTPGGO_kSYHHKZ4emRc3jSo9MR5iFl6D-iOwUZ5cfEjHnQaDcevEGTD-E_JM3x4kmirvjRK0Tz4x--H69wI72KOwkx6pAaPsGkC9Z5VNwonDkaaK_R52iuDM-a44m4BTrRLE_Rr8I_4bihbRFRL8edY9Vy_FKE5hO6JaFwsUlw-HGR7eXxD7bw4-jKVGhCH09ynNnA5D36JMqxJ9ouNDXyPBHEiCfCH12UMKiVH0fnrGj04CF-4Uri4z_CR4GWHLmX4zue6DiTFI30MOjHHUmOfGkOOv6xKWSO5_hO3Dn8PYj_IvHxJHi0G3_R6ET_4Dme5cc3NEGfBJEtSD7mPgnC6CjJMMeZ5EPFI8xePA-0_OiHZ0kSD1cqBoc5pnhI4RSEykG3GCqX3BhlPEsZobvQaJ7waNGEC318NM9EXEKfZZii7oj_4NdRJZKWo1mS4x9yRsULP4Gu7MST5oaeKEN1NMuiHOeEHH_QJ0c6Ht2cQHWG_kjRRsaTGcnl6AhKSoS7BW_mCZZiD30b_Ej2IcfxmE1wiVqGJwlJ-Dn64yTxSMSF8HEEMUElvUYu5Qq8U8FDPMcT4SxRGuaJSmR0_Hhwh7BeHvGP5Dr6Hk1FfNqNJ2IQ3hq05EFeycfZ5HiOHz3CPERyXL6Gq4qJH0_RbGmP0DeSS8GPknbwhCYeJh4cvnjw7PiF5EeevfgjCz_OHH3o4clnzI_wDvE_NIci4VF65DMqDQ3jEN-K_D2aHT2DR6ioE83IGLqHXkeY3Wi7o4lu_MKXzCgTMTN81MabHMcTJkeTmRkeGpciCt6P5A9yCeYyHyXx9Inw2zhzXNnx4EdTBX2RK4FOACIAQVYByhRBRBgjiIKAAEicI0ZRwIwTxjkHGDBCAKIAEoAhQhkSgAkmiAQGOKCcAZ5hIbBT0DCAnCEIGKEMYYQYwQwjXAEkDAACOEeYMUoIooggACimoVNAAKAUEII4woigDgDEgBBAMUAUAAIYpAhCzFiKHAAAAAGaAQQoBIQXSAAhFACCOSCFAYYQAAQjSDCDHACCQAOEAMAIBpQkAAAggAEAIKCUIc5BoQhRxBAAhCCIUSAeIoAAYowwAikFAHECMUEENVg4IyQAggkCIAJEIkEAEkAowAQDxCEHkPHACGcEQkABYKQCCgEghCGIECGAFYZgABAwzAghJFLYEMMIEsITJYQQAglBhFDAOISAoAAYQABQCAACgBIEGqEQAsgIRxBRCCAACITAIOQIoAIKZIggiACvkAEUOGiAQYAAJ4EQiDBEBBAICIYQM8gRgQzQTgAjgEBGGYYAUMIxpIQBglgkiCBAAMMQMFIQABIZihiDiSGACMWIIUQiZAABQCDghABQAGYQcYIJwwQQAgFCBHUIWAGJE9hB4ABARhGkBHAEGOAUIRAQJC0BQBgYFCGOMKQEgcAJQgAzgCkBACAMIUSAAUYAIAlxBADphWAEMAEUY8xYZgADAggjBeGAICC8YIARg5BwCgBABEGCICSQEYQQYgRyQhmAECEMCQqQJAYgIxgSyhGABDDMAEcYQMIIRIBAQhACkWHOIOKMUAQgAJyRhgAlBCFAIAAIQABIQggxCFEECAIIA0IAUUIYIZRgShghAkNWAAAINAAJgSABBDiggBBICQEkAQBBIgAkRjBmACKIMEIFAIowAoQBiDNKCENeCcAEIwRIwKwziiNACIEaEImcMFRIBRQQDilBASHIEIsIEYAAI6lCGABGGBYASAaYIII4CQAAiDAogANCAGaAQVgQICiDzAAqFACCMUEEEhQQ4ghwAiAhkIAKMCAQImYJBwQ1EhgmAABAMIYAZYozCA&format=xml&meta=recordings+releases+sources
+Nov 07, 2024 21:54:48.835 [125723083569920] DEBUG - [HttpClient/HCl#a] HTTP/2.0 (0.8s) 200 response from GET https://acoustid.plex.tv/lookup?client=yjCl9dilxU&duration=246&fingerprint=AQADtEmkJIqyJalwoj9KHTp8HAx_HJ18XIf4Be-QC0fqpMVF4ofVQqwy8NAJ_vgLq5nw45Vy-Lh1XNOOTzz44Mxh7viRl0ElTUffg-pRHl8kBc_Rh2NwKlEK44wRaht0XG6GjGxWtGPB93Cpg6mSpcelDxf2BNpzuHrwhB76E8mNfAp34cYlf3hw_BA_PFHK4NpzPLOO5_AT4WKOH5fyhMhnJONzwY9lXGxS1MnxdHieY9-ObF50JFciPMdJDv1D-EqESjyelBIuKk6CPEiWi-g3vB-eRcMeG32H6lkxMwidOjLEUGGRbMd_3MSXZOFx4coHHvpxNEuiaUGVSIyJH3uG5jr6sLiOPPmR7BThMYtkwSeLfplS1NZhJ8tR4T3GzkhOJkZe4leIkNeiQZwUhHXS4bgWN-hxR6BeEyWJyQueyohvGNqLiTfEKkyRNhd6EFd5rIqPSzmS78iPHvcaPIoOb0G_5Hge3OGKdNqO5C9-PHfQ4znOD3ZQK8elI1-J5Exq7JEufFISLagyaxmaWMZxPA0YykbjIc6aQ3WyII8-_LiegsmPkhWxR9nxHdVx5hT64dRxScd_5A-SHR6X4w-uHX0Y47zxPPAWGs-CpzvyQTs3mA98QiX-wx-eDXYP9UQO9ww-Bc-FH-6Bl4d_9CpxZV3wM9hztEjj5IGURV8Q_0Hzo48wNwo-4nj0HLkNPziP58VPC_oROmgeTil-wph5ghfhPDmixodK_NC5FPnY4GjRzDv2BXx41EqOZHmRM8d3CiWzFO4pPJrBo9_xfJi5EU2tEOEbQo8sIf-QRw-qG9qDfD7eFD6PiyfxI0zaDNqJnDvcag8uTFlQkkE-StCTa0L-CDyG5AhpPEY4LVFWaI-Rxjzq6DieolmPI2G4H-Gu4z-chPieEQ_s5MWlJcE3uBKLPWGFC82KitEyQY0iMuiDZh92_XiHJ3iQR3SgF1p-VJYe5E8QLyJ1iFuyINeP_YFvsMFJShK2Jgz-Ij-SJczRDU0s5eilBtNlZMnwKDx0JS_05Ag_NO9RSjmmkAqPrzGaZxQxnQkaUxV6HnyPj3kQig60XMb44KfQefFxikaphEHeG2WGpi8u1CLRJFeI8WfRg1qi4Mq34VLht0j2jEfkB0-O8xHKH72OBz_yPUiq_dikB2-E2IN-uAuLo8k_PPCDsiw-zQga9EcJxw36B2iOKheu48djow7M4yd2vHj9BF3OJNAvPBSc4w-eC58O78LzHMnzRIjIo0nYgOGNP-B15NhmBceT47nwo3oMK4Sm7SKOPLiYY3p2NAcT9JgTHh81OMSPOCF0Hk8gNM9QPMSeQ9-D0B-oo8d-vDHxB30C74Q_9EwW5CSDSroELVKFh-3QH03FFHpw_HiVokt7bA_yTxMoC8d0G5eUB-3R9Hhy3Dbxo12OlxRKD6-CVRqa6BPqHcelo7HwRSHCcPygT_h9pGq4gk-OT7kMnw5-PLjUEHu44TnyRtShY-fR5JCy4Xos8Ni_QuSY4zOeH-HRnKnwHM-Op0jaErnQB82zD_sYsHyw50JTHX2OpMgnKTuuSR9cx8h16EfDHZHe4srBeEj3XEj-iZiyh-gfuFSKKzz-4UUfvMZVLgg1aBFP5BLa7Gh6IeThE_rGIyVRfnixw-ZBRkY1mpgyJsfh_riFR8kRizh04WHx49B2w1EjiDf6C2EZuMd1_PCTAdt3MEqeY_SNH8-RA3qiHP6N7_jRKE8e9MeJH7V9-BBXoi2OQ7fR6rjw4w_eo5l04UfzoGsEXDJ6mNmOn0P644eFMzpKiShzbEf47NBfvEeNZn2CZxMHx8zxMMSULTnOKBS8acGh6XjeBP3wwio-6B1CPg_-AJ2kYUodED-mC18OF1_Yo89xnciRHF8TEn2YHs56XOSGo3vRo2FU_Ee-QP0sJMu54Tzx32iVC-8c40Cfo_lk_EZ0ikiW6AnRk3iPmSTRIz1NfOgVC__xEflx08OPZjNC9zgj6BTy_PgjxGi6UYeiM3inI_0SzNPxo5HCB-dh_Iefo9sVXKhINMeLXBf2P7h2lAdl9MdTYc8Z1IeWP3iWDdcfdDuaVMOPoumNc4eWPein4UKoL8UUZT2-S2CZB5OPi8YTE94utG9wMTiP-Bn05Ahpo-GHK_iF8IKWM0euBV0OxwsVvEh4BblbPOPhsehDnDbeovkm9Fly_EiqI0wpBu0WPDpy9sTzoFdWND_0Q_fxHn9wFk2P_ngDWbfw4dC841-Qo9jxXngQ9od_yDl83Dn0B7aKHqUOJsezI8ekanGQHz7-oJRzvIKO6kEjT_hRasthKjwuNA_2oZIsB9bEHPQJxwVz4rh8TNeDR_Br-DDHoz2-By96WM_RP-iJwze2B89gjomDLjwh_eiH5sGh9wjL4zkefNuB__j34AJ1XvjwqB983MfzBMl9pOOSYtqN95jEH_4O5sEV9OeRXMoO8Snio0rD4wmPO8ednHjqIzaR-GFw7sSs7BtMnFLwnCt-UXAj4k9IJH-HfPzR7DWu4sSdo3uRPxGUHzlOJjaeUfgqoTyOB-YuhC-R7NnxF45D-MJ3BeexF8kTAKMIA4sCggyAghgDFKTAMCYQAAAZAYAQjDBFCSAAAQkEBYBwBBQRhFAnCEIEaQAUUIRRoQgwBBAoARIKEUKEAsgwQJgyChhFDBDCEI4McQgoQ4ATQAgCJEOQAqcAEYQTIgQgyggGDBOCAoEMwgQhE5AAliFIDDFAACeUQgAjAizgAAjIFACCkE0FMYoRoBwABEgGiJCAGaCEMMQAQgATzDADsBJKGAEcMB5woxQFBgnAkAKGAIMAEcIQRIABRAEDADHAAIYIQkwJQ4EGQgChjACIG8EEMIwQZAQQChAgnFBAEMYIMoiAqQhBVIkDgACAACABoQRhZwwgEhGpAAGQGEMM0gQ5xRgixgDAkMBAIEOAQMgAAgAEBgBBgAIAMIIgEEghgwQgwljGDEECEGScEMAYYgghAhIijSNGbQCEQAJJgBAyggChhBJKAUOok8pQaAQxCAinRSRQEGKECRgoALJQxEAkhEBCEGMcEQYYAKwCxGBFgZFUEUYYIkhhYAAgAgCgGBJECeKFIABoJYRTCCjAKDPAW0CAEYgqAAQAjiiiBKECCCQEIswIohwBijAnAHBaNQiGAAWZrKxARCEBFEJMMSCUQBZBDRhQxAAjgBCGOKKdJUAMYgBQDBgEACFCGQAAckYAApQQBghBgDWCIIKAgARQayARygAJNAAEIVCUIEQAwQQRRBGnkGBAAWWQFYoQQSwjgjhiIBDACSIAAIYpQ5AgEAGllBMKAKEAUoASIQBhQAiHGDBCIgYgYIgh6iAQ1DDBPHAGAECtcEQI5pAAyCknhFAGGCUFUIQI6ThDBHAiHPCCEBKAMEIgAIUJ0CBSGaJAaG2AFYIgBIAARAAkABJSMMeEUIIwZZgwhiAYABKUCkIAAQAgQJwBCCgBCCGGKCGQQgAQAJAxSCFGCBEEGEMAAQoRYIgABDEAiBDAOMKksAwJASghSBDjIA&format=xml&meta=recordings+releases+sources
+Nov 07, 2024 21:54:48.835 [125723083569920] DEBUG - [HttpClient/HCl#b] HTTP/2.0 (0.5s) 200 response from GET https://acoustid.plex.tv/lookup?client=yjCl9dilxU&duration=233&fingerprint=AQADtIyihlG4wE0ulFKGXjtco2pO_Ojhh_jRi8cVouqPHw-lBy-R69B-fPhltIfXQweuo9SLPLrQHs6FPzjh_XjgHslDI3-OhtJw8vjx-cJ1vMcZdD384zsO_7hQXUHlw7pwesKJpxvO4tLho5RioZ9WHN6DPojoQ1ZQtUd-0DLyg6X2Qj_S41mCKSODD29ydEMTKpyO5wrxK8hjlMwCXXCaHD1xzQhzoWIi4ehreEd_4VuKeAoSPJJ0nD96Cc9R9niN76j0Iz0P7Xhz5Ki3G82P42gyEqV1HD1cB32QjM8RhssuPMf1DP9R88Xxbvhxwjlqof7xw0cvhBAf5Hhe9FmF0BrCHH-E64tQ9YXH46eRfxB95DseNHuERz_uKCk6Z5XwX9jRF9-Ht7h5bBojPIrCIz-0X3hzIn-OPtmPH3_QPAr6FH-OK8mZCVdy43nQfEP44pkOlcGXHPktNNErhCX3QDmyMcUjxjm2yQ--4D966WjOdMhzJA-PK1FU46Jb_If1B_9VnA-OfIOv4zpmC2wWhhmmN1SK9Ee_RviHotGN_kIYHb8ItYqJt1TQnEOZMcQz4il-TJsCTcyGX3io45KsoHFr1GpunFmTYP7RhLE5dNuD-BmaD8Wv4pfRTFvQ7sK74EXPHE0o5fiSROGRH1rkI33xSD3qJMePykzRPEnwKzhP4ZHq4GLQE2GOO0sEXceDO-kR0g_CZMuyGTp9ROQL_qjVx5iyJMd33IG_UPgDHWeOZ6qFC40uVM_xH8-JcwiPJk6EW8Ga3ASnPpiuBc1HxNLW4FKO5j_6LBOa-OgVxNSiDXqU48wFZ6fw9HgPVFDWJDuaLgp-6Fn04HSCpqmEiV2q44_w-BCjJUuNTx_yFE2cHbXwo7ZVNGPI4qTw42Hh45ESDrHEH3rQn0j3w2Ky-OjxHk2crKgevCEuncSTJE9xpwySJd8QDl-O5_h0dMmSFGFmhYH6cUfEp8eVgo6tY5vEPDiOpykPf0f8OkTiHU8U4lLGTTiHRkef4_qKh0e-wTmuYLYgTTmF_UkKLTm6MsSTXEE3NLnxH-LxKMOZJA-uHOXRRFl5yM2RGz_eYGSM8zi3I7_QzJVQ28IVLdVxoc_RjNko5KJRNQyHRg2O-ygLO9nR4z8ab0WfHLVEwtx1_Ej7Q0_yIB1z9MWeH83noDoatUepJGeKJ1Fq_AjzQVtDnDpyPOnRLD0qMcsiJP-DiHQKdkcjRXWCLjq-YPzRSwlVNM8eJLWP_HiSVPgndD-aH3_xB2eQK4MvrI3wGNIUPgkUXYZzoos241E-NEH4GpVzhNFFfE0ynEny4DmaKA-DLh2PPPiPY52y4FGEI6myaEd5JUivKQipJCwesQn-QdyR7wneNgqaZA_6LMdRNNNjCT--HFcihA8UJdaJPFk-XMyJ_vCFJ7EQSs-LRyfyXjjctMe34D-eHV9xJeFxSkTY5DnkEz4JTSN5nC_y4xbOFLWOKnSxU2vwgE-FJA8RKzFFPMrRF0-M5lKO38Z1PHlw8QgvhHkUYvbx3ODZCJPgH3GWZIcLcWiXB2eSpLhy40pSB9fRQ9wpVP_wF8dwKhm-HE8enGZQPYJfXBR-jD-8B-YQkj--AxdaK-jxM3iyRJpxvUOoHcnyLDh53GnwHA8XXMwuPEWeQbkyIU26LEf1oNljPLwwnSHSUtDUI9-U4EeeQzPSNFFIfCJxlI20oB-VwIyCnBMShtVwbM-DUqrx4zfyLVTA5Pjh48mhJTn-I8_BMrPwjNgR6ocFTdzw_AKe41lenCGuJBeuHLqPvkLzLA6ekh2-pMGF8PkG_0bP46kunGi4GNWpHHF8DbrLYttOPDu0Z1tSNM5y5B-ofcLfEFcO7wJPLXgwoemS4JmO-Iee4_yQR2qFRz9-9MkKq0NX6fiCR7FTPGGO_kSYHHKZ4emRc3jSo9MR5iFl6D-iOwUZ5cfEjHnQaDcevEGTD-E_JM3x4kmirvjRK0Tz4x--H69wI72KOwkx6pAaPsGkC9Z5VNwonDkaaK_R52iuDM-a44m4BTrRLE_Rr8I_4bihbRFRL8edY9Vy_FKE5hO6JaFwsUlw-HGR7eXxD7bw4-jKVGhCH09ynNnA5D36JMqxJ9ouNDXyPBHEiCfCH12UMKiVH0fnrGj04CF-4Uri4z_CR4GWHLmX4zue6DiTFI30MOjHHUmOfGkOOv6xKWSO5_hO3Dn8PYj_IvHxJHi0G3_R6ET_4Dme5cc3NEGfBJEtSD7mPgnC6CjJMMeZ5EPFI8xePA-0_OiHZ0kSD1cqBoc5pnhI4RSEykG3GCqX3BhlPEsZobvQaJ7waNGEC318NM9EXEKfZZii7oj_4NdRJZKWo1mS4x9yRsULP4Gu7MST5oaeKEN1NMuiHOeEHH_QJ0c6Ht2cQHWG_kjRRsaTGcnl6AhKSoS7BW_mCZZiD30b_Ej2IcfxmE1wiVqGJwlJ-Dn64yTxSMSF8HEEMUElvUYu5Qq8U8FDPMcT4SxRGuaJSmR0_Hhwh7BeHvGP5Dr6Hk1FfNqNJ2IQ3hq05EFeycfZ5HiOHz3CPERyXL6Gq4qJH0_RbGmP0DeSS8GPknbwhCYeJh4cvnjw7PiF5EeevfgjCz_OHH3o4clnzI_wDvE_NIci4VF65DMqDQ3jEN-K_D2aHT2DR6ioE83IGLqHXkeY3Wi7o4lu_MKXzCgTMTN81MabHMcTJkeTmRkeGpciCt6P5A9yCeYyHyXx9Inw2zhzXNnx4EdTBX2RK4FOACIAQVYByhRBRBgjiIKAAEicI0ZRwIwTxjkHGDBCAKIAEoAhQhkSgAkmiAQGOKCcAZ5hIbBT0DCAnCEIGKEMYYQYwQwjXAEkDAACOEeYMUoIooggACimoVNAAKAUEII4woigDgDEgBBAMUAUAAIYpAhCzFiKHAAAAAGaAQQoBIQXSAAhFACCOSCFAYYQAAQjSDCDHACCQAOEAMAIBpQkAAAggAEAIKCUIc5BoQhRxBAAhCCIUSAeIoAAYowwAikFAHECMUEENVg4IyQAggkCIAJEIkEAEkAowAQDxCEHkPHACGcEQkABYKQCCgEghCGIECGAFYZgABAwzAghJFLYEMMIEsITJYQQAglBhFDAOISAoAAYQABQCAACgBIEGqEQAsgIRxBRCCAACITAIOQIoAIKZIggiACvkAEUOGiAQYAAJ4EQiDBEBBAICIYQM8gRgQzQTgAjgEBGGYYAUMIxpIQBglgkiCBAAMMQMFIQABIZihiDiSGACMWIIUQiZAABQCDghABQAGYQcYIJwwQQAgFCBHUIWAGJE9hB4ABARhGkBHAEGOAUIRAQJC0BQBgYFCGOMKQEgcAJQgAzgCkBACAMIUSAAUYAIAlxBADphWAEMAEUY8xYZgADAggjBeGAICC8YIARg5BwCgBABEGCICSQEYQQYgRyQhmAECEMCQqQJAYgIxgSyhGABDDMAEcYQMIIRIBAQhACkWHOIOKMUAQgAJyRhgAlBCFAIAAIQABIQggxCFEECAIIA0IAUUIYIZRgShghAkNWAAAINAAJgSABBDiggBBICQEkAQBBIgAkRjBmACKIMEIFAIowAoQBiDNKCENeCcAEIwRIwKwziiNACIEaEImcMFRIBRQQDilBASHIEIsIEYAAI6lCGABGGBYASAaYIII4CQAAiDAogANCAGaAQVgQICiDzAAqFACCMUEEEhQQ4ghwAiAhkIAKMCAQImYJBwQ1EhgmAABAMIYAZYozCA&format=xml&meta=recordings+releases+sources (reused)
+Nov 07, 2024 21:54:48.842 [125723094159104] DEBUG - Match: Fingerprinting of first and last tracks completed in 2.3 sec.
+Nov 07, 2024 21:54:48.842 [125723094159104] DEBUG - Match: Finding matches for paulo londra - 
+Nov 07, 2024 21:54:48.842 [125723094159104] DEBUG - Match: Album might be Various Artists: 1
+Nov 07, 2024 21:54:48.842 [125723094159104] DEBUG - Match: Considering 1 releases from fingerprinting.
+Nov 07, 2024 21:54:48.842 [125723094159104] DEBUG - Match: Ended up with 1 releases from fingerprinting.
+Nov 07, 2024 21:54:49.144 [125723094159104] DEBUG - Match: We found 1 worthy releases and got back 1 album details.
+Nov 07, 2024 21:54:49.144 [125723094159104] DEBUG - Match: Candidate: Kevin Kaarl - Paris Texas (a5ea7ba6-ff91-4cfc-ae6d-e5b5c01a4691)
+Nov 07, 2024 21:54:49.162 [125723094159104] DEBUG - Match: Computing track assignment (13 x 13)
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 00 / 00 - 'A mì' and 01 / 13 - 'Travis Y Hunter.' is 0.766480 ({'track_id': [1.00000], 'track_length': [0.23240], 'track_title': [0.86667]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 00 / 01 - 'Believer' (Imagine Dragons) and 01 / 07 - 'Que Te Vas' is 0.620000 ({'track_index': [1.00000], 'track_length': [0.00000], 'track_title': [0.70000]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 20 - 'Cuando Te Vayas' and 01 / 12 - 'Paris Texas' is 0.760000 ({'track_index': [1.00000], 'track_length': [1.00000], 'track_title': [0.60000]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 04 - 'Demons' and 01 / 09 - 'Quisiera Ya No Pensar' is 0.866741 ({'track_index': [1.00000], 'track_length': [0.90513], 'track_title': [0.80952]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 04 - 'Diles' (Bad Bunny Feat. Ñengo Flow, Ozuna, Arcangel y Farruko) and 01 / 04 - 'Nunca Te Supe Cuidar' is 0.559240 ({'track_index': [0.00000], 'track_length': [0.09620], 'track_title': [0.90000]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 00 / 01 - 'Enemy' (Imagine Dragons, JID) and 01 / 06 - 'On My Mood' is 0.620000 ({'track_index': [1.00000], 'track_length': [0.00000], 'track_title': [0.70000]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 01 - 'Forever Alone' and 01 / 03 - 'Por Qué No Me Comprendes?' is 0.825000 ({'track_index': [1.00000], 'track_length': [1.00000], 'track_title': [0.70833]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 00 / 00 - 'Pelicula' and 01 / 11 - 'Siempre Lo Hago Y Te Extraño' is 0.642857 ({'track_length': [0.00000], 'track_title': [0.85714]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 01 - 'Recién Soltera' and 01 / 10 - 'Cuéntame Una Historia de Rencor' (Kevin Kaarl & El Guincho) is 0.645161 ({'track_index': [1.00000], 'track_length': [0.00000], 'track_title': [0.74194]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 01 - 'She Don't Give a Fo' (Duki, KHEA) and 01 / 02 - 'Te Quiero Tanto' is 0.866667 ({'track_index': [1.00000], 'track_length': [1.00000], 'track_title': [0.77778]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 00 / 00 - 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' (Paulo Londra) and 01 / 05 - 'Llora Más' is 0.636568 ({'track_length': [0.03023], 'track_title': [0.83868]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 01 / 01 - 'Young Miko: Bzrp Music Sessions, Vol. 58' (Bizarrap Ft. Young Miko) and 01 / 01 - 'Como Me Encanta' is 0.670270 ({'track_index': [0.00000], 'track_length': [1.00000], 'track_title': [0.78378]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Distance between 00 / 00 - 'Kevin Kaarl - siente más (Video Oficial)' (Kevin Kaarl) and 01 / 08 - 'Siente Más' is 0.000000 ({'track_id': [0.00000], 'track_length': [0.00000]})
+Nov 07, 2024 21:54:49.163 [125723094159104] DEBUG - Match: Album distance 0.695 — {'album': [0.92308], 'artist': [0.83333], 'tracks': [0.76648, 0.62000, 0.76000, 0.86674, 0.55924, 0.62000, 0.82500, 0.64286, 0.64516, 0.86667, 0.63657, 0.67027, 0.00000]}

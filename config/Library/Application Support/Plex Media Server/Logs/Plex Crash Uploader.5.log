@@ -1,0 +1,5 @@
+Nov 07, 2024 17:21:15.840 [138657445043000] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1730848414 Duration: 151661 UserId: noker5533@gmail.com Version: 1.41.1.9057-af5eaea7a
+Nov 07, 2024 17:21:15.843 [138657472956424] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Nov 07, 2024 17:21:20.849 [138657444797240] WARN - [HttpClient/HCl#1] HTTP error requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (6, Couldn't resolve host name) (Could not resolve host: o17675.ingest.sentry.io)
+Nov 07, 2024 17:21:20.850 [138657472956424] ERROR - Failed to upload session health
+Nov 07, 2024 17:21:20.850 [138657472956424] INFO - Crash Uploader - Processing Complete.

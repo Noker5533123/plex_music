@@ -1,0 +1,5 @@
+Nov 05, 2024 22:40:21.079 [124418195929856] INFO - Plex Media Scanner v1.41.1.9057-af5eaea7a - Docker Docker Container x86_64 - build: linux-x86_64 - GMT 00:00
+Nov 05, 2024 22:40:21.079 [124418195929856] INFO - Linux version: 6.8.0-47-generic, language: en-US
+Nov 05, 2024 22:40:21.080 [124418195929856] INFO - Processor: 8-core Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Nov 05, 2024 22:40:21.080 [124418195929856] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --section 2 --log-file-suffix  Analysis
+Nov 05, 2024 22:40:21.081 [124418196446976] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1

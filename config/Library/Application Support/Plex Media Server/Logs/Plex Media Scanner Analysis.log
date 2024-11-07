@@ -1,0 +1,977 @@
+Nov 07, 2024 21:54:49.607 [123265914882816] INFO - Plex Media Scanner v1.41.1.9057-af5eaea7a - Docker Docker Container x86_64 - build: linux-x86_64 - GMT 00:00
+Nov 07, 2024 21:54:49.608 [123265914882816] INFO - Linux version: 6.8.0-47-generic, language: en-US
+Nov 07, 2024 21:54:49.608 [123265914882816] INFO - Processor: 8-core Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Nov 07, 2024 21:54:49.608 [123265914882816] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --item 2
+Nov 07, 2024 21:54:49.609 [123265915399936] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Nov 07, 2024 21:54:50.053 [123265915399936] DEBUG - Analyzing media parts for item 15 (Kevin Kaarl - siente más (Video Oficial)): 13
+Nov 07, 2024 21:54:50.058 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.058 [123265915399936] DEBUG - [HCl#1] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.061 [123265903983360] DEBUG - [HttpClient/HCl#1] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.061 [123265915399936] DEBUG - Updating metadata item (save) (Kevin Kaarl - siente más (Video Oficial)) with ID 15
+Nov 07, 2024 21:54:50.069 [123265915399936] DEBUG - [ID 13] Media part analysis: /music/siente màs.mp3
+Nov 07, 2024 21:54:50.070 [123265915399936] DEBUG - [MI] Opening input file: "/music/siente màs.mp3"
+Nov 07, 2024 21:54:50.070 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/siente màs.mp3' for reading
+Nov 07, 2024 21:54:50.070 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:50.072 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=2048 and score=50
+Nov 07, 2024 21:54:50.073 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:1413299
+Nov 07, 2024 21:54:50.076 [123265915399936] DEBUG - [FFMPEG] - pad 576 1067
+Nov 07, 2024 21:54:50.076 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1414077 bytes read:1446067 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:50.164 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:50.164 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:50.164 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:50.165 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:50.166 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1446845 bytes read:1478835 seeks:0 frames:51
+Nov 07, 2024 21:54:50.166 [123265915399936] DEBUG - [MI]  * 27751b5fe37cab6ad48436156a6eaed63ef0958f [mp3 /mp3] Duration: 246456ms, 0x0 (0.000000) 0.000fps, bitrate=247kbps, audio channels=2, optimizedForStreaming=0 ("/music/siente màs.mp3")
+Nov 07, 2024 21:54:50.166 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:50.168 [123265915399936] DEBUG - [MI] Closing input file: "/music/siente màs.mp3"
+Nov 07, 2024 21:54:50.169 [123265915399936] DEBUG - Committing media stream changes for part 13
+Nov 07, 2024 21:54:50.172 [123265915399936] DEBUG - Updating media item 13, size=9024629, metadata_item_id=15
+Nov 07, 2024 21:54:50.172 [123265915399936] DEBUG - Updating part with ID=13 [/music/siente màs.mp3]
+Nov 07, 2024 21:54:50.174 [123265903655680] DEBUG - [HCl#2] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=15&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:50.178 [123265903983360] DEBUG - [HttpClient/HCl#2] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=15&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:50.178 [123265903655680] DEBUG - [HCl#3] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=15&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:50.180 [123265903983360] DEBUG - [HttpClient/HCl#3] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=15&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:50.185 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.185 [123265915399936] DEBUG - [HCl#4] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.187 [123265903983360] DEBUG - [HttpClient/HCl#4] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.188 [123265915399936] DEBUG - Updating metadata item (save) (Kevin Kaarl - siente más (Video Oficial)) with ID 15
+Nov 07, 2024 21:54:50.199 [123265915399936] DEBUG - Analyzing media parts for item 3 (A mì): 1
+Nov 07, 2024 21:54:50.200 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.200 [123265915399936] DEBUG - [HCl#5] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.203 [123265903983360] DEBUG - [HttpClient/HCl#5] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.203 [123265915399936] DEBUG - Updating metadata item (save) (A mì) with ID 3
+Nov 07, 2024 21:54:50.210 [123265915399936] DEBUG - [ID 1] Media part analysis: /music/A mì.mp3
+Nov 07, 2024 21:54:50.211 [123265915399936] DEBUG - [MI] Opening input file: "/music/A mì.mp3"
+Nov 07, 2024 21:54:50.211 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/A mì.mp3' for reading
+Nov 07, 2024 21:54:50.211 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:50.212 [123265915399936] DEBUG - [FFMPEG] - Format ogg probed with size=2048 and score=100
+Nov 07, 2024 21:54:50.214 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 12656 bytes read:130843 seeks:3 nb_streams:1
+Nov 07, 2024 21:54:50.215 [123265915399936] DEBUG - [FFMPEG] - skip 312 / discard 0 samples due to side data
+Nov 07, 2024 21:54:50.215 [123265915399936] DEBUG - [FFMPEG] - skip 312/960 samples
+Nov 07, 2024 21:54:50.215 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:50.216 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 12656 bytes read:130843 seeks:3 frames:1
+Nov 07, 2024 21:54:50.236 [123265915399936] DEBUG - [MI]  * 8286bfcd10c7a57f8910831960840470f220f46c [ogg /opus] Duration: 233428ms, 0x0 (0.000000) 0.000fps, bitrate=0kbps, audio channels=2, optimizedForStreaming=0 ("/music/A mì.mp3")
+Nov 07, 2024 21:54:50.237 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:50.238 [123265915399936] DEBUG - [MI] Closing input file: "/music/A mì.mp3"
+Nov 07, 2024 21:54:50.238 [123265915399936] DEBUG - Committing media stream changes for part 1
+Nov 07, 2024 21:54:50.240 [123265915399936] DEBUG - Updating media item 1, size=3961394, metadata_item_id=3
+Nov 07, 2024 21:54:50.240 [123265915399936] DEBUG - Updating part with ID=1 [/music/A mì.mp3]
+Nov 07, 2024 21:54:50.241 [123265903655680] DEBUG - [HCl#6] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=3&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:50.243 [123265903983360] DEBUG - [HttpClient/HCl#6] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=3&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:50.244 [123265903655680] DEBUG - [HCl#7] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=3&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:50.245 [123265903983360] DEBUG - [HttpClient/HCl#7] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=3&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:50.250 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.250 [123265915399936] DEBUG - [HCl#8] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.253 [123265903983360] DEBUG - [HttpClient/HCl#8] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.254 [123265915399936] DEBUG - Updating metadata item (save) (A mì) with ID 3
+Nov 07, 2024 21:54:50.265 [123265915399936] DEBUG - Analyzing media parts for item 10 (Pelicula): 8
+Nov 07, 2024 21:54:50.266 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.266 [123265915399936] DEBUG - [HCl#9] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.270 [123265903983360] DEBUG - [HttpClient/HCl#9] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.270 [123265915399936] DEBUG - Updating metadata item (save) (Pelicula) with ID 10
+Nov 07, 2024 21:54:50.277 [123265915399936] DEBUG - [ID 8] Media part analysis: /music/Pelicula.mp3
+Nov 07, 2024 21:54:50.277 [123265915399936] DEBUG - [MI] Opening input file: "/music/Pelicula.mp3"
+Nov 07, 2024 21:54:50.277 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Pelicula.mp3' for reading
+Nov 07, 2024 21:54:50.277 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:50.281 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=8192 and score=51
+Nov 07, 2024 21:54:50.281 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:35
+Nov 07, 2024 21:54:50.281 [123265915399936] DEBUG - [FFMPEG] - pad 576 1476
+Nov 07, 2024 21:54:50.281 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1089 bytes read:32768 seeks:0 nb_streams:1
+Nov 07, 2024 21:54:50.282 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:50.282 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:50.282 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:50.283 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:50.283 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 54337 bytes read:65536 seeks:0 frames:50
+Nov 07, 2024 21:54:50.283 [123265915399936] DEBUG - [MI]  * c8121ea0f388978bf5ebfb71daa23390841643ce [mp3 /mp3] Duration: 236487ms, 0x0 (0.000000) 0.000fps, bitrate=320kbps, audio channels=2, optimizedForStreaming=0 ("/music/Pelicula.mp3")
+Nov 07, 2024 21:54:50.283 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:50.285 [123265915399936] DEBUG - [MI] Closing input file: "/music/Pelicula.mp3"
+Nov 07, 2024 21:54:50.285 [123265915399936] DEBUG - Committing media stream changes for part 8
+Nov 07, 2024 21:54:50.288 [123265915399936] DEBUG - Updating media item 8, size=9460550, metadata_item_id=10
+Nov 07, 2024 21:54:50.288 [123265915399936] DEBUG - Updating part with ID=8 [/music/Pelicula.mp3]
+Nov 07, 2024 21:54:50.289 [123265903655680] DEBUG - [HCl#a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=10&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:50.291 [123265903983360] DEBUG - [HttpClient/HCl#a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=10&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:50.291 [123265903655680] DEBUG - [HCl#b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=10&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:50.293 [123265903983360] DEBUG - [HttpClient/HCl#b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=10&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:50.300 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.301 [123265915399936] DEBUG - [HCl#c] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.303 [123265903983360] DEBUG - [HttpClient/HCl#c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.304 [123265915399936] DEBUG - Updating metadata item (save) (Pelicula) with ID 10
+Nov 07, 2024 21:54:50.316 [123265915399936] DEBUG - Analyzing media parts for item 13 (Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)): 11
+Nov 07, 2024 21:54:50.317 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.317 [123265915399936] DEBUG - [HCl#d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.319 [123265903983360] DEBUG - [HttpClient/HCl#d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.320 [123265915399936] DEBUG - Updating metadata item (save) (Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)) with ID 13
+Nov 07, 2024 21:54:50.327 [123265915399936] DEBUG - [ID 11] Media part analysis: /music/Solo pienso en ti.mp3
+Nov 07, 2024 21:54:50.327 [123265915399936] DEBUG - [MI] Opening input file: "/music/Solo pienso en ti.mp3"
+Nov 07, 2024 21:54:50.327 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Solo pienso en ti.mp3' for reading
+Nov 07, 2024 21:54:50.327 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:50.340 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=32768 and score=51
+Nov 07, 2024 21:54:50.340 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:17039
+Nov 07, 2024 21:54:50.340 [123265915399936] DEBUG - [FFMPEG] - pad 576 827
+Nov 07, 2024 21:54:50.340 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 17466 bytes read:32768 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=11587
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=11585
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=11567
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=11498
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=11429
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 250x250
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=11410
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=11381
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 9943 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=11353
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1410 bytes (11280 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 8787 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=9894
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1107 bytes (8856 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 7896 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=8738
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 842 bytes (6736 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=7891
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 7491 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=7851
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 360 bytes (2880 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=7488
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 6488 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=7435
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 947 bytes (7576 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 4877 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=6445
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1568 bytes (12544 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 4474 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=4871
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 397 bytes (3176 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 3488 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=4432
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 944 bytes (7552 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=3483
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 2838 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=3448
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 610 bytes (4880 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=2835
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - escaping removed 12 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=2792
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker parser used 2780 bytes (22240 bits)
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:50.341 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:50.342 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:50.342 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:50.342 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:50.343 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 38970 bytes read:65536 seeks:0 frames:51
+Nov 07, 2024 21:54:50.343 [123265915399936] DEBUG - [MI]  * 44cdd87f9793ceb64ff14f95d46cf7ff583fea97 [mp3 /mp3] Duration: 268826ms, 0x0 (0.000000) 0.000fps, bitrate=128kbps, audio channels=2, optimizedForStreaming=0 ("/music/Solo pienso en ti.mp3")
+Nov 07, 2024 21:54:50.343 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:50.344 [123265915399936] DEBUG - [MI] Closing input file: "/music/Solo pienso en ti.mp3"
+Nov 07, 2024 21:54:50.345 [123265915399936] DEBUG - Committing media stream changes for part 11
+Nov 07, 2024 21:54:50.347 [123265915399936] DEBUG - Updating media item 11, size=4318683, metadata_item_id=13
+Nov 07, 2024 21:54:50.347 [123265915399936] DEBUG - Updating part with ID=11 [/music/Solo pienso en ti.mp3]
+Nov 07, 2024 21:54:50.348 [123265903655680] DEBUG - [HCl#e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=13&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:50.350 [123265903983360] DEBUG - [HttpClient/HCl#e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=13&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:50.350 [123265903655680] DEBUG - [HCl#f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=13&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:50.352 [123265903983360] DEBUG - [HttpClient/HCl#f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=13&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:50.359 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.360 [123265915399936] DEBUG - [HCl#10] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.362 [123265903983360] DEBUG - [HttpClient/HCl#10] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.362 [123265915399936] DEBUG - Updating metadata item (save) (Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)) with ID 13
+Nov 07, 2024 21:54:50.374 [123265915399936] DEBUG - Analyzing media parts for item 4 (Believer): 2
+Nov 07, 2024 21:54:50.376 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.376 [123265915399936] DEBUG - [HCl#11] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.378 [123265903983360] DEBUG - [HttpClient/HCl#11] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.379 [123265915399936] DEBUG - Updating metadata item (save) (Believer) with ID 4
+Nov 07, 2024 21:54:50.384 [123265915399936] DEBUG - [ID 2] Media part analysis: /music/Believer.mp3
+Nov 07, 2024 21:54:50.385 [123265915399936] DEBUG - [MI] Opening input file: "/music/Believer.mp3"
+Nov 07, 2024 21:54:50.385 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Believer.mp3' for reading
+Nov 07, 2024 21:54:50.385 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:50.964 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=524288 and score=51
+Nov 07, 2024 21:54:50.964 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:387147
+Nov 07, 2024 21:54:50.967 [123265915399936] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:50.967 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 388201 bytes read:425984 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=259976
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=259974
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=259956
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=259887
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=259818
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259799
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259769
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259678
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=259649
+Nov 07, 2024 21:54:50.969 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - escaping removed 748 bytes
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=259578
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - marker parser used 258830 bytes (2070640 bits)
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:50.970 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:50.972 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:50.972 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 441449 bytes read:458752 seeks:0 frames:51
+Nov 07, 2024 21:54:50.972 [123265915399936] DEBUG - [MI]  * 9b97283f85611223762c69297683cd698fdd9cd7 [mp3 /mp3] Duration: 203833ms, 0x0 (0.000000) 0.000fps, bitrate=320kbps, audio channels=2, optimizedForStreaming=0 ("/music/Believer.mp3")
+Nov 07, 2024 21:54:50.972 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:50.973 [123265915399936] DEBUG - [MI] Closing input file: "/music/Believer.mp3"
+Nov 07, 2024 21:54:50.974 [123265915399936] DEBUG - Committing media stream changes for part 2
+Nov 07, 2024 21:54:50.976 [123265915399936] DEBUG - Updating media item 2, size=8541667, metadata_item_id=4
+Nov 07, 2024 21:54:50.976 [123265915399936] DEBUG - Updating part with ID=2 [/music/Believer.mp3]
+Nov 07, 2024 21:54:50.977 [123265903655680] DEBUG - [HCl#12] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=4&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:50.979 [123265903983360] DEBUG - [HttpClient/HCl#12] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=4&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:50.979 [123265903655680] DEBUG - [HCl#13] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=4&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:50.981 [123265903983360] DEBUG - [HttpClient/HCl#13] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=4&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:50.988 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.988 [123265915399936] DEBUG - [HCl#14] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:50.991 [123265903983360] DEBUG - [HttpClient/HCl#14] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:50.991 [123265915399936] DEBUG - Updating metadata item (save) (Believer) with ID 4
+Nov 07, 2024 21:54:51.002 [123265915399936] DEBUG - Analyzing media parts for item 8 (Enemy): 6
+Nov 07, 2024 21:54:51.003 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.004 [123265915399936] DEBUG - [HCl#15] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.006 [123265903983360] DEBUG - [HttpClient/HCl#15] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:51.007 [123265915399936] DEBUG - Updating metadata item (save) (Enemy) with ID 8
+Nov 07, 2024 21:54:51.012 [123265915399936] DEBUG - [ID 6] Media part analysis: /music/Enemy.mp3
+Nov 07, 2024 21:54:51.013 [123265915399936] DEBUG - [MI] Opening input file: "/music/Enemy.mp3"
+Nov 07, 2024 21:54:51.013 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Enemy.mp3' for reading
+Nov 07, 2024 21:54:51.013 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:51.202 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:51.202 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:203870
+Nov 07, 2024 21:54:51.203 [123265915399936] DEBUG - [FFMPEG] - pad 576 1439
+Nov 07, 2024 21:54:51.203 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 204088 bytes read:229376 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=203662
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=203660
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=203642
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=203573
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 3
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=203504
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 1059x1059
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203485
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203454
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203345
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=203315
+Nov 07, 2024 21:54:51.204 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - escaping removed 616 bytes
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=203236
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - marker parser used 202620 bytes (1620960 bits)
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:51.205 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:51.206 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:51.206 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 221496 bytes read:229376 seeks:0 frames:51
+Nov 07, 2024 21:54:51.206 [123265915399936] DEBUG - [MI]  * cd54bf7d3c991c392de949b72da2eb667daefe16 [mp3 /mp3] Duration: 173427ms, 0x0 (0.000000) 0.000fps, bitrate=123kbps, audio channels=2, optimizedForStreaming=0 ("/music/Enemy.mp3")
+Nov 07, 2024 21:54:51.206 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:51.208 [123265915399936] DEBUG - [MI] Closing input file: "/music/Enemy.mp3"
+Nov 07, 2024 21:54:51.208 [123265915399936] DEBUG - Committing media stream changes for part 6
+Nov 07, 2024 21:54:51.210 [123265915399936] DEBUG - Updating media item 6, size=2879407, metadata_item_id=8
+Nov 07, 2024 21:54:51.210 [123265915399936] DEBUG - Updating part with ID=6 [/music/Enemy.mp3]
+Nov 07, 2024 21:54:51.212 [123265903655680] DEBUG - [HCl#16] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=8&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:51.214 [123265903983360] DEBUG - [HttpClient/HCl#16] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=8&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:51.214 [123265903655680] DEBUG - [HCl#17] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=8&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:51.216 [123265903983360] DEBUG - [HttpClient/HCl#17] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=8&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:51.224 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.224 [123265915399936] DEBUG - [HCl#18] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.226 [123265903983360] DEBUG - [HttpClient/HCl#18] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:51.227 [123265915399936] DEBUG - Updating metadata item (save) (Enemy) with ID 8
+Nov 07, 2024 21:54:51.239 [123265915399936] DEBUG - Analyzing media parts for item 9 (Forever Alone): 7
+Nov 07, 2024 21:54:51.241 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.241 [123265915399936] DEBUG - [HCl#19] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.243 [123265903983360] DEBUG - [HttpClient/HCl#19] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:51.244 [123265915399936] DEBUG - Updating metadata item (save) (Forever Alone) with ID 9
+Nov 07, 2024 21:54:51.250 [123265915399936] DEBUG - [ID 7] Media part analysis: /music/Forever Alone.mp3
+Nov 07, 2024 21:54:51.251 [123265915399936] DEBUG - [MI] Opening input file: "/music/Forever Alone.mp3"
+Nov 07, 2024 21:54:51.251 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Forever Alone.mp3' for reading
+Nov 07, 2024 21:54:51.251 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:51.907 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=524288 and score=51
+Nov 07, 2024 21:54:51.907 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:403729
+Nov 07, 2024 21:54:51.908 [123265915399936] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:51.908 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 404783 bytes read:425984 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=398520
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=398518
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=398500
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=398431
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 1
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=398362
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 1400x1400
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=398343
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=398312
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - escaping removed 366318 bytes
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=398282
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 31964 bytes (255712 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=366304
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - escaping removed 297631 bytes
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=366247
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 68616 bytes (548928 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=297339
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - escaping removed 292931 bytes
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=297269
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 4338 bytes (34704 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=292917
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - escaping removed 290978 bytes
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=292866
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1888 bytes (15104 bits)
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=290966
+Nov 07, 2024 21:54:51.910 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - escaping removed 236743 bytes
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=290888
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 54145 bytes (433160 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=236503
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - escaping removed 148344 bytes
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=236462
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 88118 bytes (704944 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - escaping removed 136698 bytes
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=148196
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 11498 bytes (91984 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=136694
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - escaping removed 133463 bytes
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=136645
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 3182 bytes (25456 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=133444
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - escaping removed 131715 bytes
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=133398
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1683 bytes (13464 bits)
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=131710
+Nov 07, 2024 21:54:51.911 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - escaping removed 481 bytes
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=131670
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - marker parser used 131189 bytes (1049512 bits)
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:51.912 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:51.913 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:51.913 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 458031 bytes read:458752 seeks:0 frames:51
+Nov 07, 2024 21:54:51.913 [123265915399936] DEBUG - [MI]  * cef5aa0ac7fb119f0531d6a747e6584442787e84 [mp3 /mp3] Duration: 216007ms, 0x0 (0.000000) 0.000fps, bitrate=320kbps, audio channels=2, optimizedForStreaming=0 ("/music/Forever Alone.mp3")
+Nov 07, 2024 21:54:51.913 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:51.915 [123265915399936] DEBUG - [MI] Closing input file: "/music/Forever Alone.mp3"
+Nov 07, 2024 21:54:51.915 [123265915399936] DEBUG - Committing media stream changes for part 7
+Nov 07, 2024 21:54:51.918 [123265915399936] DEBUG - Updating media item 7, size=9045044, metadata_item_id=9
+Nov 07, 2024 21:54:51.918 [123265915399936] DEBUG - Updating part with ID=7 [/music/Forever Alone.mp3]
+Nov 07, 2024 21:54:51.919 [123265903655680] DEBUG - [HCl#1a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=9&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:51.921 [123265903983360] DEBUG - [HttpClient/HCl#1a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=9&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:51.922 [123265903655680] DEBUG - [HCl#1b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=9&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:51.924 [123265903983360] DEBUG - [HttpClient/HCl#1b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=9&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:51.928 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.928 [123265915399936] DEBUG - [HCl#1c] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.931 [123265903983360] DEBUG - [HttpClient/HCl#1c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:51.931 [123265915399936] DEBUG - Updating metadata item (save) (Forever Alone) with ID 9
+Nov 07, 2024 21:54:51.943 [123265915399936] DEBUG - Analyzing media parts for item 11 (Recién Soltera): 9
+Nov 07, 2024 21:54:51.944 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.944 [123265915399936] DEBUG - [HCl#1d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:51.947 [123265903983360] DEBUG - [HttpClient/HCl#1d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:51.947 [123265915399936] DEBUG - Updating metadata item (save) (Recién Soltera) with ID 11
+Nov 07, 2024 21:54:51.954 [123265915399936] DEBUG - [ID 9] Media part analysis: /music/Recièn soltera.mp3
+Nov 07, 2024 21:54:51.955 [123265915399936] DEBUG - [MI] Opening input file: "/music/Recièn soltera.mp3"
+Nov 07, 2024 21:54:51.955 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Recièn soltera.mp3' for reading
+Nov 07, 2024 21:54:51.955 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:52.066 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:52.066 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:148646
+Nov 07, 2024 21:54:52.067 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 149073 bytes read:163840 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=143783
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=143781
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=143763
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=143694
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=143625
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=143606
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=143576
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - escaping removed 122167 bytes
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=143549
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 21382 bytes (171056 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=122158
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - escaping removed 100139 bytes
+Nov 07, 2024 21:54:52.068 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=122110
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 21971 bytes (175768 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=100055
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 96588 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=100014
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 3426 bytes (27408 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=96577
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 93904 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=96539
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 2635 bytes (21080 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=93897
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 90689 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=93839
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 3150 bytes (25200 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=90682
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 66047 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=90639
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 24592 bytes (196736 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 61748 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=65980
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 4232 bytes (33856 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=61729
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 57031 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=61693
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 4662 bytes (37296 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=57000
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 52855 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=56964
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 4109 bytes (32872 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=52838
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - escaping removed 190 bytes
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=52797
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker parser used 52607 bytes (420856 bits)
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:52.069 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:52.071 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:52.072 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 170577 bytes read:196608 seeks:0 frames:51
+Nov 07, 2024 21:54:52.072 [123265915399936] DEBUG - [MI]  * ecf5adeead42cfef6f708421cbe248818c673dc0 [mp3 /mp3] Duration: 183902ms, 0x0 (0.000000) 0.000fps, bitrate=128kbps, audio channels=2, optimizedForStreaming=0 ("/music/Recièn soltera.mp3")
+Nov 07, 2024 21:54:52.072 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:52.074 [123265915399936] DEBUG - [MI] Closing input file: "/music/Recièn soltera.mp3"
+Nov 07, 2024 21:54:52.075 [123265915399936] DEBUG - Committing media stream changes for part 9
+Nov 07, 2024 21:54:52.077 [123265915399936] DEBUG - Updating media item 9, size=3091505, metadata_item_id=11
+Nov 07, 2024 21:54:52.077 [123265915399936] DEBUG - Updating part with ID=9 [/music/Recièn soltera.mp3]
+Nov 07, 2024 21:54:52.079 [123265903655680] DEBUG - [HCl#1e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=11&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:52.081 [123265903983360] DEBUG - [HttpClient/HCl#1e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=11&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:52.081 [123265903655680] DEBUG - [HCl#1f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=11&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:52.083 [123265903983360] DEBUG - [HttpClient/HCl#1f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=11&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:52.088 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.088 [123265915399936] DEBUG - [HCl#20] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.092 [123265903983360] DEBUG - [HttpClient/HCl#20] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.092 [123265915399936] DEBUG - Updating metadata item (save) (Recién Soltera) with ID 11
+Nov 07, 2024 21:54:52.104 [123265915399936] DEBUG - Analyzing media parts for item 12 (She Don't Give a Fo): 10
+Nov 07, 2024 21:54:52.105 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.105 [123265915399936] DEBUG - [HCl#21] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.107 [123265903983360] DEBUG - [HttpClient/HCl#21] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.107 [123265915399936] DEBUG - Updating metadata item (save) (She Don't Give a Fo) with ID 12
+Nov 07, 2024 21:54:52.112 [123265915399936] DEBUG - [ID 10] Media part analysis: /music/She don`t give a fo.mp3
+Nov 07, 2024 21:54:52.113 [123265915399936] DEBUG - [MI] Opening input file: "/music/She don`t give a fo.mp3"
+Nov 07, 2024 21:54:52.113 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/She don`t give a fo.mp3' for reading
+Nov 07, 2024 21:54:52.113 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:52.136 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=65536 and score=51
+Nov 07, 2024 21:54:52.136 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:43870
+Nov 07, 2024 21:54:52.137 [123265915399936] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:52.137 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 44297 bytes read:65536 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=33989
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=33987
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=33969
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 3
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=33900
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 7
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=33831
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 720x720
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=33812
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=33784
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 29546 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=33757
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 4211 bytes (33688 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=29532
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 27111 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=29483
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 2372 bytes (18976 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=27100
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 26123 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=27054
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 931 bytes (7448 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=26121
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 25492 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=26080
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 588 bytes (4704 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=25490
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 24616 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=25443
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 827 bytes (6616 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=24613
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 21080 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=24572
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 3492 bytes (27936 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 19533 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=21065
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1532 bytes (12256 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=19530
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 17991 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=19487
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1496 bytes (11968 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=17982
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 16767 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=17942
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1175 bytes (9400 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=16759
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - escaping removed 41 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=16717
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16676 bytes (133408 bits)
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:52.138 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:52.139 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:52.139 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 65801 bytes read:98304 seeks:0 frames:51
+Nov 07, 2024 21:54:52.139 [123265915399936] DEBUG - [MI]  * 1334c581671b723e5e4c43a51a242e0303130e46 [mp3 /mp3] Duration: 209580ms, 0x0 (0.000000) 0.000fps, bitrate=128kbps, audio channels=2, optimizedForStreaming=0 ("/music/She don`t give a fo.mp3")
+Nov 07, 2024 21:54:52.140 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:52.141 [123265915399936] DEBUG - [MI] Closing input file: "/music/She don`t give a fo.mp3"
+Nov 07, 2024 21:54:52.141 [123265915399936] DEBUG - Committing media stream changes for part 10
+Nov 07, 2024 21:54:52.143 [123265915399936] DEBUG - Updating media item 10, size=3397583, metadata_item_id=12
+Nov 07, 2024 21:54:52.143 [123265915399936] DEBUG - Updating part with ID=10 [/music/She don`t give a fo.mp3]
+Nov 07, 2024 21:54:52.144 [123265903655680] DEBUG - [HCl#22] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=12&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:52.147 [123265903983360] DEBUG - [HttpClient/HCl#22] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=12&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:52.147 [123265903655680] DEBUG - [HCl#23] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=12&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:52.149 [123265903983360] DEBUG - [HttpClient/HCl#23] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=12&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:52.157 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.157 [123265915399936] DEBUG - [HCl#24] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.160 [123265903983360] DEBUG - [HttpClient/HCl#24] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.161 [123265915399936] DEBUG - Updating metadata item (save) (She Don't Give a Fo) with ID 12
+Nov 07, 2024 21:54:52.175 [123265915399936] DEBUG - Analyzing media parts for item 14 (Young Miko: Bzrp Music Sessions, Vol. 58): 12
+Nov 07, 2024 21:54:52.176 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.176 [123265915399936] DEBUG - [HCl#25] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.178 [123265903983360] DEBUG - [HttpClient/HCl#25] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.179 [123265915399936] DEBUG - Updating metadata item (save) (Young Miko: Bzrp Music Sessions, Vol. 58) with ID 14
+Nov 07, 2024 21:54:52.184 [123265915399936] DEBUG - [ID 12] Media part analysis: /music/Young Miko Bizarrap.mp3
+Nov 07, 2024 21:54:52.185 [123265915399936] DEBUG - [MI] Opening input file: "/music/Young Miko Bizarrap.mp3"
+Nov 07, 2024 21:54:52.185 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Young Miko Bizarrap.mp3' for reading
+Nov 07, 2024 21:54:52.185 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:52.423 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:52.423 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:224058
+Nov 07, 2024 21:54:52.424 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 224068 bytes read:262144 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=219517
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=219515
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=219497
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=219428
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 2
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=219359
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 640x640
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219340
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219308
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219230
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=219201
+Nov 07, 2024 21:54:52.425 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.426 [123265915399936] DEBUG - [FFMPEG] - escaping removed 900 bytes
+Nov 07, 2024 21:54:52.426 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=219130
+Nov 07, 2024 21:54:52.426 [123265915399936] DEBUG - [FFMPEG] - marker parser used 218230 bytes (1745840 bits)
+Nov 07, 2024 21:54:52.426 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:52.426 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:52.427 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:52.427 [123265915399936] WARN - [FFMPEG] - Estimating duration from bitrate, this may be inaccurate
+Nov 07, 2024 21:54:52.427 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 272196 bytes read:294912 seeks:0 frames:51
+Nov 07, 2024 21:54:52.427 [123265915399936] DEBUG - [MI]  * 2db94556166d6efa26925c4b7a919df2f1859ed3 [mp3 /mp3] Duration: 187200ms, 0x0 (0.000000) 0.000fps, bitrate=320kbps, audio channels=2, optimizedForStreaming=0 ("/music/Young Miko Bizarrap.mp3")
+Nov 07, 2024 21:54:52.427 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:52.429 [123265915399936] DEBUG - [MI] Closing input file: "/music/Young Miko Bizarrap.mp3"
+Nov 07, 2024 21:54:52.429 [123265915399936] DEBUG - Committing media stream changes for part 12
+Nov 07, 2024 21:54:52.431 [123265915399936] DEBUG - Updating media item 12, size=7712068, metadata_item_id=14
+Nov 07, 2024 21:54:52.431 [123265915399936] DEBUG - Updating part with ID=12 [/music/Young Miko Bizarrap.mp3]
+Nov 07, 2024 21:54:52.432 [123265903655680] DEBUG - [HCl#26] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=14&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:52.434 [123265903983360] DEBUG - [HttpClient/HCl#26] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=14&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:52.434 [123265903655680] DEBUG - [HCl#27] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=14&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:52.436 [123265903983360] DEBUG - [HttpClient/HCl#27] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=14&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:52.441 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.441 [123265915399936] DEBUG - [HCl#28] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.444 [123265903983360] DEBUG - [HttpClient/HCl#28] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.444 [123265915399936] DEBUG - Updating metadata item (save) (Young Miko: Bzrp Music Sessions, Vol. 58) with ID 14
+Nov 07, 2024 21:54:52.455 [123265915399936] DEBUG - Analyzing media parts for item 6 (Demons): 4
+Nov 07, 2024 21:54:52.456 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.457 [123265915399936] DEBUG - [HCl#29] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.459 [123265903983360] DEBUG - [HttpClient/HCl#29] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.460 [123265915399936] DEBUG - Updating metadata item (save) (Demons) with ID 6
+Nov 07, 2024 21:54:52.464 [123265915399936] DEBUG - [ID 4] Media part analysis: /music/Demons.mp3
+Nov 07, 2024 21:54:52.465 [123265915399936] DEBUG - [MI] Opening input file: "/music/Demons.mp3"
+Nov 07, 2024 21:54:52.465 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Demons.mp3' for reading
+Nov 07, 2024 21:54:52.465 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:52.574 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:52.575 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:3 flags:00 len:161454
+Nov 07, 2024 21:54:52.576 [123265915399936] DEBUG - [FFMPEG] - pad 576 0
+Nov 07, 2024 21:54:52.576 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 162508 bytes read:196608 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=152558
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=152556
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=152538
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 1
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=152469
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 1
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=152400
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=152381
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=152350
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - escaping removed 124279 bytes
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=152321
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 28042 bytes (224336 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=124240
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - escaping removed 88006 bytes
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=124179
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 36173 bytes (289384 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=87895
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - escaping removed 83159 bytes
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=87843
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 4684 bytes (37472 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=83143
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - escaping removed 76553 bytes
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=83092
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 6539 bytes (52312 bits)
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=76524
+Nov 07, 2024 21:54:52.577 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - escaping removed 57208 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=76440
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 19232 bytes (153856 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=57143
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - escaping removed 29766 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=57098
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 27332 bytes (218656 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - escaping removed 21230 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=29681
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 8451 bytes (67608 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - escaping removed 20549 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=21193
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 644 bytes (5152 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=20504
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - escaping removed 19517 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=20465
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 948 bytes (7584 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=19444
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - escaping removed 109 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=19399
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker parser used 19290 bytes (154320 bits)
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:52.578 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:52.580 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:52.580 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 215756 bytes read:229376 seeks:0 frames:51
+Nov 07, 2024 21:54:52.581 [123265915399936] DEBUG - [MI]  * 396b44022ef4e0221d5cba64d9911994b71cc028 [mp3 /mp3] Duration: 177554ms, 0x0 (0.000000) 0.000fps, bitrate=320kbps, audio channels=2, optimizedForStreaming=0 ("/music/Demons.mp3")
+Nov 07, 2024 21:54:52.581 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:52.584 [123265915399936] DEBUG - [MI] Closing input file: "/music/Demons.mp3"
+Nov 07, 2024 21:54:52.585 [123265915399936] DEBUG - Committing media stream changes for part 4
+Nov 07, 2024 21:54:52.588 [123265915399936] DEBUG - Updating media item 4, size=7264679, metadata_item_id=6
+Nov 07, 2024 21:54:52.588 [123265915399936] DEBUG - Updating part with ID=4 [/music/Demons.mp3]
+Nov 07, 2024 21:54:52.589 [123265903655680] DEBUG - [HCl#2a] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=6&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:52.591 [123265903983360] DEBUG - [HttpClient/HCl#2a] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=6&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:52.592 [123265903655680] DEBUG - [HCl#2b] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=6&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:52.593 [123265903983360] DEBUG - [HttpClient/HCl#2b] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=6&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:52.601 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.601 [123265915399936] DEBUG - [HCl#2c] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.604 [123265903983360] DEBUG - [HttpClient/HCl#2c] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.604 [123265915399936] DEBUG - Updating metadata item (save) (Demons) with ID 6
+Nov 07, 2024 21:54:52.620 [123265915399936] DEBUG - Analyzing media parts for item 7 (Diles): 5
+Nov 07, 2024 21:54:52.621 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.621 [123265915399936] DEBUG - [HCl#2d] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.624 [123265903983360] DEBUG - [HttpClient/HCl#2d] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.624 [123265915399936] DEBUG - Updating metadata item (save) (Diles) with ID 7
+Nov 07, 2024 21:54:52.629 [123265915399936] DEBUG - [ID 5] Media part analysis: /music/Diles.mp3
+Nov 07, 2024 21:54:52.630 [123265915399936] DEBUG - [MI] Opening input file: "/music/Diles.mp3"
+Nov 07, 2024 21:54:52.630 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Diles.mp3' for reading
+Nov 07, 2024 21:54:52.630 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:52.830 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:52.830 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:217505
+Nov 07, 2024 21:54:52.831 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 218141 bytes read:229376 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=216161
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=216159
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=e1 avail_size_in_buf=216141
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 75 bytes (600 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=ed avail_size_in_buf=216063
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 55 bytes (440 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=c0 avail_size_in_buf=216005
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 637x637
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - component 0 2:2 id: 0 quant:0
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 22111100
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - Format yuvj420p chosen by get_format().
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215986
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215953
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215770
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=215737
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=215554
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 0
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=215485
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 1
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker=dd avail_size_in_buf=215416
+Nov 07, 2024 21:54:52.832 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:52.833 [123265915399936] DEBUG - [FFMPEG] - escaping removed 1584 bytes
+Nov 07, 2024 21:54:52.833 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=215410
+Nov 07, 2024 21:54:52.833 [123265915399936] DEBUG - [FFMPEG] - marker parser used 213826 bytes (1710608 bits)
+Nov 07, 2024 21:54:52.833 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:52.833 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:52.835 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:52.835 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 249885 bytes read:262144 seeks:0 frames:51
+Nov 07, 2024 21:54:52.835 [123265915399936] DEBUG - [MI]  * 754cda708cd6f6180cec6b093715d288d87bde64 [mp3 /mp3] Duration: 279380ms, 0x0 (0.000000) 0.000fps, bitrate=192kbps, audio channels=2, optimizedForStreaming=0 ("/music/Diles.mp3")
+Nov 07, 2024 21:54:52.835 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:52.837 [123265915399936] DEBUG - [MI] Closing input file: "/music/Diles.mp3"
+Nov 07, 2024 21:54:52.837 [123265915399936] DEBUG - Committing media stream changes for part 5
+Nov 07, 2024 21:54:52.839 [123265915399936] DEBUG - Updating media item 5, size=6923379, metadata_item_id=7
+Nov 07, 2024 21:54:52.839 [123265915399936] DEBUG - Updating part with ID=5 [/music/Diles.mp3]
+Nov 07, 2024 21:54:52.840 [123265903655680] DEBUG - [HCl#2e] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=7&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:52.842 [123265903983360] DEBUG - [HttpClient/HCl#2e] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=7&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:52.842 [123265903655680] DEBUG - [HCl#2f] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=7&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:52.844 [123265903983360] DEBUG - [HttpClient/HCl#2f] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=7&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:52.848 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.848 [123265915399936] DEBUG - [HCl#30] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.852 [123265903983360] DEBUG - [HttpClient/HCl#30] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.852 [123265915399936] DEBUG - Updating metadata item (save) (Diles) with ID 7
+Nov 07, 2024 21:54:52.863 [123265915399936] DEBUG - Analyzing media parts for item 5 (Cuando Te Vayas): 3
+Nov 07, 2024 21:54:52.864 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.864 [123265915399936] DEBUG - [HCl#31] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:52.867 [123265903983360] DEBUG - [HttpClient/HCl#31] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:52.867 [123265915399936] DEBUG - Updating metadata item (save) (Cuando Te Vayas) with ID 5
+Nov 07, 2024 21:54:52.929 [123265915399936] DEBUG - [ID 3] Media part analysis: /music/Cuando te vayas.mp3
+Nov 07, 2024 21:54:52.929 [123265915399936] DEBUG - [MI] Opening input file: "/music/Cuando te vayas.mp3"
+Nov 07, 2024 21:54:52.930 [123265915399936] DEBUG - [FFMPEG] - Opening '/music/Cuando te vayas.mp3' for reading
+Nov 07, 2024 21:54:52.930 [123265915399936] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Nov 07, 2024 21:54:53.026 [123265915399936] DEBUG - [FFMPEG] - Format mp3 probed with size=262144 and score=51
+Nov 07, 2024 21:54:53.027 [123265915399936] DEBUG - [FFMPEG] - id3v2 ver:4 flags:00 len:133668
+Nov 07, 2024 21:54:53.027 [123265915399936] DEBUG - [FFMPEG] - pad 576 1680
+Nov 07, 2024 21:54:53.027 [123265915399936] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 134095 bytes read:163840 seeks:0 nb_streams:2
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=d8 avail_size_in_buf=129326
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=e0 avail_size_in_buf=129324
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 16 bytes (128 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=129306
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - index=0
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - qscale[0]: 2
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=db avail_size_in_buf=129237
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - index=1
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - qscale[1]: 5
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 67 bytes (536 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=c2 avail_size_in_buf=129168
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - Changing bps from 0 to 8
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - sof0: picture: 1200x1200
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - component 0 1:1 id: 0 quant:0
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - component 1 1:1 id: 1 quant:1
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - component 2 1:1 id: 2 quant:1
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - pix fmt id 11111100
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - Format yuvj444p chosen by get_format().
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 17 bytes (136 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=129149
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=129120
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - escaping removed 108681 bytes
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=129093
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 20412 bytes (163296 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=108673
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - escaping removed 95648 bytes
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=108623
+Nov 07, 2024 21:54:53.028 [123265915399936] DEBUG - [FFMPEG] - marker parser used 12975 bytes (103800 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=95621
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 92648 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=95581
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 2933 bytes (23464 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=92640
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 90634 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=92600
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 1966 bytes (15728 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=90627
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 87448 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=90571
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 3123 bytes (24984 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=87434
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 63470 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=87389
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 23919 bytes (191352 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 54949 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=63400
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 8451 bytes (67608 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=54531
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 48283 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=54496
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 6213 bytes (49704 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=48265
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 42550 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=48229
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 5679 bytes (45432 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=c4 avail_size_in_buf=42531
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 0 bytes (0 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - escaping removed 197 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=da avail_size_in_buf=42489
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker parser used 42292 bytes (338336 bits)
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - marker=d9 avail_size_in_buf=0
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - decode frame unused 0 bytes
+Nov 07, 2024 21:54:53.029 [123265915399936] DEBUG - [FFMPEG] - demuxer injecting skip 1105 / discard 0
+Nov 07, 2024 21:54:53.030 [123265915399936] DEBUG - [FFMPEG] - skip 1105 / discard 0 samples due to side data
+Nov 07, 2024 21:54:53.030 [123265915399936] DEBUG - [FFMPEG] - skip 1105/1152 samples
+Nov 07, 2024 21:54:53.031 [123265915399936] DEBUG - [FFMPEG] - All info found
+Nov 07, 2024 21:54:53.031 [123265915399936] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 155599 bytes read:163840 seeks:0 frames:51
+Nov 07, 2024 21:54:53.031 [123265915399936] DEBUG - [MI]  * 643bd92be8aca047008f54cb73c7016991b94161 [mp3 /mp3] Duration: 187115ms, 0x0 (0.000000) 0.000fps, bitrate=128kbps, audio channels=2, optimizedForStreaming=0 ("/music/Cuando te vayas.mp3")
+Nov 07, 2024 21:54:53.031 [123265915399936] DEBUG - [MI] Chapters had generic titles, clearing.
+Nov 07, 2024 21:54:53.034 [123265915399936] DEBUG - [MI] Closing input file: "/music/Cuando te vayas.mp3"
+Nov 07, 2024 21:54:53.034 [123265915399936] DEBUG - Committing media stream changes for part 3
+Nov 07, 2024 21:54:53.053 [123265915399936] DEBUG - Updating media item 3, size=3127936, metadata_item_id=5
+Nov 07, 2024 21:54:53.053 [123265915399936] DEBUG - Updating part with ID=3 [/music/Cuando te vayas.mp3]
+Nov 07, 2024 21:54:53.055 [123265903655680] DEBUG - [HCl#32] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=5&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Nov 07, 2024 21:54:53.056 [123265903983360] DEBUG - [HttpClient/HCl#32] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=5&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Nov 07, 2024 21:54:53.056 [123265903655680] DEBUG - [HCl#33] HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=5&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Nov 07, 2024 21:54:53.058 [123265903983360] DEBUG - [HttpClient/HCl#33] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=12&metadataItemID=5&metadataType=10&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Nov 07, 2024 21:54:53.062 [123265915399936] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:53.062 [123265915399936] DEBUG - [HCl#34] HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Nov 07, 2024 21:54:53.065 [123265903983360] DEBUG - [HttpClient/HCl#34] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Nov 07, 2024 21:54:53.065 [123265915399936] DEBUG - Updating metadata item (save) (Cuando Te Vayas) with ID 5

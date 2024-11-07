@@ -1,0 +1,5 @@
+Nov 07, 2024 21:43:32.665 [127234103810872] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1731015279 Duration: 533 UserId: noker5533@gmail.com Version: 1.41.1.9057-af5eaea7a
+Nov 07, 2024 21:43:32.667 [127234131724296] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Nov 07, 2024 21:43:32.927 [127234103565112] DEBUG - [HttpClient/HCl#1] HTTP/2.0 (0.3s) 200 response from POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Nov 07, 2024 21:43:32.928 [127234131724296] INFO - Successfully reported session health
+Nov 07, 2024 21:43:32.928 [127234131724296] INFO - Crash Uploader - Processing Complete.
