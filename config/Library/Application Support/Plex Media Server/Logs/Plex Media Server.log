@@ -2774,3 +2774,951 @@ Nov 07, 2024 22:00:47.515 [137271097436984] DEBUG - [Req#770] [Now] Profile is F
 Nov 07, 2024 22:00:47.515 [137271097436984] DEBUG - [Req#770] [Now] Updated play state for /library/metadata/13.
 Nov 07, 2024 22:00:47.515 [137271097436984] DEBUG - [Req#770] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
 Nov 07, 2024 22:00:47.521 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=49138&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=50000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #770 GZIP 12ms 428 bytes (pipelined: 60)
+Nov 07, 2024 22:00:48.675 [137271097436984] DEBUG - Request: [[::1]:35996 (Loopback)] GET /identity (4 live) #774 Signed-in
+Nov 07, 2024 22:00:48.675 [137271122602808] DEBUG - Completed: [[::1]:35996] 200 GET /identity (4 live) #774 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:00:53.863 [137271097436984] DEBUG - Request: [[::1]:33624 (Loopback)] GET /identity (4 live) #77a Signed-in
+Nov 07, 2024 22:00:53.864 [137271122602808] DEBUG - Completed: [[::1]:33624] 200 GET /identity (4 live) #77a 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:00:57.523 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=59147&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=60000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #779 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:00:57.526 [137271097436984] DEBUG - [Req#779] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 60000/268000ms for guid=, playbackTime=59147ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:00:57.528 [137271097436984] DEBUG - [Req#779] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:00:57.528 [137271097436984] DEBUG - [Req#779] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:00:57.529 [137271097436984] DEBUG - [Req#779] [Now] Profile is Firefox
+Nov 07, 2024 22:00:57.529 [137271097436984] DEBUG - [Req#779] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:00:57.529 [137271097436984] DEBUG - [Req#779] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:00:57.535 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=59147&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=60000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #779 GZIP 11ms 428 bytes (pipelined: 61)
+Nov 07, 2024 22:00:59.040 [137271097436984] DEBUG - Request: [[::1]:33630 (Loopback)] GET /identity (4 live) #77d Signed-in
+Nov 07, 2024 22:00:59.041 [137271126797112] DEBUG - Completed: [[::1]:33630] 200 GET /identity (4 live) #77d 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:04.242 [137271097436984] DEBUG - Request: [[::1]:52258 (Loopback)] GET /identity (4 live) #783 Signed-in
+Nov 07, 2024 22:01:04.242 [137271126797112] DEBUG - Completed: [[::1]:52258] 200 GET /identity (4 live) #783 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:07.540 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=69152&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=70000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #782 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:01:07.542 [137271097436984] DEBUG - [Req#782] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 70000/268000ms for guid=, playbackTime=69152ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:01:07.547 [137271097436984] DEBUG - [Req#782] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 70000 ms by account 1!
+Nov 07, 2024 22:01:07.551 [137271097436984] DEBUG - [Req#782] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:01:07.551 [137271097436984] DEBUG - [Req#782] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:01:07.551 [137271097436984] DEBUG - [Req#782] [Now] Profile is Firefox
+Nov 07, 2024 22:01:07.551 [137271097436984] DEBUG - [Req#782] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:01:07.552 [137271097436984] DEBUG - [Req#782] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:01:07.556 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=69152&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=70000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #782 GZIP 15ms 451 bytes (pipelined: 62)
+Nov 07, 2024 22:01:09.456 [137271097436984] DEBUG - Request: [[::1]:52264 (Loopback)] GET /identity (4 live) #786 Signed-in
+Nov 07, 2024 22:01:09.457 [137271126797112] DEBUG - Completed: [[::1]:52264] 200 GET /identity (4 live) #786 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:14.703 [137271097436984] DEBUG - Request: [[::1]:54826 (Loopback)] GET /identity (4 live) #78c Signed-in
+Nov 07, 2024 22:01:14.703 [137271126797112] DEBUG - Completed: [[::1]:54826] 200 GET /identity (4 live) #78c 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:17.603 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=79167&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=80000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #78b GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:01:17.605 [137271097436984] DEBUG - [Req#78b] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 80000/268000ms for guid=, playbackTime=79167ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:01:17.608 [137271097436984] DEBUG - [Req#78b] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 80000 ms by account 1!
+Nov 07, 2024 22:01:17.612 [137271097436984] DEBUG - [Req#78b] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:01:17.612 [137271097436984] DEBUG - [Req#78b] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:01:17.612 [137271097436984] DEBUG - [Req#78b] [Now] Profile is Firefox
+Nov 07, 2024 22:01:17.613 [137271097436984] DEBUG - [Req#78b] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:01:17.613 [137271097436984] DEBUG - [Req#78b] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:01:17.617 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=79167&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=80000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #78b GZIP 14ms 451 bytes (pipelined: 63)
+Nov 07, 2024 22:01:19.933 [137271097436984] DEBUG - Request: [[::1]:54834 (Loopback)] GET /identity (4 live) #78f Signed-in
+Nov 07, 2024 22:01:19.934 [137271122602808] DEBUG - Completed: [[::1]:54834] 200 GET /identity (4 live) #78f 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:25.193 [137271097436984] DEBUG - Request: [[::1]:46420 (Loopback)] GET /identity (4 live) #795 Signed-in
+Nov 07, 2024 22:01:25.193 [137271126797112] DEBUG - Completed: [[::1]:46420] 200 GET /identity (4 live) #795 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:27.607 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=89174&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=90000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #794 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:01:27.609 [137271097436984] DEBUG - [Req#794] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 90000/268000ms for guid=, playbackTime=89174ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:01:27.613 [137271097436984] DEBUG - [Req#794] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 90000 ms by account 1!
+Nov 07, 2024 22:01:27.616 [137271097436984] DEBUG - [Req#794] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:01:27.616 [137271097436984] DEBUG - [Req#794] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:01:27.617 [137271097436984] DEBUG - [Req#794] [Now] Profile is Firefox
+Nov 07, 2024 22:01:27.617 [137271097436984] DEBUG - [Req#794] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:01:27.617 [137271097436984] DEBUG - [Req#794] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:01:27.622 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=89174&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=90000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #794 GZIP 15ms 451 bytes (pipelined: 64)
+Nov 07, 2024 22:01:30.399 [137271097436984] DEBUG - Request: [[::1]:46424 (Loopback)] GET /identity (4 live) #798 Signed-in
+Nov 07, 2024 22:01:30.400 [137271122602808] DEBUG - Completed: [[::1]:46424] 200 GET /identity (4 live) #798 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:35.619 [137271097436984] DEBUG - Request: [[::1]:32822 (Loopback)] GET /identity (4 live) #79e Signed-in
+Nov 07, 2024 22:01:35.620 [137271126797112] DEBUG - Completed: [[::1]:32822] 200 GET /identity (4 live) #79e 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:37.625 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=99180&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=100000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #79d GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:01:37.627 [137271097436984] DEBUG - [Req#79d] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 100000/268000ms for guid=, playbackTime=99180ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:01:37.631 [137271097436984] DEBUG - [Req#79d] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 100000 ms by account 1!
+Nov 07, 2024 22:01:37.635 [137271097436984] DEBUG - [Req#79d] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:01:37.635 [137271097436984] DEBUG - [Req#79d] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:01:37.635 [137271097436984] DEBUG - [Req#79d] [Now] Profile is Firefox
+Nov 07, 2024 22:01:37.635 [137271097436984] DEBUG - [Req#79d] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:01:37.635 [137271097436984] DEBUG - [Req#79d] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:01:37.641 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=99180&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=100000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #79d GZIP 16ms 451 bytes (pipelined: 65)
+Nov 07, 2024 22:01:40.827 [137271097436984] DEBUG - Request: [[::1]:32836 (Loopback)] GET /identity (4 live) #7a1 Signed-in
+Nov 07, 2024 22:01:40.827 [137271126797112] DEBUG - Completed: [[::1]:32836] 200 GET /identity (4 live) #7a1 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:46.085 [137271097436984] DEBUG - Request: [[::1]:58404 (Loopback)] GET /identity (4 live) #7a7 Signed-in
+Nov 07, 2024 22:01:46.086 [137271126797112] DEBUG - Completed: [[::1]:58404] 200 GET /identity (4 live) #7a7 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:47.652 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=109189&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=110000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7a6 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:01:47.654 [137271097436984] DEBUG - [Req#7a6] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 110000/268000ms for guid=, playbackTime=109189ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:01:47.658 [137271097436984] DEBUG - [Req#7a6] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 110000 ms by account 1!
+Nov 07, 2024 22:01:47.661 [137271097436984] DEBUG - [Req#7a6] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:01:47.661 [137271097436984] DEBUG - [Req#7a6] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:01:47.662 [137271097436984] DEBUG - [Req#7a6] [Now] Profile is Firefox
+Nov 07, 2024 22:01:47.662 [137271097436984] DEBUG - [Req#7a6] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:01:47.662 [137271097436984] DEBUG - [Req#7a6] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:01:47.667 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=109189&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=110000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7a6 GZIP 14ms 452 bytes (pipelined: 66)
+Nov 07, 2024 22:01:51.286 [137271097436984] DEBUG - Request: [[::1]:58414 (Loopback)] GET /identity (4 live) #7aa Signed-in
+Nov 07, 2024 22:01:51.287 [137271122602808] DEBUG - Completed: [[::1]:58414] 200 GET /identity (4 live) #7aa 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:56.534 [137271097436984] DEBUG - Request: [[::1]:53508 (Loopback)] GET /identity (4 live) #7b0 Signed-in
+Nov 07, 2024 22:01:56.534 [137271122602808] DEBUG - Completed: [[::1]:53508] 200 GET /identity (4 live) #7b0 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:01:57.669 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=119197&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=120000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7af GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:01:57.671 [137271097436984] DEBUG - [Req#7af] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 120000/268000ms for guid=, playbackTime=119197ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:01:57.675 [137271097436984] DEBUG - [Req#7af] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 120000 ms by account 1!
+Nov 07, 2024 22:01:57.678 [137271097436984] DEBUG - [Req#7af] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:01:57.678 [137271097436984] DEBUG - [Req#7af] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:01:57.679 [137271097436984] DEBUG - [Req#7af] [Now] Profile is Firefox
+Nov 07, 2024 22:01:57.679 [137271097436984] DEBUG - [Req#7af] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:01:57.679 [137271097436984] DEBUG - [Req#7af] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:01:57.686 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=119197&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=120000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7af GZIP 16ms 452 bytes (pipelined: 67)
+Nov 07, 2024 22:02:01.749 [137271097436984] DEBUG - Request: [[::1]:53522 (Loopback)] GET /identity (4 live) #7b3 Signed-in
+Nov 07, 2024 22:02:01.749 [137271126797112] DEBUG - Completed: [[::1]:53522] 200 GET /identity (4 live) #7b3 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:06.974 [137271097436984] DEBUG - Request: [[::1]:44420 (Loopback)] GET /identity (4 live) #7b9 Signed-in
+Nov 07, 2024 22:02:06.975 [137271126797112] DEBUG - Completed: [[::1]:44420] 200 GET /identity (4 live) #7b9 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:07.696 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=129207&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=130000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7b8 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:02:07.698 [137271097436984] DEBUG - [Req#7b8] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 130000/268000ms for guid=, playbackTime=129207ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:02:07.703 [137271097436984] DEBUG - [Req#7b8] Play progress on 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' - got played 130000 ms by account 1!
+Nov 07, 2024 22:02:07.710 [137271097436984] DEBUG - [Req#7b8] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:02:07.710 [137271097436984] DEBUG - [Req#7b8] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:02:07.711 [137271097436984] DEBUG - [Req#7b8] [Now] Profile is Firefox
+Nov 07, 2024 22:02:07.711 [137271097436984] DEBUG - [Req#7b8] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:02:07.711 [137271097436984] DEBUG - [Req#7b8] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:02:07.718 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=129207&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=130000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7b8 GZIP 22ms 452 bytes (pipelined: 68)
+Nov 07, 2024 22:02:12.180 [137271097436984] DEBUG - Request: [[::1]:44430 (Loopback)] GET /identity (4 live) #7bc Signed-in
+Nov 07, 2024 22:02:12.181 [137271122602808] DEBUG - Completed: [[::1]:44430] 200 GET /identity (4 live) #7bc 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:17.415 [137271097436984] DEBUG - Request: [[::1]:38466 (Loopback)] GET /identity (4 live) #7c2 Signed-in
+Nov 07, 2024 22:02:17.415 [137271126797112] DEBUG - Completed: [[::1]:38466] 200 GET /identity (4 live) #7c2 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:17.713 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=139211&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=140000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7c1 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:02:17.715 [137271097436984] DEBUG - [Req#7c1] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 140000/268000ms for guid=, playbackTime=139211ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:02:17.729 [137271097436984] DEBUG - [Req#7c1] Library item 13 'Solo Pienso En Ti (feat. De La Ghetto & Justin Quiles)' got played by account 1!
+Nov 07, 2024 22:02:17.747 [137271097436984] DEBUG - [Req#7c1] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:02:17.747 [137271097436984] DEBUG - [Req#7c1] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:02:17.748 [137271097436984] DEBUG - [Req#7c1] [Now] Profile is Firefox
+Nov 07, 2024 22:02:17.748 [137271097436984] DEBUG - [Req#7c1] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:02:17.748 [137271097436984] DEBUG - [Req#7c1] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 1) for account 1
+Nov 07, 2024 22:02:17.754 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=139211&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=140000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7c1 GZIP 41ms 452 bytes (pipelined: 69)
+Nov 07, 2024 22:02:22.639 [137271097436984] DEBUG - Request: [[::1]:38472 (Loopback)] GET /identity (4 live) #7c5 Signed-in
+Nov 07, 2024 22:02:22.639 [137271122602808] DEBUG - Completed: [[::1]:38472] 200 GET /identity (4 live) #7c5 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:27.730 [137271038716728] DEBUG - [Req#7c1/ViewStateSync] Starting
+Nov 07, 2024 22:02:27.731 [137271038716728] DEBUG - [Req#7c1/ViewStateSync] No user tokens found; stopping
+Nov 07, 2024 22:02:27.731 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=149215&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=150000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7ca GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:02:27.736 [137271097436984] DEBUG - [Req#7ca] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 150000/268000ms for guid=, playbackTime=149215ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:02:27.738 [137271097436984] DEBUG - [Req#7ca] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:02:27.739 [137271097436984] DEBUG - [Req#7ca] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:02:27.739 [137271097436984] DEBUG - [Req#7ca] [Now] Profile is Firefox
+Nov 07, 2024 22:02:27.739 [137271097436984] DEBUG - [Req#7ca] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:02:27.739 [137271097436984] DEBUG - [Req#7ca] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:02:27.744 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=149215&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=150000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7ca GZIP 13ms 452 bytes (pipelined: 70)
+Nov 07, 2024 22:02:27.868 [137271097436984] DEBUG - Request: [[::1]:57662 (Loopback)] GET /identity (4 live) #7cb Signed-in
+Nov 07, 2024 22:02:27.869 [137271126797112] DEBUG - Completed: [[::1]:57662] 200 GET /identity (4 live) #7cb 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:33.113 [137271097436984] DEBUG - Request: [[::1]:37540 (Loopback)] GET /identity (4 live) #7d1 Signed-in
+Nov 07, 2024 22:02:33.114 [137271126797112] DEBUG - Completed: [[::1]:37540] 200 GET /identity (4 live) #7d1 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:37.761 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=159238&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=160000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7d0 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:02:37.763 [137271097436984] DEBUG - [Req#7d0] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 160000/268000ms for guid=, playbackTime=159238ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:02:37.765 [137271097436984] DEBUG - [Req#7d0] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:02:37.765 [137271097436984] DEBUG - [Req#7d0] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:02:37.766 [137271097436984] DEBUG - [Req#7d0] [Now] Profile is Firefox
+Nov 07, 2024 22:02:37.766 [137271097436984] DEBUG - [Req#7d0] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:02:37.766 [137271097436984] DEBUG - [Req#7d0] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:02:37.771 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=159238&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=160000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7d0 GZIP 10ms 452 bytes (pipelined: 71)
+Nov 07, 2024 22:02:38.356 [137271097436984] DEBUG - Request: [[::1]:37546 (Loopback)] GET /identity (4 live) #7d4 Signed-in
+Nov 07, 2024 22:02:38.357 [137271122602808] DEBUG - Completed: [[::1]:37546] 200 GET /identity (4 live) #7d4 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:43.585 [137271097436984] DEBUG - Request: [[::1]:40594 (Loopback)] GET /identity (4 live) #7da Signed-in
+Nov 07, 2024 22:02:43.586 [137271126797112] DEBUG - Completed: [[::1]:40594] 200 GET /identity (4 live) #7da 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:47.790 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=169245&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=170000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7d9 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:02:47.792 [137271097436984] DEBUG - [Req#7d9] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 170000/268000ms for guid=, playbackTime=169245ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:02:47.794 [137271097436984] DEBUG - [Req#7d9] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:02:47.794 [137271097436984] DEBUG - [Req#7d9] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:02:47.794 [137271097436984] DEBUG - [Req#7d9] [Now] Profile is Firefox
+Nov 07, 2024 22:02:47.794 [137271097436984] DEBUG - [Req#7d9] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:02:47.794 [137271097436984] DEBUG - [Req#7d9] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:02:47.799 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=169245&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=170000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7d9 GZIP 8ms 452 bytes (pipelined: 72)
+Nov 07, 2024 22:02:48.803 [137271097436984] DEBUG - Request: [[::1]:40598 (Loopback)] GET /identity (4 live) #7dd Signed-in
+Nov 07, 2024 22:02:48.803 [137271122602808] DEBUG - Completed: [[::1]:40598] 200 GET /identity (4 live) #7dd 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:54.016 [137271097436984] DEBUG - Request: [[::1]:40462 (Loopback)] GET /identity (4 live) #7e3 Signed-in
+Nov 07, 2024 22:02:54.017 [137271122602808] DEBUG - Completed: [[::1]:40462] 200 GET /identity (4 live) #7e3 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:02:57.809 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=179257&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=180000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7e2 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:02:57.811 [137271097436984] DEBUG - [Req#7e2] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 180000/268000ms for guid=, playbackTime=179257ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:02:57.813 [137271097436984] DEBUG - [Req#7e2] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:02:57.813 [137271097436984] DEBUG - [Req#7e2] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:02:57.813 [137271097436984] DEBUG - [Req#7e2] [Now] Profile is Firefox
+Nov 07, 2024 22:02:57.813 [137271097436984] DEBUG - [Req#7e2] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:02:57.813 [137271097436984] DEBUG - [Req#7e2] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:02:57.818 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=179257&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=180000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7e2 GZIP 9ms 452 bytes (pipelined: 73)
+Nov 07, 2024 22:02:59.222 [137271097436984] DEBUG - Request: [[::1]:40470 (Loopback)] GET /identity (4 live) #7e6 Signed-in
+Nov 07, 2024 22:02:59.223 [137271126797112] DEBUG - Completed: [[::1]:40470] 200 GET /identity (4 live) #7e6 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:04.427 [137271097436984] DEBUG - Request: [[::1]:49952 (Loopback)] GET /identity (4 live) #7ec Signed-in
+Nov 07, 2024 22:03:04.427 [137271126797112] DEBUG - Completed: [[::1]:49952] 200 GET /identity (4 live) #7ec 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:07.830 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=189269&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=190000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7eb GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:03:07.832 [137271097436984] DEBUG - [Req#7eb] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 190000/268000ms for guid=, playbackTime=189269ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:03:07.834 [137271097436984] DEBUG - [Req#7eb] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:03:07.834 [137271097436984] DEBUG - [Req#7eb] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:03:07.834 [137271097436984] DEBUG - [Req#7eb] [Now] Profile is Firefox
+Nov 07, 2024 22:03:07.834 [137271097436984] DEBUG - [Req#7eb] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:03:07.834 [137271097436984] DEBUG - [Req#7eb] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:03:07.839 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=189269&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=190000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7eb GZIP 8ms 452 bytes (pipelined: 74)
+Nov 07, 2024 22:03:09.634 [137271097436984] DEBUG - Request: [[::1]:49966 (Loopback)] GET /identity (4 live) #7ef Signed-in
+Nov 07, 2024 22:03:09.635 [137271126797112] DEBUG - Completed: [[::1]:49966] 200 GET /identity (4 live) #7ef 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:14.857 [137271097436984] DEBUG - Request: [[::1]:51332 (Loopback)] GET /identity (4 live) #7f5 Signed-in
+Nov 07, 2024 22:03:14.857 [137271122602808] DEBUG - Completed: [[::1]:51332] 200 GET /identity (4 live) #7f5 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:17.918 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=199328&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=200000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7f4 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:03:17.920 [137271097436984] DEBUG - [Req#7f4] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 200000/268000ms for guid=, playbackTime=199328ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:03:17.922 [137271097436984] DEBUG - [Req#7f4] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:03:17.922 [137271097436984] DEBUG - [Req#7f4] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:03:17.922 [137271097436984] DEBUG - [Req#7f4] [Now] Profile is Firefox
+Nov 07, 2024 22:03:17.922 [137271097436984] DEBUG - [Req#7f4] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:03:17.922 [137271097436984] DEBUG - [Req#7f4] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:03:17.929 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=199328&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=200000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7f4 GZIP 11ms 452 bytes (pipelined: 75)
+Nov 07, 2024 22:03:20.138 [137271097436984] DEBUG - Request: [[::1]:51342 (Loopback)] GET /identity (4 live) #7f8 Signed-in
+Nov 07, 2024 22:03:20.139 [137271126797112] DEBUG - Completed: [[::1]:51342] 200 GET /identity (4 live) #7f8 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:25.413 [137271097436984] DEBUG - Request: [[::1]:35516 (Loopback)] GET /identity (4 live) #7fe Signed-in
+Nov 07, 2024 22:03:25.414 [137271122602808] DEBUG - Completed: [[::1]:35516] 200 GET /identity (4 live) #7fe 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:27.930 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=209330&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=210000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7fd GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:03:27.932 [137271097436984] DEBUG - [Req#7fd] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 210000/268000ms for guid=, playbackTime=209330ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:03:27.933 [137271097436984] DEBUG - [Req#7fd] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:03:27.934 [137271097436984] DEBUG - [Req#7fd] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:03:27.934 [137271097436984] DEBUG - [Req#7fd] [Now] Profile is Firefox
+Nov 07, 2024 22:03:27.934 [137271097436984] DEBUG - [Req#7fd] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:03:27.934 [137271097436984] DEBUG - [Req#7fd] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:03:27.939 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=209330&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=210000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #7fd GZIP 9ms 452 bytes (pipelined: 76)
+Nov 07, 2024 22:03:30.618 [137271097436984] DEBUG - Request: [[::1]:35530 (Loopback)] GET /identity (4 live) #801 Signed-in
+Nov 07, 2024 22:03:30.618 [137271126797112] DEBUG - Completed: [[::1]:35530] 200 GET /identity (4 live) #801 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:35.825 [137271097436984] DEBUG - Request: [[::1]:45674 (Loopback)] GET /identity (4 live) #807 Signed-in
+Nov 07, 2024 22:03:35.826 [137271122602808] DEBUG - Completed: [[::1]:45674] 200 GET /identity (4 live) #807 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:36.548 [137271034522424] DEBUG - [EventSourceClient/pubsub/45.79.23.169:443] Relay: cleaning up inactive relay connection to 104.237.138.40
+Nov 07, 2024 22:03:37.948 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=219336&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=220000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #806 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:03:37.950 [137271097436984] DEBUG - [Req#806] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 220000/268000ms for guid=, playbackTime=219336ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:03:37.953 [137271097436984] DEBUG - [Req#806] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:03:37.953 [137271097436984] DEBUG - [Req#806] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:03:37.953 [137271097436984] DEBUG - [Req#806] [Now] Profile is Firefox
+Nov 07, 2024 22:03:37.953 [137271097436984] DEBUG - [Req#806] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:03:37.953 [137271097436984] DEBUG - [Req#806] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:03:37.959 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=219336&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=220000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #806 GZIP 10ms 452 bytes (pipelined: 77)
+Nov 07, 2024 22:03:41.054 [137271097436984] DEBUG - Request: [[::1]:45680 (Loopback)] GET /identity (4 live) #80a Signed-in
+Nov 07, 2024 22:03:41.054 [137271126797112] DEBUG - Completed: [[::1]:45680] 200 GET /identity (4 live) #80a 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:46.247 [137271097436984] DEBUG - Request: [[::1]:54648 (Loopback)] GET /identity (4 live) #810 Signed-in
+Nov 07, 2024 22:03:46.247 [137271126797112] DEBUG - Completed: [[::1]:54648] 200 GET /identity (4 live) #810 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:47.976 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=229354&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=230000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #80f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:03:47.978 [137271097436984] DEBUG - [Req#80f] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 230000/268000ms for guid=, playbackTime=229354ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:03:47.979 [137271097436984] DEBUG - [Req#80f] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:03:47.979 [137271097436984] DEBUG - [Req#80f] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:03:47.980 [137271097436984] DEBUG - [Req#80f] [Now] Profile is Firefox
+Nov 07, 2024 22:03:47.980 [137271097436984] DEBUG - [Req#80f] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:03:47.980 [137271097436984] DEBUG - [Req#80f] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:03:47.984 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=229354&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=230000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #80f GZIP 8ms 452 bytes (pipelined: 78)
+Nov 07, 2024 22:03:51.447 [137271097436984] DEBUG - Request: [[::1]:54654 (Loopback)] GET /identity (4 live) #813 Signed-in
+Nov 07, 2024 22:03:51.447 [137271122602808] DEBUG - Completed: [[::1]:54654] 200 GET /identity (4 live) #813 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:56.694 [137271097436984] DEBUG - Request: [[::1]:43692 (Loopback)] GET /identity (4 live) #819 Signed-in
+Nov 07, 2024 22:03:56.694 [137271122602808] DEBUG - Completed: [[::1]:43692] 200 GET /identity (4 live) #819 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:03:57.997 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=239366&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=240000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #818 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:03:57.999 [137271097436984] DEBUG - [Req#818] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 240000/268000ms for guid=, playbackTime=239366ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:03:58.002 [137271097436984] DEBUG - [Req#818] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:03:58.002 [137271097436984] DEBUG - [Req#818] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:03:58.002 [137271097436984] DEBUG - [Req#818] [Now] Profile is Firefox
+Nov 07, 2024 22:03:58.002 [137271097436984] DEBUG - [Req#818] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:03:58.003 [137271097436984] DEBUG - [Req#818] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:03:58.007 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=239366&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=240000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #818 GZIP 10ms 452 bytes (pipelined: 79)
+Nov 07, 2024 22:04:01.897 [137271097436984] DEBUG - Request: [[::1]:43696 (Loopback)] GET /identity (4 live) #81c Signed-in
+Nov 07, 2024 22:04:01.898 [137271122602808] DEBUG - Completed: [[::1]:43696] 200 GET /identity (4 live) #81c 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:07.139 [137271097436984] DEBUG - Request: [[::1]:53858 (Loopback)] GET /identity (4 live) #822 Signed-in
+Nov 07, 2024 22:04:07.139 [137271126797112] DEBUG - Completed: [[::1]:53858] 200 GET /identity (4 live) #822 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:08.019 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=249375&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=250000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #821 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:08.021 [137271097436984] DEBUG - [Req#821] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 250000/268000ms for guid=, playbackTime=249375ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:04:08.023 [137271097436984] DEBUG - [Req#821] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:08.023 [137271097436984] DEBUG - [Req#821] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:08.023 [137271097436984] DEBUG - [Req#821] [Now] Profile is Firefox
+Nov 07, 2024 22:04:08.023 [137271097436984] DEBUG - [Req#821] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:04:08.024 [137271097436984] DEBUG - [Req#821] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:08.028 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=249375&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=250000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #821 GZIP 9ms 452 bytes (pipelined: 80)
+Nov 07, 2024 22:04:12.343 [137271097436984] DEBUG - Request: [[::1]:53864 (Loopback)] GET /identity (4 live) #825 Signed-in
+Nov 07, 2024 22:04:12.343 [137271126797112] DEBUG - Completed: [[::1]:53864] 200 GET /identity (4 live) #825 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:16.470 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/4?Accept-Language=es&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeMarkers=1&includeExternalMedia=1&asyncAugmentMetadata=1&includeRelated=1&checkFiles=1 (3 live) #82a GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:16.487 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /library/metadata/4?Accept-Language=es&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeMarkers=1&includeExternalMedia=1&asyncAugmentMetadata=1&includeRelated=1&checkFiles=1 (3 live) #82a GZIP 17ms 1081 bytes (pipelined: 81)
+Nov 07, 2024 22:04:16.535 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /music/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F4&mediaIndex=0&partIndex=0&musicBitrate=320&directStreamAudio=0&mediaBufferSize=12288&session=08rjibchburu1yxnw9o3e9ys&protocol=dash&directPlay=1&directStream=0&Accept-Language=es (3 live) #82e GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:16.536 [137271097436984] DEBUG - [Req#82e/Transcode] Found session GUID of 08rjibchburu1yxnw9o3e9ys in session start.
+Nov 07, 2024 22:04:16.536 [137271097436984] DEBUG - [Req#82e/Transcode] TranscodeUniversalRequest: adapting profile with augmentation data: add-transcode-target(type=musicProfile&context=streaming&protocol=dash&container=mp4&audioCodec=aac)+add-transcode-target(type=musicProfile&context=streaming&protocol=hls&container=mpegts&audioCodec=aac,mp3)
+Nov 07, 2024 22:04:16.536 [137271097436984] DEBUG - [Req#82e/Transcode] TranscodeUniversalRequest: using augmented profile Firefox
+Nov 07, 2024 22:04:16.537 [137271097436984] DEBUG - [Req#82e/Transcode] Downloading document http://127.0.0.1:32400/library/metadata/4?includeBandwidths=1&offset=-1&X-Plex-Incomplete-Segments=1&X-Plex-Session-Identifier=cj8ckwhpnecao2l6vu3xaby3
+Nov 07, 2024 22:04:16.546 [137271097436984] DEBUG - [Req#82e/Transcode] Streaming Resource: Reached Decision id=4 codes=(MDE=1000,Direct play OK.) media=(id=2 part=(id=2 decision=direct play protocol=dash streams=(Audio=(id=5 decision= channels=0 rate=0))))
+Nov 07, 2024 22:04:16.548 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /music/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F4&mediaIndex=0&partIndex=0&musicBitrate=320&directStreamAudio=0&mediaBufferSize=12288&session=08rjibchburu1yxnw9o3e9ys&protocol=dash&directPlay=1&directStream=0&Accept-Language=es (3 live) #82e GZIP 12ms 1110 bytes (pipelined: 82)
+Nov 07, 2024 22:04:17.595 [137271097436984] DEBUG - Request: [[::1]:47204 (Loopback)] GET /identity (4 live) #82b Signed-in
+Nov 07, 2024 22:04:17.596 [137271126797112] DEBUG - Completed: [[::1]:47204] 200 GET /identity (4 live) #82b 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:18.175 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=259383&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=260000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #831 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:18.178 [137271097436984] DEBUG - [Req#831] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 260000/268000ms for guid=, playbackTime=259383ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:04:18.181 [137271097436984] DEBUG - [Req#831] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:18.181 [137271097436984] DEBUG - [Req#831] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:18.181 [137271097436984] DEBUG - [Req#831] [Now] Profile is Firefox
+Nov 07, 2024 22:04:18.181 [137271097436984] DEBUG - [Req#831] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:04:18.181 [137271097436984] DEBUG - [Req#831] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:18.189 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=259383&playQueueItemID=4&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=260000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #831 GZIP 13ms 452 bytes (pipelined: 83)
+Nov 07, 2024 22:04:22.804 [137271097436984] DEBUG - Request: [[::1]:42468 (Loopback)] GET /identity (4 live) #832 Signed-in
+Nov 07, 2024 22:04:22.804 [137271122602808] DEBUG - Completed: [[::1]:42468] 200 GET /identity (4 live) #832 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:26.480 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=267385&playQueueItemID=4&state=stopped&hasMDE=1&context=source%3Acontent.library&row=0&col=0&continuing=1&time=268000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #837 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:26.482 [137271097436984] DEBUG - [Req#837] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state stopped, progress of 268000/268000ms for guid=, playbackTime=267385ms ratingKey=13 url=, key=/library/metadata/13, containerKey=, metadataId=13, source=
+Nov 07, 2024 22:04:26.484 [137271097436984] DEBUG - [Req#837] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:26.484 [137271097436984] DEBUG - [Req#837] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:26.485 [137271097436984] DEBUG - [Req#837] [Now] Profile is Firefox
+Nov 07, 2024 22:04:26.485 [137271097436984] DEBUG - [Req#837] [Now] Updated play state for /library/metadata/13.
+Nov 07, 2024 22:04:26.486 [137271097436984] DEBUG - [Req#837] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 3 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:26.494 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=13&key=%2Flibrary%2Fmetadata%2F13&playbackTime=267385&playQueueItemID=4&state=stopped&hasMDE=1&context=source%3Acontent.library&row=0&col=0&continuing=1&time=268000&duration=268000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #837 GZIP 14ms 452 bytes (pipelined: 84)
+Nov 07, 2024 22:04:28.019 [137271097436984] DEBUG - Request: [[::1]:42472 (Loopback)] GET /identity (4 live) #838 Signed-in
+Nov 07, 2024 22:04:28.020 [137271126797112] DEBUG - Completed: [[::1]:42472] 200 GET /identity (4 live) #838 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:28.724 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/2/userState (3 live) #83f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:28.733 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 404 GET /library/metadata/2/userState (3 live) #83f GZIP 8ms 379 bytes (pipelined: 85)
+Nov 07, 2024 22:04:28.737 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/2?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (3 live) #843 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:28.745 [137271097436984] DEBUG - [Req#843] Activity: registered new activity 5092c3d5-7a13-4d99-97bd-fe64245f7f65 - "Refreshing"
+Nov 07, 2024 22:04:28.746 [137271026133816] DEBUG - [Req#843] Activity: updated activity 5092c3d5-7a13-4d99-97bd-fe64245f7f65 - completed 0.0% - Refreshing
+Nov 07, 2024 22:04:28.747 [137271026133816] DEBUG - [Req#843] Activity: updated activity 5092c3d5-7a13-4d99-97bd-fe64245f7f65 - completed 33.0% - Refreshing
+Nov 07, 2024 22:04:28.748 [137271026133816] DEBUG - [Req#843] Activity: updated activity 5092c3d5-7a13-4d99-97bd-fe64245f7f65 - completed 66.0% - Refreshing
+Nov 07, 2024 22:04:28.749 [137271026133816] DEBUG - [Req#843] Activity: Ended activity 5092c3d5-7a13-4d99-97bd-fe64245f7f65.
+Nov 07, 2024 22:04:28.752 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /library/metadata/2?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (3 live) #843 GZIP 14ms 954 bytes (pipelined: 86)
+Nov 07, 2024 22:04:28.939 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/parts/2/1729223578/file.mp3?Accept-Language=es (3 live) #84e Signed-in Token (juliocesarlopezprudencio) (Firefox) (range: bytes=0-) 
+Nov 07, 2024 22:04:28.943 [137271097436984] DEBUG - Found an ID3v2 tag at start of MP3 file with size 387157, skipping.
+Nov 07, 2024 22:04:28.943 [137271097436984] DEBUG - Content-Length of /music/Believer.mp3 is 8154510 (of total: 8154510).
+Nov 07, 2024 22:04:28.974 [137271097436984] DEBUG - Request: [172.18.0.1:53592 (Subnet)] GET /library/metadata/2/children?excludeAllLeaves=1 (4 live) #840 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:28.978 [137270938053432] DEBUG - Request: [172.18.0.1:53604 (Subnet)] GET /library/metadata/1/children?excludeAllLeaves=1 (5 live) #84f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:28.984 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 206 GET /library/parts/2/1729223578/file.mp3?Accept-Language=es (5 live) #84e 44ms 8154510 bytes (pipelined: 87) (range: bytes=0-) 
+Nov 07, 2024 22:04:29.024 [137271122602808] DEBUG - Completed: [172.18.0.1:53604] 200 GET /library/metadata/1/children?excludeAllLeaves=1 (5 live) #84f GZIP 46ms 928 bytes (pipelined: 1)
+Nov 07, 2024 22:04:29.048 [137271122602808] DEBUG - Completed: [172.18.0.1:53592] 200 GET /library/metadata/2/children?excludeAllLeaves=1 (5 live) #840 GZIP 74ms 2274 bytes (pipelined: 1)
+Nov 07, 2024 22:04:30.354 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=267819&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=1000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #851 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:30.357 [137270938053432] DEBUG - [Req#851] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 1000/203000ms for guid=, playbackTime=267819ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:04:30.371 [137270938053432] DEBUG - [Req#851] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:30.371 [137270938053432] DEBUG - [Req#851] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:30.372 [137270938053432] DEBUG - [Req#851] [Now] Profile is Firefox
+Nov 07, 2024 22:04:30.372 [137270938053432] DEBUG - [Req#851] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:04:30.372 [137270938053432] DEBUG - [Req#851] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:30.376 [137270938053432] DEBUG - [Req#851] PlayQueue: Setting new active item 5 for play queue 8.
+Nov 07, 2024 22:04:30.376 [137270938053432] DEBUG - [Req#851] PlayQueue: total generated: 13, before cursor: 4, after cursor: 8
+Nov 07, 2024 22:04:30.377 [137270938053432] DEBUG - [Req#851] PlayQueue: No need to refresh, active window is operational.
+Nov 07, 2024 22:04:30.381 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=267819&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=1000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #851 GZIP 26ms 428 bytes (pipelined: 88)
+Nov 07, 2024 22:04:30.409 [137271097436984] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /status/sessions (5 live) #85f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:30.409 [137271097436984] DEBUG - [Req#85f] [Now] Adding 1 sessions.
+Nov 07, 2024 22:04:30.411 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /status/sessions (5 live) #85f GZIP 2ms 1215 bytes (pipelined: 89)
+Nov 07, 2024 22:04:30.418 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /playQueues/8?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (5 live) #860 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:30.420 [137270938053432] DEBUG - [Req#860] PlayQueue: total generated: 13, before cursor: 4, after cursor: 8
+Nov 07, 2024 22:04:30.421 [137270938053432] DEBUG - [Req#860] PlayQueue: No need to refresh, active window is operational.
+Nov 07, 2024 22:04:30.455 [137270938053432] DEBUG - [Req#860] PlayQueue: Client rya4hhwsskf0q4ndo5ie33jd requested ownership of play queue 8, but already had it.
+Nov 07, 2024 22:04:30.470 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /playQueues/8?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (5 live) #860 GZIP 53ms 2625 bytes (pipelined: 90)
+Nov 07, 2024 22:04:33.261 [137271097436984] DEBUG - Request: [[::1]:58332 (Loopback)] GET /identity (6 live) #850 Signed-in
+Nov 07, 2024 22:04:33.261 [137271126797112] DEBUG - Completed: [[::1]:58332] 200 GET /identity (6 live) #850 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:38.528 [137271097436984] DEBUG - Request: [[::1]:58344 (Loopback)] GET /identity (6 live) #862 Signed-in
+Nov 07, 2024 22:04:38.528 [137271126797112] DEBUG - Completed: [[::1]:58344] 200 GET /identity (6 live) #862 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:39.213 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=9003&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=9000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #861 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:39.215 [137270938053432] DEBUG - [Req#861] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 9000/203000ms for guid=, playbackTime=9003ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:04:39.217 [137270938053432] DEBUG - [Req#861] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:39.217 [137270938053432] DEBUG - [Req#861] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:39.218 [137270938053432] DEBUG - [Req#861] [Now] Profile is Firefox
+Nov 07, 2024 22:04:39.218 [137270938053432] DEBUG - [Req#861] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:04:39.218 [137270938053432] DEBUG - [Req#861] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:39.223 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=9003&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=9000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #861 GZIP 9ms 428 bytes (pipelined: 91)
+Nov 07, 2024 22:04:43.774 [137270938053432] DEBUG - Request: [[::1]:43182 (Loopback)] GET /identity (6 live) #865 Signed-in
+Nov 07, 2024 22:04:43.774 [137271122602808] DEBUG - Completed: [[::1]:43182] 200 GET /identity (6 live) #865 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:49.000 [137270938053432] DEBUG - Request: [[::1]:43192 (Loopback)] GET /identity (6 live) #86b Signed-in
+Nov 07, 2024 22:04:49.000 [137271126797112] DEBUG - Completed: [[::1]:43192] 200 GET /identity (6 live) #86b 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:49.233 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=19018&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=19000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #86a GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:49.235 [137270938053432] DEBUG - [Req#86a] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 19000/203000ms for guid=, playbackTime=19018ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:04:49.236 [137270938053432] DEBUG - [Req#86a] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:49.236 [137270938053432] DEBUG - [Req#86a] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:49.237 [137270938053432] DEBUG - [Req#86a] [Now] Profile is Firefox
+Nov 07, 2024 22:04:49.237 [137270938053432] DEBUG - [Req#86a] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:04:49.237 [137270938053432] DEBUG - [Req#86a] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:49.242 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=19018&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=19000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #86a GZIP 8ms 428 bytes (pipelined: 92)
+Nov 07, 2024 22:04:54.216 [137270938053432] DEBUG - Request: [[::1]:33132 (Loopback)] GET /identity (4 live) #86e Signed-in
+Nov 07, 2024 22:04:54.217 [137271122602808] DEBUG - Completed: [[::1]:33132] 200 GET /identity (4 live) #86e 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:04:59.248 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=29021&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=29000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #875 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:04:59.250 [137270938053432] DEBUG - [Req#875] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 29000/203000ms for guid=, playbackTime=29021ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:04:59.252 [137270938053432] DEBUG - [Req#875] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:04:59.252 [137270938053432] DEBUG - [Req#875] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:04:59.253 [137270938053432] DEBUG - [Req#875] [Now] Profile is Firefox
+Nov 07, 2024 22:04:59.253 [137270938053432] DEBUG - [Req#875] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:04:59.253 [137270938053432] DEBUG - [Req#875] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:04:59.258 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=29021&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=29000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #875 GZIP 9ms 428 bytes (pipelined: 93)
+Nov 07, 2024 22:04:59.435 [137270938053432] DEBUG - Request: [[::1]:33138 (Loopback)] GET /identity (4 live) #876 Signed-in
+Nov 07, 2024 22:04:59.436 [137271126797112] DEBUG - Completed: [[::1]:33138] 200 GET /identity (4 live) #876 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:04.646 [137270938053432] DEBUG - Request: [[::1]:53994 (Loopback)] GET /identity (4 live) #87c Signed-in
+Nov 07, 2024 22:05:04.646 [137271126797112] DEBUG - Completed: [[::1]:53994] 200 GET /identity (4 live) #87c 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:09.265 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=39025&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=39000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #87b GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:05:09.267 [137270938053432] DEBUG - [Req#87b] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 39000/203000ms for guid=, playbackTime=39025ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:05:09.268 [137270938053432] DEBUG - [Req#87b] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:05:09.269 [137270938053432] DEBUG - [Req#87b] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:05:09.269 [137270938053432] DEBUG - [Req#87b] [Now] Profile is Firefox
+Nov 07, 2024 22:05:09.269 [137270938053432] DEBUG - [Req#87b] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:05:09.269 [137270938053432] DEBUG - [Req#87b] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:05:09.275 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=39025&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=39000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #87b GZIP 10ms 428 bytes (pipelined: 94)
+Nov 07, 2024 22:05:09.919 [137270938053432] DEBUG - Request: [[::1]:53998 (Loopback)] GET /identity (4 live) #87f Signed-in
+Nov 07, 2024 22:05:09.920 [137271122602808] DEBUG - Completed: [[::1]:53998] 200 GET /identity (4 live) #87f 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:15.115 [137270938053432] DEBUG - Request: [[::1]:34530 (Loopback)] GET /identity (4 live) #885 Signed-in
+Nov 07, 2024 22:05:15.115 [137271122602808] DEBUG - Completed: [[::1]:34530] 200 GET /identity (4 live) #885 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:19.288 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=49037&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=49000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #884 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:05:19.290 [137270938053432] DEBUG - [Req#884] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 49000/203000ms for guid=, playbackTime=49037ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:05:19.292 [137270938053432] DEBUG - [Req#884] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:05:19.292 [137270938053432] DEBUG - [Req#884] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:05:19.293 [137270938053432] DEBUG - [Req#884] [Now] Profile is Firefox
+Nov 07, 2024 22:05:19.293 [137270938053432] DEBUG - [Req#884] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:05:19.293 [137270938053432] DEBUG - [Req#884] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:05:19.297 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=49037&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=49000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #884 GZIP 9ms 428 bytes (pipelined: 95)
+Nov 07, 2024 22:05:20.337 [137270938053432] DEBUG - Request: [[::1]:34538 (Loopback)] GET /identity (4 live) #888 Signed-in
+Nov 07, 2024 22:05:20.337 [137271122602808] DEBUG - Completed: [[::1]:34538] 200 GET /identity (4 live) #888 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:25.537 [137270938053432] DEBUG - Request: [[::1]:35356 (Loopback)] GET /identity (4 live) #88e Signed-in
+Nov 07, 2024 22:05:25.537 [137271126797112] DEBUG - Completed: [[::1]:35356] 200 GET /identity (4 live) #88e 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:29.332 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=59069&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=60000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #88d GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:05:29.334 [137270938053432] DEBUG - [Req#88d] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 60000/203000ms for guid=, playbackTime=59069ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:05:29.336 [137270938053432] DEBUG - [Req#88d] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:05:29.336 [137270938053432] DEBUG - [Req#88d] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:05:29.337 [137270938053432] DEBUG - [Req#88d] [Now] Profile is Firefox
+Nov 07, 2024 22:05:29.337 [137270938053432] DEBUG - [Req#88d] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:05:29.337 [137270938053432] DEBUG - [Req#88d] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:05:29.343 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=59069&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=60000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #88d GZIP 10ms 428 bytes (pipelined: 96)
+Nov 07, 2024 22:05:30.760 [137270938053432] DEBUG - Request: [[::1]:35366 (Loopback)] GET /identity (4 live) #891 Signed-in
+Nov 07, 2024 22:05:30.760 [137271122602808] DEBUG - Completed: [[::1]:35366] 200 GET /identity (4 live) #891 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:35.992 [137270938053432] DEBUG - Request: [[::1]:40466 (Loopback)] GET /identity (4 live) #897 Signed-in
+Nov 07, 2024 22:05:35.992 [137271122602808] DEBUG - Completed: [[::1]:40466] 200 GET /identity (4 live) #897 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:39.391 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=69100&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=70000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #896 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:05:39.393 [137270938053432] DEBUG - [Req#896] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 70000/203000ms for guid=, playbackTime=69100ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:05:39.398 [137270938053432] DEBUG - [Req#896] Play progress on 4 'Believer' - got played 70000 ms by account 1!
+Nov 07, 2024 22:05:39.401 [137270938053432] DEBUG - [Req#896] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:05:39.401 [137270938053432] DEBUG - [Req#896] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:05:39.402 [137270938053432] DEBUG - [Req#896] [Now] Profile is Firefox
+Nov 07, 2024 22:05:39.402 [137270938053432] DEBUG - [Req#896] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:05:39.402 [137270938053432] DEBUG - [Req#896] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:05:39.407 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=69100&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=70000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #896 GZIP 15ms 451 bytes (pipelined: 97)
+Nov 07, 2024 22:05:41.195 [137270938053432] DEBUG - Request: [[::1]:40478 (Loopback)] GET /identity (4 live) #89a Signed-in
+Nov 07, 2024 22:05:41.195 [137271126797112] DEBUG - Completed: [[::1]:40478] 200 GET /identity (4 live) #89a 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:46.405 [137270938053432] DEBUG - Request: [[::1]:34008 (Loopback)] GET /identity (4 live) #8a0 Signed-in
+Nov 07, 2024 22:05:46.405 [137271122602808] DEBUG - Completed: [[::1]:34008] 200 GET /identity (4 live) #8a0 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:49.404 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=79108&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=80000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #89f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:05:49.406 [137270938053432] DEBUG - [Req#89f] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 80000/203000ms for guid=, playbackTime=79108ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:05:49.410 [137270938053432] DEBUG - [Req#89f] Play progress on 4 'Believer' - got played 80000 ms by account 1!
+Nov 07, 2024 22:05:49.413 [137270938053432] DEBUG - [Req#89f] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:05:49.414 [137270938053432] DEBUG - [Req#89f] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:05:49.414 [137270938053432] DEBUG - [Req#89f] [Now] Profile is Firefox
+Nov 07, 2024 22:05:49.414 [137270938053432] DEBUG - [Req#89f] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:05:49.414 [137270938053432] DEBUG - [Req#89f] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:05:49.419 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=79108&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=80000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #89f GZIP 14ms 451 bytes (pipelined: 98)
+Nov 07, 2024 22:05:51.642 [137270938053432] DEBUG - Request: [[::1]:34020 (Loopback)] GET /identity (4 live) #8a3 Signed-in
+Nov 07, 2024 22:05:51.642 [137271126797112] DEBUG - Completed: [[::1]:34020] 200 GET /identity (4 live) #8a3 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:56.853 [137270938053432] DEBUG - Request: [[::1]:53040 (Loopback)] GET /identity (4 live) #8a9 Signed-in
+Nov 07, 2024 22:05:56.853 [137271122602808] DEBUG - Completed: [[::1]:53040] 200 GET /identity (4 live) #8a9 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:05:59.420 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=89112&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=90000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8a8 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:05:59.423 [137270938053432] DEBUG - [Req#8a8] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 90000/203000ms for guid=, playbackTime=89112ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:05:59.426 [137270938053432] DEBUG - [Req#8a8] Play progress on 4 'Believer' - got played 90000 ms by account 1!
+Nov 07, 2024 22:05:59.430 [137270938053432] DEBUG - [Req#8a8] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:05:59.430 [137270938053432] DEBUG - [Req#8a8] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:05:59.430 [137270938053432] DEBUG - [Req#8a8] [Now] Profile is Firefox
+Nov 07, 2024 22:05:59.430 [137270938053432] DEBUG - [Req#8a8] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:05:59.431 [137270938053432] DEBUG - [Req#8a8] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:05:59.435 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=89112&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=90000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8a8 GZIP 15ms 451 bytes (pipelined: 99)
+Nov 07, 2024 22:06:02.067 [137270938053432] DEBUG - Request: [[::1]:53054 (Loopback)] GET /identity (4 live) #8ac Signed-in
+Nov 07, 2024 22:06:02.067 [137271122602808] DEBUG - Completed: [[::1]:53054] 200 GET /identity (4 live) #8ac 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:07.271 [137270938053432] DEBUG - Request: [[::1]:34300 (Loopback)] GET /identity (4 live) #8b2 Signed-in
+Nov 07, 2024 22:06:07.271 [137271122602808] DEBUG - Completed: [[::1]:34300] 200 GET /identity (4 live) #8b2 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:09.438 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=99118&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=100000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8b1 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:06:09.440 [137270938053432] DEBUG - [Req#8b1] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 100000/203000ms for guid=, playbackTime=99118ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:06:09.444 [137270938053432] DEBUG - [Req#8b1] Play progress on 4 'Believer' - got played 100000 ms by account 1!
+Nov 07, 2024 22:06:09.447 [137270938053432] DEBUG - [Req#8b1] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:06:09.447 [137270938053432] DEBUG - [Req#8b1] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:06:09.448 [137270938053432] DEBUG - [Req#8b1] [Now] Profile is Firefox
+Nov 07, 2024 22:06:09.448 [137270938053432] DEBUG - [Req#8b1] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:06:09.448 [137270938053432] DEBUG - [Req#8b1] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:06:09.453 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=99118&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=100000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8b1 GZIP 14ms 451 bytes (pipelined: 100)
+Nov 07, 2024 22:06:12.476 [137270938053432] DEBUG - Request: [[::1]:34306 (Loopback)] GET /identity (4 live) #8b5 Signed-in
+Nov 07, 2024 22:06:12.476 [137271126797112] DEBUG - Completed: [[::1]:34306] 200 GET /identity (4 live) #8b5 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:17.699 [137270938053432] DEBUG - Request: [[::1]:42834 (Loopback)] GET /identity (4 live) #8bb Signed-in
+Nov 07, 2024 22:06:17.700 [137271126797112] DEBUG - Completed: [[::1]:42834] 200 GET /identity (4 live) #8bb 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:19.461 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=109131&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=110000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8ba GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:06:19.463 [137270938053432] DEBUG - [Req#8ba] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 110000/203000ms for guid=, playbackTime=109131ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:06:19.472 [137270938053432] DEBUG - [Req#8ba] Library item 4 'Believer' got played by account 1!
+Nov 07, 2024 22:06:19.482 [137270938053432] DEBUG - [Req#8ba] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:06:19.483 [137270938053432] DEBUG - [Req#8ba] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:06:19.483 [137270938053432] DEBUG - [Req#8ba] [Now] Profile is Firefox
+Nov 07, 2024 22:06:19.483 [137270938053432] DEBUG - [Req#8ba] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:06:19.483 [137270938053432] DEBUG - [Req#8ba] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 1) for account 1
+Nov 07, 2024 22:06:19.488 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=109131&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=110000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8ba GZIP 27ms 452 bytes (pipelined: 101)
+Nov 07, 2024 22:06:22.925 [137270938053432] DEBUG - Request: [[::1]:57790 (Loopback)] GET /identity (4 live) #8be Signed-in
+Nov 07, 2024 22:06:22.925 [137271126797112] DEBUG - Completed: [[::1]:57790] 200 GET /identity (4 live) #8be 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:28.154 [137270938053432] DEBUG - Request: [[::1]:57806 (Loopback)] GET /identity (4 live) #8c4 Signed-in
+Nov 07, 2024 22:06:28.154 [137271126797112] DEBUG - Completed: [[::1]:57806] 200 GET /identity (4 live) #8c4 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:29.472 [137271051299640] DEBUG - [Req#8ba/ViewStateSync] Starting
+Nov 07, 2024 22:06:29.472 [137271051299640] DEBUG - [Req#8ba/ViewStateSync] No user tokens found; stopping
+Nov 07, 2024 22:06:29.498 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=119138&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=120000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8c3 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:06:29.500 [137270938053432] DEBUG - [Req#8c3] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 120000/203000ms for guid=, playbackTime=119138ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:06:29.502 [137270938053432] DEBUG - [Req#8c3] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:06:29.502 [137270938053432] DEBUG - [Req#8c3] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:06:29.503 [137270938053432] DEBUG - [Req#8c3] [Now] Profile is Firefox
+Nov 07, 2024 22:06:29.503 [137270938053432] DEBUG - [Req#8c3] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:06:29.503 [137270938053432] DEBUG - [Req#8c3] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:06:29.508 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=119138&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=120000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8c3 GZIP 10ms 452 bytes (pipelined: 102)
+Nov 07, 2024 22:06:33.387 [137270938053432] DEBUG - Request: [[::1]:51580 (Loopback)] GET /identity (4 live) #8c7 Signed-in
+Nov 07, 2024 22:06:33.387 [137271126797112] DEBUG - Completed: [[::1]:51580] 200 GET /identity (4 live) #8c7 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:38.636 [137270938053432] DEBUG - Request: [[::1]:51586 (Loopback)] GET /identity (4 live) #8cd Signed-in
+Nov 07, 2024 22:06:38.637 [137271126797112] DEBUG - Completed: [[::1]:51586] 200 GET /identity (4 live) #8cd 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:39.514 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=129141&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=130000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8cc GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:06:39.516 [137270938053432] DEBUG - [Req#8cc] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 130000/203000ms for guid=, playbackTime=129141ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:06:39.519 [137270938053432] DEBUG - [Req#8cc] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:06:39.519 [137270938053432] DEBUG - [Req#8cc] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:06:39.519 [137270938053432] DEBUG - [Req#8cc] [Now] Profile is Firefox
+Nov 07, 2024 22:06:39.519 [137270938053432] DEBUG - [Req#8cc] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:06:39.519 [137270938053432] DEBUG - [Req#8cc] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:06:39.525 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=129141&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=130000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8cc GZIP 11ms 452 bytes (pipelined: 103)
+Nov 07, 2024 22:06:43.847 [137270938053432] DEBUG - Request: [[::1]:38810 (Loopback)] GET /identity (4 live) #8d0 Signed-in
+Nov 07, 2024 22:06:43.848 [137271126797112] DEBUG - Completed: [[::1]:38810] 200 GET /identity (4 live) #8d0 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:49.065 [137270938053432] DEBUG - Request: [[::1]:38820 (Loopback)] GET /identity (4 live) #8d6 Signed-in
+Nov 07, 2024 22:06:49.066 [137271126797112] DEBUG - Completed: [[::1]:38820] 200 GET /identity (4 live) #8d6 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:49.512 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=139149&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=140000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8d5 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:06:49.514 [137270938053432] DEBUG - [Req#8d5] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 140000/203000ms for guid=, playbackTime=139149ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:06:49.515 [137270938053432] DEBUG - [Req#8d5] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:06:49.515 [137270938053432] DEBUG - [Req#8d5] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:06:49.516 [137270938053432] DEBUG - [Req#8d5] [Now] Profile is Firefox
+Nov 07, 2024 22:06:49.516 [137270938053432] DEBUG - [Req#8d5] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:06:49.516 [137270938053432] DEBUG - [Req#8d5] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:06:49.521 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=139149&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=140000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8d5 GZIP 8ms 452 bytes (pipelined: 104)
+Nov 07, 2024 22:06:54.285 [137270938053432] DEBUG - Request: [[::1]:50728 (Loopback)] GET /identity (4 live) #8d9 Signed-in
+Nov 07, 2024 22:06:54.285 [137271126797112] DEBUG - Completed: [[::1]:50728] 200 GET /identity (4 live) #8d9 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:59.491 [137270938053432] DEBUG - Request: [[::1]:50734 (Loopback)] GET /identity (4 live) #8df Signed-in
+Nov 07, 2024 22:06:59.492 [137271126797112] DEBUG - Completed: [[::1]:50734] 200 GET /identity (4 live) #8df 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:06:59.538 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=149170&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=150000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8de GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:06:59.540 [137270938053432] DEBUG - [Req#8de] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 150000/203000ms for guid=, playbackTime=149170ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:06:59.542 [137270938053432] DEBUG - [Req#8de] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:06:59.542 [137270938053432] DEBUG - [Req#8de] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:06:59.543 [137270938053432] DEBUG - [Req#8de] [Now] Profile is Firefox
+Nov 07, 2024 22:06:59.543 [137270938053432] DEBUG - [Req#8de] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:06:59.543 [137270938053432] DEBUG - [Req#8de] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:06:59.547 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=149170&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=150000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8de GZIP 9ms 452 bytes (pipelined: 105)
+Nov 07, 2024 22:07:04.714 [137270938053432] DEBUG - Request: [[::1]:50410 (Loopback)] GET /identity (4 live) #8e2 Signed-in
+Nov 07, 2024 22:07:04.714 [137271126797112] DEBUG - Completed: [[::1]:50410] 200 GET /identity (4 live) #8e2 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:09.556 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=159175&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=160000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8e7 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:09.558 [137270938053432] DEBUG - [Req#8e7] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 160000/203000ms for guid=, playbackTime=159175ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:07:09.559 [137270938053432] DEBUG - [Req#8e7] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:09.560 [137270938053432] DEBUG - [Req#8e7] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:09.560 [137270938053432] DEBUG - [Req#8e7] [Now] Profile is Firefox
+Nov 07, 2024 22:07:09.560 [137270938053432] DEBUG - [Req#8e7] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:07:09.560 [137270938053432] DEBUG - [Req#8e7] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:09.565 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=159175&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=160000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8e7 GZIP 9ms 452 bytes (pipelined: 106)
+Nov 07, 2024 22:07:09.964 [137270938053432] DEBUG - Request: [[::1]:50414 (Loopback)] GET /identity (4 live) #8e8 Signed-in
+Nov 07, 2024 22:07:09.965 [137271122602808] DEBUG - Completed: [[::1]:50414] 200 GET /identity (4 live) #8e8 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:15.175 [137270938053432] DEBUG - Request: [[::1]:36470 (Loopback)] GET /identity (4 live) #8ee Signed-in
+Nov 07, 2024 22:07:15.176 [137271126797112] DEBUG - Completed: [[::1]:36470] 200 GET /identity (4 live) #8ee 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:19.583 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=169183&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=170000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8ed GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:19.585 [137270938053432] DEBUG - [Req#8ed] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 170000/203000ms for guid=, playbackTime=169183ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:07:19.586 [137270938053432] DEBUG - [Req#8ed] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:19.587 [137270938053432] DEBUG - [Req#8ed] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:19.587 [137270938053432] DEBUG - [Req#8ed] [Now] Profile is Firefox
+Nov 07, 2024 22:07:19.587 [137270938053432] DEBUG - [Req#8ed] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:07:19.587 [137270938053432] DEBUG - [Req#8ed] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:19.591 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=169183&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=170000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8ed GZIP 8ms 452 bytes (pipelined: 107)
+Nov 07, 2024 22:07:20.391 [137270938053432] DEBUG - Request: [[::1]:36480 (Loopback)] GET /identity (4 live) #8f1 Signed-in
+Nov 07, 2024 22:07:20.391 [137271126797112] DEBUG - Completed: [[::1]:36480] 200 GET /identity (4 live) #8f1 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:25.608 [137270938053432] DEBUG - Request: [[::1]:56038 (Loopback)] GET /identity (4 live) #8f7 Signed-in
+Nov 07, 2024 22:07:25.609 [137271126797112] DEBUG - Completed: [[::1]:56038] 200 GET /identity (4 live) #8f7 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:29.619 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=179206&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=180000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8f6 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:29.621 [137270938053432] DEBUG - [Req#8f6] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 180000/203000ms for guid=, playbackTime=179206ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:07:29.623 [137270938053432] DEBUG - [Req#8f6] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:29.623 [137270938053432] DEBUG - [Req#8f6] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:29.623 [137270938053432] DEBUG - [Req#8f6] [Now] Profile is Firefox
+Nov 07, 2024 22:07:29.623 [137270938053432] DEBUG - [Req#8f6] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:07:29.623 [137270938053432] DEBUG - [Req#8f6] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:29.628 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=179206&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=180000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8f6 GZIP 9ms 452 bytes (pipelined: 108)
+Nov 07, 2024 22:07:30.814 [137270938053432] DEBUG - Request: [[::1]:56046 (Loopback)] GET /identity (4 live) #8fa Signed-in
+Nov 07, 2024 22:07:30.815 [137271122602808] DEBUG - Completed: [[::1]:56046] 200 GET /identity (4 live) #8fa 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:36.031 [137270938053432] DEBUG - Request: [[::1]:36502 (Loopback)] GET /identity (4 live) #900 Signed-in
+Nov 07, 2024 22:07:36.031 [137271126797112] DEBUG - Completed: [[::1]:36502] 200 GET /identity (4 live) #900 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:39.647 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=189226&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=190000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8ff GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:39.649 [137270938053432] DEBUG - [Req#8ff] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 190000/203000ms for guid=, playbackTime=189226ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:07:39.650 [137270938053432] DEBUG - [Req#8ff] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:39.650 [137270938053432] DEBUG - [Req#8ff] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:39.651 [137270938053432] DEBUG - [Req#8ff] [Now] Profile is Firefox
+Nov 07, 2024 22:07:39.651 [137270938053432] DEBUG - [Req#8ff] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:07:39.651 [137270938053432] DEBUG - [Req#8ff] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:39.655 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=189226&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=190000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #8ff GZIP 8ms 452 bytes (pipelined: 109)
+Nov 07, 2024 22:07:41.223 [137270938053432] DEBUG - Request: [[::1]:36516 (Loopback)] GET /identity (4 live) #903 Signed-in
+Nov 07, 2024 22:07:41.223 [137271122602808] DEBUG - Completed: [[::1]:36516] 200 GET /identity (4 live) #903 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:43.335 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/8?Accept-Language=es&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeMarkers=1&includeExternalMedia=1&asyncAugmentMetadata=1&includeRelated=1&checkFiles=1 (3 live) #908 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:43.351 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /library/metadata/8?Accept-Language=es&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeMarkers=1&includeExternalMedia=1&asyncAugmentMetadata=1&includeRelated=1&checkFiles=1 (3 live) #908 GZIP 16ms 1084 bytes (pipelined: 110)
+Nov 07, 2024 22:07:43.405 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /music/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F8&mediaIndex=0&partIndex=0&musicBitrate=320&directStreamAudio=0&mediaBufferSize=12288&session=01olrrguo75tu8gfn9mm34cp&protocol=dash&directPlay=1&directStream=0&Accept-Language=es (3 live) #90c GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:43.405 [137270938053432] DEBUG - [Req#90c/Transcode] Found session GUID of 01olrrguo75tu8gfn9mm34cp in session start.
+Nov 07, 2024 22:07:43.406 [137270938053432] DEBUG - [Req#90c/Transcode] TranscodeUniversalRequest: adapting profile with augmentation data: add-transcode-target(type=musicProfile&context=streaming&protocol=dash&container=mp4&audioCodec=aac)+add-transcode-target(type=musicProfile&context=streaming&protocol=hls&container=mpegts&audioCodec=aac,mp3)
+Nov 07, 2024 22:07:43.406 [137270938053432] DEBUG - [Req#90c/Transcode] TranscodeUniversalRequest: using augmented profile Firefox
+Nov 07, 2024 22:07:43.406 [137270938053432] DEBUG - [Req#90c/Transcode] Downloading document http://127.0.0.1:32400/library/metadata/8?includeBandwidths=1&offset=-1&X-Plex-Incomplete-Segments=1&X-Plex-Session-Identifier=cj8ckwhpnecao2l6vu3xaby3
+Nov 07, 2024 22:07:43.417 [137270938053432] DEBUG - [Req#90c/Transcode] Streaming Resource: Reached Decision id=8 codes=(MDE=1000,Direct play OK.) media=(id=6 part=(id=6 decision=direct play protocol=dash streams=(Audio=(id=6 decision= channels=0 rate=0))))
+Nov 07, 2024 22:07:43.419 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /music/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F8&mediaIndex=0&partIndex=0&musicBitrate=320&directStreamAudio=0&mediaBufferSize=12288&session=01olrrguo75tu8gfn9mm34cp&protocol=dash&directPlay=1&directStream=0&Accept-Language=es (3 live) #90c GZIP 14ms 1114 bytes (pipelined: 111)
+Nov 07, 2024 22:07:46.465 [137270938053432] DEBUG - Request: [[::1]:42150 (Loopback)] GET /identity (4 live) #909 Signed-in
+Nov 07, 2024 22:07:46.466 [137271122602808] DEBUG - Completed: [[::1]:42150] 200 GET /identity (4 live) #909 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:49.668 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=199236&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=200000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #90f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:49.671 [137270938053432] DEBUG - [Req#90f] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 200000/203000ms for guid=, playbackTime=199236ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:07:49.673 [137270938053432] DEBUG - [Req#90f] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:49.673 [137270938053432] DEBUG - [Req#90f] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:49.673 [137270938053432] DEBUG - [Req#90f] [Now] Profile is Firefox
+Nov 07, 2024 22:07:49.673 [137270938053432] DEBUG - [Req#90f] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:07:49.673 [137270938053432] DEBUG - [Req#90f] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:49.678 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=199236&playQueueItemID=5&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=200000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #90f GZIP 10ms 452 bytes (pipelined: 112)
+Nov 07, 2024 22:07:51.689 [137270938053432] DEBUG - Request: [[::1]:42164 (Loopback)] GET /identity (4 live) #910 Signed-in
+Nov 07, 2024 22:07:51.689 [137271122602808] DEBUG - Completed: [[::1]:42164] 200 GET /identity (4 live) #910 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:53.345 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=202241&playQueueItemID=5&state=stopped&hasMDE=1&context=source%3Acontent.library&row=0&col=0&continuing=1&time=203000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #915 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:53.347 [137270938053432] DEBUG - [Req#915] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state stopped, progress of 203000/203000ms for guid=, playbackTime=202241ms ratingKey=4 url=, key=/library/metadata/4, containerKey=, metadataId=4, source=
+Nov 07, 2024 22:07:53.350 [137270938053432] DEBUG - [Req#915] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:53.350 [137270938053432] DEBUG - [Req#915] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:53.351 [137270938053432] DEBUG - [Req#915] [Now] Profile is Firefox
+Nov 07, 2024 22:07:53.351 [137270938053432] DEBUG - [Req#915] [Now] Updated play state for /library/metadata/4.
+Nov 07, 2024 22:07:53.352 [137270938053432] DEBUG - [Req#915] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 3 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:53.359 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=4&key=%2Flibrary%2Fmetadata%2F4&playbackTime=202241&playQueueItemID=5&state=stopped&hasMDE=1&context=source%3Acontent.library&row=0&col=0&continuing=1&time=203000&duration=203000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #915 GZIP 14ms 452 bytes (pipelined: 113)
+Nov 07, 2024 22:07:55.514 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/2/userState (3 live) #91d GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:55.524 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 404 GET /library/metadata/2/userState (3 live) #91d GZIP 10ms 379 bytes (pipelined: 114)
+Nov 07, 2024 22:07:55.529 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/2?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (3 live) #91e GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:55.540 [137270938053432] DEBUG - [Req#91e] Activity: registered new activity 70880a40-d014-45c2-be0e-b2856eeea6ab - "Refreshing"
+Nov 07, 2024 22:07:55.540 [137271013550904] DEBUG - [Req#91e] Activity: updated activity 70880a40-d014-45c2-be0e-b2856eeea6ab - completed 0.0% - Refreshing
+Nov 07, 2024 22:07:55.541 [137271013550904] DEBUG - [Req#91e] Activity: updated activity 70880a40-d014-45c2-be0e-b2856eeea6ab - completed 33.0% - Refreshing
+Nov 07, 2024 22:07:55.542 [137271013550904] DEBUG - [Req#91e] Activity: updated activity 70880a40-d014-45c2-be0e-b2856eeea6ab - completed 66.0% - Refreshing
+Nov 07, 2024 22:07:55.543 [137271013550904] DEBUG - [Req#91e] Activity: Ended activity 70880a40-d014-45c2-be0e-b2856eeea6ab.
+Nov 07, 2024 22:07:55.548 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /library/metadata/2?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (3 live) #91e GZIP 18ms 956 bytes (pipelined: 115)
+Nov 07, 2024 22:07:55.702 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/parts/6/1729223586/file.mp3?Accept-Language=es (3 live) #929 Signed-in Token (juliocesarlopezprudencio) (Firefox) (range: bytes=0-) 
+Nov 07, 2024 22:07:55.707 [137270938053432] DEBUG - Found an ID3v2 tag at start of MP3 file with size 203880, skipping.
+Nov 07, 2024 22:07:55.707 [137270938053432] DEBUG - Content-Length of /music/Enemy.mp3 is 2675527 (of total: 2675527).
+Nov 07, 2024 22:07:55.722 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 206 GET /library/parts/6/1729223586/file.mp3?Accept-Language=es (3 live) #929 20ms 2675527 bytes (pipelined: 116) (range: bytes=0-) 
+Nov 07, 2024 22:07:55.743 [137270938053432] DEBUG - Request: [172.18.0.1:35504 (Subnet)] GET /library/metadata/2/children?excludeAllLeaves=1 (4 live) #916 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:55.750 [137270942247736] DEBUG - Request: [172.18.0.1:35520 (Subnet)] GET /library/metadata/1/children?excludeAllLeaves=1 (5 live) #92b GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:55.789 [137271122602808] DEBUG - Completed: [172.18.0.1:35520] 200 GET /library/metadata/1/children?excludeAllLeaves=1 (5 live) #92b GZIP 39ms 929 bytes (pipelined: 1)
+Nov 07, 2024 22:07:55.808 [137271122602808] DEBUG - Completed: [172.18.0.1:35504] 200 GET /library/metadata/2/children?excludeAllLeaves=1 (5 live) #916 GZIP 65ms 2280 bytes (pipelined: 1)
+Nov 07, 2024 22:07:56.975 [137270942247736] DEBUG - Request: [[::1]:53880 (Loopback)] GET /identity (6 live) #92c Signed-in
+Nov 07, 2024 22:07:56.976 [137271122602808] DEBUG - Completed: [[::1]:53880] 200 GET /identity (6 live) #92c 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:07:57.024 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=202926&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=1000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #92a GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:57.027 [137270938053432] DEBUG - [Req#92a] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 1000/173000ms for guid=, playbackTime=202926ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:07:57.038 [137270938053432] DEBUG - [Req#92a] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:07:57.038 [137270938053432] DEBUG - [Req#92a] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:07:57.039 [137270938053432] DEBUG - [Req#92a] [Now] Profile is Firefox
+Nov 07, 2024 22:07:57.039 [137270938053432] DEBUG - [Req#92a] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:07:57.039 [137270938053432] DEBUG - [Req#92a] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:07:57.043 [137270938053432] DEBUG - [Req#92a] PlayQueue: Setting new active item 6 for play queue 8.
+Nov 07, 2024 22:07:57.043 [137270938053432] DEBUG - [Req#92a] PlayQueue: total generated: 13, before cursor: 5, after cursor: 7
+Nov 07, 2024 22:07:57.044 [137270938053432] DEBUG - [Req#92a] PlayQueue: No need to refresh, active window is operational.
+Nov 07, 2024 22:07:57.049 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=202926&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=1000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #92a GZIP 24ms 428 bytes (pipelined: 117)
+Nov 07, 2024 22:07:57.061 [137270942247736] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /status/sessions (5 live) #93d GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:57.061 [137270942247736] DEBUG - [Req#93d] [Now] Adding 1 sessions.
+Nov 07, 2024 22:07:57.063 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /status/sessions (5 live) #93d GZIP 2ms 1216 bytes (pipelined: 118)
+Nov 07, 2024 22:07:57.073 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /playQueues/8?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (5 live) #93e GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:07:57.075 [137270938053432] DEBUG - [Req#93e] PlayQueue: total generated: 13, before cursor: 5, after cursor: 7
+Nov 07, 2024 22:07:57.075 [137270938053432] DEBUG - [Req#93e] PlayQueue: No need to refresh, active window is operational.
+Nov 07, 2024 22:07:57.108 [137270938053432] DEBUG - [Req#93e] PlayQueue: Client rya4hhwsskf0q4ndo5ie33jd requested ownership of play queue 8, but already had it.
+Nov 07, 2024 22:07:57.123 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /playQueues/8?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (5 live) #93e GZIP 50ms 2630 bytes (pipelined: 119)
+Nov 07, 2024 22:08:02.189 [137270942247736] DEBUG - Request: [[::1]:53894 (Loopback)] GET /identity (6 live) #935 Signed-in
+Nov 07, 2024 22:08:02.190 [137271122602808] DEBUG - Completed: [[::1]:53894] 200 GET /identity (6 live) #935 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:05.961 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=9010&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=9000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #93f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:08:05.963 [137270938053432] DEBUG - [Req#93f] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 9000/173000ms for guid=, playbackTime=9010ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:08:05.965 [137270938053432] DEBUG - [Req#93f] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:08:05.965 [137270938053432] DEBUG - [Req#93f] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:08:05.965 [137270938053432] DEBUG - [Req#93f] [Now] Profile is Firefox
+Nov 07, 2024 22:08:05.965 [137270938053432] DEBUG - [Req#93f] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:08:05.966 [137270938053432] DEBUG - [Req#93f] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:08:05.972 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=9010&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=9000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #93f GZIP 11ms 428 bytes (pipelined: 120)
+Nov 07, 2024 22:08:07.418 [137270938053432] DEBUG - Request: [[::1]:60978 (Loopback)] GET /identity (6 live) #940 Signed-in
+Nov 07, 2024 22:08:07.418 [137271122602808] DEBUG - Completed: [[::1]:60978] 200 GET /identity (6 live) #940 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:12.664 [137270938053432] DEBUG - Request: [[::1]:60994 (Loopback)] GET /identity (6 live) #946 Signed-in
+Nov 07, 2024 22:08:12.664 [137271122602808] DEBUG - Completed: [[::1]:60994] 200 GET /identity (6 live) #946 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:16.007 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=19013&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=19000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #945 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:08:16.010 [137270938053432] DEBUG - [Req#945] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 19000/173000ms for guid=, playbackTime=19013ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:08:16.013 [137270938053432] DEBUG - [Req#945] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:08:16.013 [137270938053432] DEBUG - [Req#945] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:08:16.013 [137270938053432] DEBUG - [Req#945] [Now] Profile is Firefox
+Nov 07, 2024 22:08:16.013 [137270938053432] DEBUG - [Req#945] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:08:16.014 [137270938053432] DEBUG - [Req#945] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:08:16.020 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=19013&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=19000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #945 GZIP 13ms 428 bytes (pipelined: 121)
+Nov 07, 2024 22:08:17.892 [137270938053432] DEBUG - Request: [[::1]:41246 (Loopback)] GET /identity (4 live) #949 Signed-in
+Nov 07, 2024 22:08:17.892 [137271126797112] DEBUG - Completed: [[::1]:41246] 200 GET /identity (4 live) #949 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:23.239 [137270938053432] DEBUG - Request: [[::1]:39288 (Loopback)] GET /identity (4 live) #951 Signed-in
+Nov 07, 2024 22:08:23.239 [137271126797112] DEBUG - Completed: [[::1]:39288] 200 GET /identity (4 live) #951 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:26.031 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=29051&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=30000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #950 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:08:26.034 [137270938053432] DEBUG - [Req#950] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 30000/173000ms for guid=, playbackTime=29051ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:08:26.036 [137270938053432] DEBUG - [Req#950] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:08:26.036 [137270938053432] DEBUG - [Req#950] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:08:26.036 [137270938053432] DEBUG - [Req#950] [Now] Profile is Firefox
+Nov 07, 2024 22:08:26.036 [137270938053432] DEBUG - [Req#950] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:08:26.036 [137270938053432] DEBUG - [Req#950] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:08:26.042 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=29051&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=30000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #950 GZIP 10ms 428 bytes (pipelined: 122)
+Nov 07, 2024 22:08:28.459 [137270938053432] DEBUG - Request: [[::1]:39298 (Loopback)] GET /identity (4 live) #954 Signed-in
+Nov 07, 2024 22:08:28.459 [137271126797112] DEBUG - Completed: [[::1]:39298] 200 GET /identity (4 live) #954 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:33.666 [137270938053432] DEBUG - Request: [[::1]:36146 (Loopback)] GET /identity (4 live) #95a Signed-in
+Nov 07, 2024 22:08:33.666 [137271122602808] DEBUG - Completed: [[::1]:36146] 200 GET /identity (4 live) #95a 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:36.049 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=39061&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=40000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #959 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:08:36.051 [137270938053432] DEBUG - [Req#959] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 40000/173000ms for guid=, playbackTime=39061ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:08:36.053 [137270938053432] DEBUG - [Req#959] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:08:36.053 [137270938053432] DEBUG - [Req#959] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:08:36.053 [137270938053432] DEBUG - [Req#959] [Now] Profile is Firefox
+Nov 07, 2024 22:08:36.053 [137270938053432] DEBUG - [Req#959] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:08:36.054 [137270938053432] DEBUG - [Req#959] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:08:36.058 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=39061&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=40000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #959 GZIP 9ms 428 bytes (pipelined: 123)
+Nov 07, 2024 22:08:38.871 [137270938053432] DEBUG - Request: [[::1]:36152 (Loopback)] GET /identity (4 live) #95d Signed-in
+Nov 07, 2024 22:08:38.872 [137271126797112] DEBUG - Completed: [[::1]:36152] 200 GET /identity (4 live) #95d 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:44.111 [137270938053432] DEBUG - Request: [[::1]:45068 (Loopback)] GET /identity (4 live) #963 Signed-in
+Nov 07, 2024 22:08:44.111 [137271126797112] DEBUG - Completed: [[::1]:45068] 200 GET /identity (4 live) #963 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:46.069 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=49067&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=50000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #962 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:08:46.071 [137270938053432] DEBUG - [Req#962] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 50000/173000ms for guid=, playbackTime=49067ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:08:46.073 [137270938053432] DEBUG - [Req#962] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:08:46.073 [137270938053432] DEBUG - [Req#962] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:08:46.073 [137270938053432] DEBUG - [Req#962] [Now] Profile is Firefox
+Nov 07, 2024 22:08:46.073 [137270938053432] DEBUG - [Req#962] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:08:46.073 [137270938053432] DEBUG - [Req#962] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:08:46.078 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=49067&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=50000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #962 GZIP 8ms 428 bytes (pipelined: 124)
+Nov 07, 2024 22:08:49.328 [137270938053432] DEBUG - Request: [[::1]:45076 (Loopback)] GET /identity (4 live) #966 Signed-in
+Nov 07, 2024 22:08:49.329 [137271122602808] DEBUG - Completed: [[::1]:45076] 200 GET /identity (4 live) #966 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:54.533 [137270938053432] DEBUG - Request: [[::1]:44128 (Loopback)] GET /identity (4 live) #96c Signed-in
+Nov 07, 2024 22:08:54.534 [137271126797112] DEBUG - Completed: [[::1]:44128] 200 GET /identity (4 live) #96c 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:08:56.128 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=59082&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=60000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #96b GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:08:56.130 [137270938053432] DEBUG - [Req#96b] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 60000/173000ms for guid=, playbackTime=59082ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:08:56.132 [137270938053432] DEBUG - [Req#96b] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:08:56.132 [137270938053432] DEBUG - [Req#96b] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:08:56.132 [137270938053432] DEBUG - [Req#96b] [Now] Profile is Firefox
+Nov 07, 2024 22:08:56.132 [137270938053432] DEBUG - [Req#96b] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:08:56.132 [137270938053432] DEBUG - [Req#96b] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:08:56.137 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=59082&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=60000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #96b GZIP 8ms 428 bytes (pipelined: 125)
+Nov 07, 2024 22:08:59.740 [137270938053432] DEBUG - Request: [[::1]:44144 (Loopback)] GET /identity (4 live) #96f Signed-in
+Nov 07, 2024 22:08:59.740 [137271122602808] DEBUG - Completed: [[::1]:44144] 200 GET /identity (4 live) #96f 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:04.954 [137270938053432] DEBUG - Request: [[::1]:32948 (Loopback)] GET /identity (4 live) #975 Signed-in
+Nov 07, 2024 22:09:04.955 [137271122602808] DEBUG - Completed: [[::1]:32948] 200 GET /identity (4 live) #975 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:06.130 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=69088&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=70000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #974 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:09:06.132 [137270938053432] DEBUG - [Req#974] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 70000/173000ms for guid=, playbackTime=69088ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:09:06.240 [137270938053432] DEBUG - [Req#974] Play progress on 8 'Enemy' - got played 70000 ms by account 1!
+Nov 07, 2024 22:09:06.244 [137270938053432] DEBUG - [Req#974] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:09:06.244 [137270938053432] DEBUG - [Req#974] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:09:06.245 [137270938053432] DEBUG - [Req#974] [Now] Profile is Firefox
+Nov 07, 2024 22:09:06.245 [137270938053432] DEBUG - [Req#974] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:09:06.245 [137270938053432] DEBUG - [Req#974] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:09:06.251 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=69088&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=70000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #974 GZIP 121ms 451 bytes (pipelined: 126)
+Nov 07, 2024 22:09:10.178 [137270938053432] DEBUG - Request: [[::1]:32952 (Loopback)] GET /identity (4 live) #978 Signed-in
+Nov 07, 2024 22:09:10.178 [137271122602808] DEBUG - Completed: [[::1]:32952] 200 GET /identity (4 live) #978 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:15.384 [137270938053432] DEBUG - Request: [[::1]:35856 (Loopback)] GET /identity (4 live) #97e Signed-in
+Nov 07, 2024 22:09:15.384 [137271126797112] DEBUG - Completed: [[::1]:35856] 200 GET /identity (4 live) #97e 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:16.147 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=79097&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=80000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #97d GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:09:16.149 [137270938053432] DEBUG - [Req#97d] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 80000/173000ms for guid=, playbackTime=79097ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:09:16.152 [137270938053432] DEBUG - [Req#97d] Play progress on 8 'Enemy' - got played 80000 ms by account 1!
+Nov 07, 2024 22:09:16.156 [137270938053432] DEBUG - [Req#97d] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:09:16.156 [137270938053432] DEBUG - [Req#97d] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:09:16.157 [137270938053432] DEBUG - [Req#97d] [Now] Profile is Firefox
+Nov 07, 2024 22:09:16.157 [137270938053432] DEBUG - [Req#97d] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:09:16.157 [137270938053432] DEBUG - [Req#97d] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:09:16.163 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=79097&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=80000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #97d GZIP 16ms 451 bytes (pipelined: 127)
+Nov 07, 2024 22:09:20.597 [137270938053432] DEBUG - Request: [[::1]:35860 (Loopback)] GET /identity (4 live) #981 Signed-in
+Nov 07, 2024 22:09:20.597 [137271122602808] DEBUG - Completed: [[::1]:35860] 200 GET /identity (4 live) #981 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:25.805 [137270938053432] DEBUG - Request: [[::1]:59654 (Loopback)] GET /identity (4 live) #987 Signed-in
+Nov 07, 2024 22:09:25.805 [137271122602808] DEBUG - Completed: [[::1]:59654] 200 GET /identity (4 live) #987 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:26.163 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=89105&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=90000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #986 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:09:26.165 [137270938053432] DEBUG - [Req#986] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 90000/173000ms for guid=, playbackTime=89105ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:09:26.174 [137270938053432] DEBUG - [Req#986] Library item 8 'Enemy' got played by account 1!
+Nov 07, 2024 22:09:26.184 [137270938053432] DEBUG - [Req#986] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:09:26.184 [137270938053432] DEBUG - [Req#986] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:09:26.185 [137270938053432] DEBUG - [Req#986] [Now] Profile is Firefox
+Nov 07, 2024 22:09:26.185 [137270938053432] DEBUG - [Req#986] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:09:26.185 [137270938053432] DEBUG - [Req#986] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 1) for account 1
+Nov 07, 2024 22:09:26.190 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=89105&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=90000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #986 GZIP 26ms 452 bytes (pipelined: 128)
+Nov 07, 2024 22:09:31.015 [137270938053432] DEBUG - Request: [[::1]:59660 (Loopback)] GET /identity (4 live) #98a Signed-in
+Nov 07, 2024 22:09:31.015 [137271122602808] DEBUG - Completed: [[::1]:59660] 200 GET /identity (4 live) #98a 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:36.175 [137271038716728] DEBUG - [Req#986/ViewStateSync] Starting
+Nov 07, 2024 22:09:36.176 [137271038716728] DEBUG - [Req#986/ViewStateSync] No user tokens found; stopping
+Nov 07, 2024 22:09:36.223 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=99118&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=100000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #98f GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:09:36.226 [137270938053432] DEBUG - [Req#98f] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 100000/173000ms for guid=, playbackTime=99118ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:09:36.229 [137270938053432] DEBUG - [Req#98f] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:09:36.230 [137270938053432] DEBUG - [Req#98f] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:09:36.230 [137270938053432] DEBUG - [Req#98f] [Now] Profile is Firefox
+Nov 07, 2024 22:09:36.230 [137270938053432] DEBUG - [Req#98f] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:09:36.231 [137270938053432] DEBUG - [Req#98f] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:09:36.236 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=99118&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=100000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #98f GZIP 13ms 452 bytes (pipelined: 129)
+Nov 07, 2024 22:09:36.270 [137270938053432] DEBUG - Request: [[::1]:60036 (Loopback)] GET /identity (4 live) #990 Signed-in
+Nov 07, 2024 22:09:36.271 [137271126797112] DEBUG - Completed: [[::1]:60036] 200 GET /identity (4 live) #990 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:41.464 [137270938053432] DEBUG - Request: [[::1]:60038 (Loopback)] GET /identity (4 live) #996 Signed-in
+Nov 07, 2024 22:09:41.464 [137271122602808] DEBUG - Completed: [[::1]:60038] 200 GET /identity (4 live) #996 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:46.211 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=109123&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=110000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #995 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:09:46.213 [137270938053432] DEBUG - [Req#995] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 110000/173000ms for guid=, playbackTime=109123ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:09:46.215 [137270938053432] DEBUG - [Req#995] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:09:46.215 [137270938053432] DEBUG - [Req#995] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:09:46.215 [137270938053432] DEBUG - [Req#995] [Now] Profile is Firefox
+Nov 07, 2024 22:09:46.215 [137270938053432] DEBUG - [Req#995] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:09:46.215 [137270938053432] DEBUG - [Req#995] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:09:46.220 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=109123&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=110000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #995 GZIP 9ms 452 bytes (pipelined: 130)
+Nov 07, 2024 22:09:46.647 [137270938053432] DEBUG - Request: [[::1]:35758 (Loopback)] GET /identity (4 live) #999 Signed-in
+Nov 07, 2024 22:09:46.648 [137271126797112] DEBUG - Completed: [[::1]:35758] 200 GET /identity (4 live) #999 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:51.830 [137270938053432] DEBUG - Request: [[::1]:35772 (Loopback)] GET /identity (4 live) #99f Signed-in
+Nov 07, 2024 22:09:51.831 [137271122602808] DEBUG - Completed: [[::1]:35772] 200 GET /identity (4 live) #99f 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:09:56.262 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=119136&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=120000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #99e GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:09:56.265 [137270938053432] DEBUG - [Req#99e] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 120000/173000ms for guid=, playbackTime=119136ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:09:56.268 [137270938053432] DEBUG - [Req#99e] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:09:56.268 [137270938053432] DEBUG - [Req#99e] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:09:56.268 [137270938053432] DEBUG - [Req#99e] [Now] Profile is Firefox
+Nov 07, 2024 22:09:56.268 [137270938053432] DEBUG - [Req#99e] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:09:56.269 [137270938053432] DEBUG - [Req#99e] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:09:56.274 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=119136&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=120000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #99e GZIP 12ms 452 bytes (pipelined: 131)
+Nov 07, 2024 22:09:57.078 [137270938053432] DEBUG - Request: [[::1]:56034 (Loopback)] GET /identity (4 live) #9a2 Signed-in
+Nov 07, 2024 22:09:57.078 [137271122602808] DEBUG - Completed: [[::1]:56034] 200 GET /identity (4 live) #9a2 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:02.346 [137270938053432] DEBUG - Request: [[::1]:56040 (Loopback)] GET /identity (4 live) #9a8 Signed-in
+Nov 07, 2024 22:10:02.347 [137271126797112] DEBUG - Completed: [[::1]:56040] 200 GET /identity (4 live) #9a8 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:06.264 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=129143&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=130000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9a7 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:06.266 [137270938053432] DEBUG - [Req#9a7] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 130000/173000ms for guid=, playbackTime=129143ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:10:06.267 [137270938053432] DEBUG - [Req#9a7] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:06.268 [137270938053432] DEBUG - [Req#9a7] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:06.268 [137270938053432] DEBUG - [Req#9a7] [Now] Profile is Firefox
+Nov 07, 2024 22:10:06.268 [137270938053432] DEBUG - [Req#9a7] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:10:06.268 [137270938053432] DEBUG - [Req#9a7] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:06.273 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=129143&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=130000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9a7 GZIP 9ms 452 bytes (pipelined: 132)
+Nov 07, 2024 22:10:07.566 [137270938053432] DEBUG - Request: [[::1]:51450 (Loopback)] GET /identity (4 live) #9ab Signed-in
+Nov 07, 2024 22:10:07.566 [137271126797112] DEBUG - Completed: [[::1]:51450] 200 GET /identity (4 live) #9ab 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:12.775 [137270938053432] DEBUG - Request: [[::1]:33776 (Loopback)] GET /identity (4 live) #9b1 Signed-in
+Nov 07, 2024 22:10:12.776 [137271122602808] DEBUG - Completed: [[::1]:33776] 200 GET /identity (4 live) #9b1 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:16.373 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=139240&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=140000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9b0 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:16.376 [137270938053432] DEBUG - [Req#9b0] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 140000/173000ms for guid=, playbackTime=139240ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:10:16.377 [137270938053432] DEBUG - [Req#9b0] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:16.377 [137270938053432] DEBUG - [Req#9b0] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:16.378 [137270938053432] DEBUG - [Req#9b0] [Now] Profile is Firefox
+Nov 07, 2024 22:10:16.378 [137270938053432] DEBUG - [Req#9b0] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:10:16.378 [137270938053432] DEBUG - [Req#9b0] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:16.383 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=139240&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=140000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9b0 GZIP 9ms 452 bytes (pipelined: 133)
+Nov 07, 2024 22:10:18.008 [137270938053432] DEBUG - Request: [[::1]:33792 (Loopback)] GET /identity (4 live) #9b4 Signed-in
+Nov 07, 2024 22:10:18.009 [137271126797112] DEBUG - Completed: [[::1]:33792] 200 GET /identity (4 live) #9b4 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:23.270 [137270938053432] DEBUG - Request: [[::1]:40908 (Loopback)] GET /identity (4 live) #9ba Signed-in
+Nov 07, 2024 22:10:23.270 [137271126797112] DEBUG - Completed: [[::1]:40908] 200 GET /identity (4 live) #9ba 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:26.391 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=149246&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=150000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9b9 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:26.393 [137270938053432] DEBUG - [Req#9b9] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 150000/173000ms for guid=, playbackTime=149246ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:10:26.396 [137270938053432] DEBUG - [Req#9b9] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:26.396 [137270938053432] DEBUG - [Req#9b9] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:26.397 [137270938053432] DEBUG - [Req#9b9] [Now] Profile is Firefox
+Nov 07, 2024 22:10:26.397 [137270938053432] DEBUG - [Req#9b9] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:10:26.397 [137270938053432] DEBUG - [Req#9b9] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:26.403 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=149246&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=150000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9b9 GZIP 12ms 452 bytes (pipelined: 134)
+Nov 07, 2024 22:10:28.490 [137270938053432] DEBUG - Request: [[::1]:40916 (Loopback)] GET /identity (4 live) #9bd Signed-in
+Nov 07, 2024 22:10:28.490 [137271126797112] DEBUG - Completed: [[::1]:40916] 200 GET /identity (4 live) #9bd 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:33.769 [137270938053432] DEBUG - Request: [[::1]:50390 (Loopback)] GET /identity (4 live) #9c3 Signed-in
+Nov 07, 2024 22:10:33.770 [137271122602808] DEBUG - Completed: [[::1]:50390] 200 GET /identity (4 live) #9c3 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:36.458 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=159302&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=160000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9c2 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:36.460 [137270938053432] DEBUG - [Req#9c2] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 160000/173000ms for guid=, playbackTime=159302ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:10:36.463 [137270938053432] DEBUG - [Req#9c2] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:36.463 [137270938053432] DEBUG - [Req#9c2] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:36.463 [137270938053432] DEBUG - [Req#9c2] [Now] Profile is Firefox
+Nov 07, 2024 22:10:36.464 [137270938053432] DEBUG - [Req#9c2] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:10:36.464 [137270938053432] DEBUG - [Req#9c2] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:36.469 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=159302&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=160000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9c2 GZIP 11ms 452 bytes (pipelined: 135)
+Nov 07, 2024 22:10:38.981 [137270938053432] DEBUG - Request: [[::1]:50400 (Loopback)] GET /identity (4 live) #9c6 Signed-in
+Nov 07, 2024 22:10:38.981 [137271122602808] DEBUG - Completed: [[::1]:50400] 200 GET /identity (4 live) #9c6 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:40.036 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/9?Accept-Language=es&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeMarkers=1&includeExternalMedia=1&asyncAugmentMetadata=1&includeRelated=1&checkFiles=1 (3 live) #9cb GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:40.052 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /library/metadata/9?Accept-Language=es&includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeChapters=1&includeStations=1&includeMarkers=1&includeExternalMedia=1&asyncAugmentMetadata=1&includeRelated=1&checkFiles=1 (3 live) #9cb GZIP 16ms 1064 bytes (pipelined: 136)
+Nov 07, 2024 22:10:40.110 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /music/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F9&mediaIndex=0&partIndex=0&musicBitrate=320&directStreamAudio=0&mediaBufferSize=12288&session=zuei6y2qqj9ano9airatm9o2&protocol=dash&directPlay=1&directStream=0&Accept-Language=es (3 live) #9cf GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:40.111 [137270938053432] DEBUG - [Req#9cf/Transcode] Found session GUID of zuei6y2qqj9ano9airatm9o2 in session start.
+Nov 07, 2024 22:10:40.111 [137270938053432] DEBUG - [Req#9cf/Transcode] TranscodeUniversalRequest: adapting profile with augmentation data: add-transcode-target(type=musicProfile&context=streaming&protocol=dash&container=mp4&audioCodec=aac)+add-transcode-target(type=musicProfile&context=streaming&protocol=hls&container=mpegts&audioCodec=aac,mp3)
+Nov 07, 2024 22:10:40.111 [137270938053432] DEBUG - [Req#9cf/Transcode] TranscodeUniversalRequest: using augmented profile Firefox
+Nov 07, 2024 22:10:40.112 [137270938053432] DEBUG - [Req#9cf/Transcode] Downloading document http://127.0.0.1:32400/library/metadata/9?includeBandwidths=1&offset=-1&X-Plex-Incomplete-Segments=1&X-Plex-Session-Identifier=cj8ckwhpnecao2l6vu3xaby3
+Nov 07, 2024 22:10:40.122 [137270938053432] DEBUG - [Req#9cf/Transcode] Streaming Resource: Reached Decision id=9 codes=(MDE=1000,Direct play OK.) media=(id=7 part=(id=7 decision=direct play protocol=dash streams=(Audio=(id=7 decision= channels=0 rate=0))))
+Nov 07, 2024 22:10:40.124 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /music/:/transcode/universal/decision?hasMDE=1&path=%2Flibrary%2Fmetadata%2F9&mediaIndex=0&partIndex=0&musicBitrate=320&directStreamAudio=0&mediaBufferSize=12288&session=zuei6y2qqj9ano9airatm9o2&protocol=dash&directPlay=1&directStream=0&Accept-Language=es (3 live) #9cf GZIP 13ms 1094 bytes (pipelined: 137)
+Nov 07, 2024 22:10:44.209 [137270938053432] DEBUG - Request: [[::1]:43094 (Loopback)] GET /identity (4 live) #9cc Signed-in
+Nov 07, 2024 22:10:44.210 [137271122602808] DEBUG - Completed: [[::1]:43094] 200 GET /identity (4 live) #9cc 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:46.475 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=169310&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=170000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9d2 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:46.477 [137270938053432] DEBUG - [Req#9d2] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 170000/173000ms for guid=, playbackTime=169310ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:10:46.479 [137270938053432] DEBUG - [Req#9d2] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:46.479 [137270938053432] DEBUG - [Req#9d2] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:46.479 [137270938053432] DEBUG - [Req#9d2] [Now] Profile is Firefox
+Nov 07, 2024 22:10:46.479 [137270938053432] DEBUG - [Req#9d2] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:10:46.479 [137270938053432] DEBUG - [Req#9d2] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:46.485 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=169310&playQueueItemID=6&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=170000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9d2 GZIP 10ms 452 bytes (pipelined: 138)
+Nov 07, 2024 22:10:49.423 [137270938053432] DEBUG - Request: [[::1]:43104 (Loopback)] GET /identity (4 live) #9d3 Signed-in
+Nov 07, 2024 22:10:49.423 [137271122602808] DEBUG - Completed: [[::1]:43104] 200 GET /identity (4 live) #9d3 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:49.559 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=171310&playQueueItemID=6&state=stopped&hasMDE=1&context=source%3Acontent.library&row=0&col=0&continuing=1&time=173000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9d8 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:49.560 [137270938053432] DEBUG - [Req#9d8] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state stopped, progress of 173000/173000ms for guid=, playbackTime=171310ms ratingKey=8 url=, key=/library/metadata/8, containerKey=, metadataId=8, source=
+Nov 07, 2024 22:10:49.563 [137270938053432] DEBUG - [Req#9d8] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:49.563 [137270938053432] DEBUG - [Req#9d8] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:49.564 [137270938053432] DEBUG - [Req#9d8] [Now] Profile is Firefox
+Nov 07, 2024 22:10:49.564 [137270938053432] DEBUG - [Req#9d8] [Now] Updated play state for /library/metadata/8.
+Nov 07, 2024 22:10:49.565 [137270938053432] DEBUG - [Req#9d8] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 3 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:49.571 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 200 GET /:/timeline?ratingKey=8&key=%2Flibrary%2Fmetadata%2F8&playbackTime=171310&playQueueItemID=6&state=stopped&hasMDE=1&context=source%3Acontent.library&row=0&col=0&continuing=1&time=173000&duration=173000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #9d8 GZIP 12ms 452 bytes (pipelined: 139)
+Nov 07, 2024 22:10:52.842 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/2/userState (3 live) #9e0 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:52.852 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 404 GET /library/metadata/2/userState (3 live) #9e0 GZIP 9ms 379 bytes (pipelined: 140)
+Nov 07, 2024 22:10:52.869 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/metadata/2?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (3 live) #9e1 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:52.879 [137270938053432] DEBUG - [Req#9e1] Activity: registered new activity 030fa9c5-89b0-4993-83e6-184b84ad01b1 - "Refreshing"
+Nov 07, 2024 22:10:52.880 [137271063882552] DEBUG - [Req#9e1] Activity: updated activity 030fa9c5-89b0-4993-83e6-184b84ad01b1 - completed 0.0% - Refreshing
+Nov 07, 2024 22:10:52.881 [137271063882552] DEBUG - [Req#9e1] Activity: updated activity 030fa9c5-89b0-4993-83e6-184b84ad01b1 - completed 33.0% - Refreshing
+Nov 07, 2024 22:10:52.882 [137271063882552] DEBUG - [Req#9e1] Activity: updated activity 030fa9c5-89b0-4993-83e6-184b84ad01b1 - completed 66.0% - Refreshing
+Nov 07, 2024 22:10:52.884 [137271063882552] DEBUG - [Req#9e1] Activity: Ended activity 030fa9c5-89b0-4993-83e6-184b84ad01b1.
+Nov 07, 2024 22:10:52.887 [137271122602808] DEBUG - Completed: [172.18.0.1:39498] 200 GET /library/metadata/2?includeConcerts=1&includeExtras=1&includeOnDeck=1&includePopularLeaves=1&includePreferences=1&includeReviews=1&includeChapters=1&includeStations=1&includeExternalMedia=1&asyncAugmentMetadata=1&asyncCheckFiles=1&asyncRefreshAnalysis=1&asyncRefreshLocalMediaAgent=1 (3 live) #9e1 GZIP 17ms 956 bytes (pipelined: 141)
+Nov 07, 2024 22:10:53.072 [137270938053432] DEBUG - Request: [172.18.0.1:39498 (Subnet)] GET /library/parts/7/1729223070/file.mp3?Accept-Language=es (3 live) #9ec Signed-in Token (juliocesarlopezprudencio) (Firefox) (range: bytes=0-) 
+Nov 07, 2024 22:10:53.076 [137270938053432] DEBUG - Found an ID3v2 tag at start of MP3 file with size 403739, skipping.
+Nov 07, 2024 22:10:53.077 [137270938053432] DEBUG - Content-Length of /music/Forever Alone.mp3 is 8641305 (of total: 8641305).
+Nov 07, 2024 22:10:53.113 [137271126797112] DEBUG - Completed: [172.18.0.1:39498] 206 GET /library/parts/7/1729223070/file.mp3?Accept-Language=es (3 live) #9ec 40ms 8641305 bytes (pipelined: 142) (range: bytes=0-) 
+Nov 07, 2024 22:10:53.117 [137270938053432] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /library/metadata/2/children?excludeAllLeaves=1 (4 live) #9d9 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:53.145 [137270946442040] DEBUG - Request: [172.18.0.1:43516 (Subnet)] GET /library/metadata/1/children?excludeAllLeaves=1 (5 live) #9ee GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:53.164 [137270938053432] DEBUG - [Req#9d9] It took 70.000000 ms to retrieve 13 items.
+Nov 07, 2024 22:10:53.177 [137271126797112] DEBUG - Completed: [172.18.0.1:43514] 200 GET /library/metadata/2/children?excludeAllLeaves=1 (5 live) #9d9 GZIP 59ms 2284 bytes (pipelined: 1)
+Nov 07, 2024 22:10:53.178 [137271126797112] DEBUG - Completed: [172.18.0.1:43516] 200 GET /library/metadata/1/children?excludeAllLeaves=1 (5 live) #9ee GZIP 33ms 929 bytes (pipelined: 1)
+Nov 07, 2024 22:10:54.255 [137270938053432] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=172410&playQueueItemID=7&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=0&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #9f6 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:54.258 [137270938053432] DEBUG - [Req#9f6] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state playing, progress of 0/215000ms for guid=, playbackTime=172410ms ratingKey=9 url=, key=/library/metadata/9, containerKey=, metadataId=9, source=
+Nov 07, 2024 22:10:54.269 [137270938053432] DEBUG - [Req#9f6] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:54.269 [137270938053432] DEBUG - [Req#9f6] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:54.269 [137270938053432] DEBUG - [Req#9f6] [Now] Profile is Firefox
+Nov 07, 2024 22:10:54.269 [137270938053432] DEBUG - [Req#9f6] [Now] Updated play state for /library/metadata/9.
+Nov 07, 2024 22:10:54.270 [137270938053432] DEBUG - [Req#9f6] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 0 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:54.273 [137270938053432] DEBUG - [Req#9f6] PlayQueue: Setting new active item 7 for play queue 8.
+Nov 07, 2024 22:10:54.273 [137270938053432] DEBUG - [Req#9f6] PlayQueue: total generated: 13, before cursor: 6, after cursor: 6
+Nov 07, 2024 22:10:54.274 [137270938053432] DEBUG - [Req#9f6] PlayQueue: No need to refresh, active window is operational.
+Nov 07, 2024 22:10:54.278 [137271126797112] DEBUG - Completed: [172.18.0.1:43514] 200 GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=172410&playQueueItemID=7&state=playing&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=0&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #9f6 GZIP 22ms 428 bytes (pipelined: 2)
+Nov 07, 2024 22:10:54.337 [137270946442040] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /playQueues/8?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (5 live) #9fd GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:54.338 [137270946442040] DEBUG - [Req#9fd] PlayQueue: total generated: 13, before cursor: 6, after cursor: 6
+Nov 07, 2024 22:10:54.339 [137270946442040] DEBUG - [Req#9fd] PlayQueue: No need to refresh, active window is operational.
+Nov 07, 2024 22:10:54.367 [137270946442040] DEBUG - [Req#9fd] PlayQueue: Client rya4hhwsskf0q4ndo5ie33jd requested ownership of play queue 8, but already had it.
+Nov 07, 2024 22:10:54.373 [137270938053432] DEBUG - Request: [172.18.0.1:43516 (Subnet)] GET /status/sessions (5 live) #9f7 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:54.373 [137270938053432] DEBUG - [Req#9f7] [Now] Adding 1 sessions.
+Nov 07, 2024 22:10:54.375 [137271126797112] DEBUG - Completed: [172.18.0.1:43516] 200 GET /status/sessions (5 live) #9f7 GZIP 2ms 1195 bytes (pipelined: 2)
+Nov 07, 2024 22:10:54.384 [137271126797112] DEBUG - Completed: [172.18.0.1:43514] 200 GET /playQueues/8?repeat=0&own=1&includeChapters=1&includeMarkers=1&includeGeolocation=1&includeExternalMedia=1 (5 live) #9fd GZIP 47ms 2632 bytes (pipelined: 3)
+Nov 07, 2024 22:10:54.697 [137270938053432] DEBUG - Request: [[::1]:36146 (Loopback)] GET /identity (6 live) #9ef Signed-in
+Nov 07, 2024 22:10:54.698 [137271122602808] DEBUG - Completed: [[::1]:36146] 200 GET /identity (6 live) #9ef 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:10:56.194 [137270946442040] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1026&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #9ff GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:10:56.196 [137270946442040] DEBUG - [Req#9ff] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state paused, progress of 2000/215000ms for guid=, playbackTime=1026ms ratingKey=9 url=, key=/library/metadata/9, containerKey=, metadataId=9, source=
+Nov 07, 2024 22:10:56.198 [137270946442040] DEBUG - [Req#9ff] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:10:56.198 [137270946442040] DEBUG - [Req#9ff] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:10:56.198 [137270946442040] DEBUG - [Req#9ff] [Now] Profile is Firefox
+Nov 07, 2024 22:10:56.198 [137270946442040] DEBUG - [Req#9ff] [Now] Updated play state for /library/metadata/9.
+Nov 07, 2024 22:10:56.198 [137270946442040] DEBUG - [Req#9ff] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 1 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:10:56.204 [137271122602808] DEBUG - Completed: [172.18.0.1:43514] 200 GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1026&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #9ff GZIP 10ms 428 bytes (pipelined: 4)
+Nov 07, 2024 22:10:59.960 [137270946442040] DEBUG - Request: [[::1]:36152 (Loopback)] GET /identity (6 live) #a00 Signed-in
+Nov 07, 2024 22:10:59.961 [137271122602808] DEBUG - Completed: [[::1]:36152] 200 GET /identity (6 live) #a00 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:11:03.472 [137270938053432] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1934&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #a05 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:11:03.474 [137270938053432] DEBUG - [Req#a05] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state paused, progress of 2000/215000ms for guid=, playbackTime=1934ms ratingKey=9 url=, key=/library/metadata/9, containerKey=, metadataId=9, source=
+Nov 07, 2024 22:11:03.476 [137270938053432] DEBUG - [Req#a05] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:11:03.476 [137270938053432] DEBUG - [Req#a05] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:11:03.477 [137270938053432] DEBUG - [Req#a05] [Now] Profile is Firefox
+Nov 07, 2024 22:11:03.477 [137270938053432] DEBUG - [Req#a05] [Now] Updated play state for /library/metadata/9.
+Nov 07, 2024 22:11:03.477 [137270938053432] DEBUG - [Req#a05] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 1 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:11:03.483 [137271122602808] DEBUG - Completed: [172.18.0.1:43514] 200 GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1934&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (5 live) #a05 GZIP 10ms 428 bytes (pipelined: 5)
+Nov 07, 2024 22:11:05.184 [137270938053432] DEBUG - Request: [[::1]:39732 (Loopback)] GET /identity (6 live) #a06 Signed-in
+Nov 07, 2024 22:11:05.184 [137271122602808] DEBUG - Completed: [[::1]:39732] 200 GET /identity (6 live) #a06 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:11:10.410 [137270938053432] DEBUG - Request: [[::1]:39738 (Loopback)] GET /identity (6 live) #a0c Signed-in
+Nov 07, 2024 22:11:10.410 [137271122602808] DEBUG - Completed: [[::1]:39738] 200 GET /identity (6 live) #a0c 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:11:13.475 [137270938053432] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1934&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (4 live) #a0b GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:11:13.478 [137270938053432] DEBUG - [Req#a0b] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state paused, progress of 2000/215000ms for guid=, playbackTime=1934ms ratingKey=9 url=, key=/library/metadata/9, containerKey=, metadataId=9, source=
+Nov 07, 2024 22:11:13.479 [137270938053432] DEBUG - [Req#a0b] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:11:13.480 [137270938053432] DEBUG - [Req#a0b] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:11:13.480 [137270938053432] DEBUG - [Req#a0b] [Now] Profile is Firefox
+Nov 07, 2024 22:11:13.480 [137270938053432] DEBUG - [Req#a0b] [Now] Updated play state for /library/metadata/9.
+Nov 07, 2024 22:11:13.480 [137270938053432] DEBUG - [Req#a0b] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 1 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:11:13.485 [137271122602808] DEBUG - Completed: [172.18.0.1:43514] 200 GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1934&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (4 live) #a0b GZIP 9ms 428 bytes (pipelined: 6)
+Nov 07, 2024 22:11:15.619 [137270938053432] DEBUG - Request: [[::1]:44402 (Loopback)] GET /identity (4 live) #a0f Signed-in
+Nov 07, 2024 22:11:15.620 [137271122602808] DEBUG - Completed: [[::1]:44402] 200 GET /identity (4 live) #a0f 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:11:20.820 [137270938053432] DEBUG - Request: [[::1]:44414 (Loopback)] GET /identity (4 live) #a17 Signed-in
+Nov 07, 2024 22:11:20.820 [137271126797112] DEBUG - Completed: [[::1]:44414] 200 GET /identity (4 live) #a17 0ms 417 bytes (pipelined: 1)
+Nov 07, 2024 22:11:23.478 [137270938053432] DEBUG - Request: [172.18.0.1:43514 (Subnet)] GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1934&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #a15 GZIP Signed-in Token (juliocesarlopezprudencio) (Firefox)
+Nov 07, 2024 22:11:23.480 [137270938053432] DEBUG - [Req#a15] Client [cj8ckwhpnecao2l6vu3xaby3] reporting timeline state paused, progress of 2000/215000ms for guid=, playbackTime=1934ms ratingKey=9 url=, key=/library/metadata/9, containerKey=, metadataId=9, source=
+Nov 07, 2024 22:11:23.482 [137270938053432] DEBUG - [Req#a15] [Now] User is juliocesarlopezprudencio (ID: 1)
+Nov 07, 2024 22:11:23.482 [137270938053432] DEBUG - [Req#a15] [Now] Device is Firefox (Firefox).
+Nov 07, 2024 22:11:23.482 [137270938053432] DEBUG - [Req#a15] [Now] Profile is Firefox
+Nov 07, 2024 22:11:23.482 [137270938053432] DEBUG - [Req#a15] [Now] Updated play state for /library/metadata/9.
+Nov 07, 2024 22:11:23.483 [137270938053432] DEBUG - [Req#a15] Statistics: (rya4hhwsskf0q4ndo5ie33jd) Reporting active playback in state 1 of type 10 (scrobble: 0) for account 1
+Nov 07, 2024 22:11:23.487 [137271126797112] DEBUG - Completed: [172.18.0.1:43514] 200 GET /:/timeline?ratingKey=9&key=%2Flibrary%2Fmetadata%2F9&playbackTime=1934&playQueueItemID=7&state=paused&hasMDE=1&context=source%3Acontent.library&row=0&col=0&time=2000&duration=215000&utm_referer=http%3A%2F%2Flocalhost%3A32401%2F (3 live) #a15 GZIP 8ms 428 bytes (pipelined: 7)
+Nov 07, 2024 22:11:24.519 [137271135185720] DEBUG - Shutting down with signal 15 (Terminated)
+Nov 07, 2024 22:11:24.519 [137271135185720] DEBUG - Ordered to stop server.
+Nov 07, 2024 22:11:24.519 [137271135185720] DEBUG - [JobRunner] Job running: /usr/lib/plexmediaserver/CrashUploader --sessionStatus=exited --sessionStart=1731016409 --sessionDuration=1075 --version=1.41.1.9057-af5eaea7a --userId=noker5533@gmail.com --sentryUrl=https://o17675.ingest.sentry.io/api/1233455/ --sentryKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Nov 07, 2024 22:11:24.520 [137271135185720] DEBUG - [JobRunner] Jobs: Starting child process with pid 2462
+Nov 07, 2024 22:11:24.520 [137271145089680] DEBUG - Stopping server...
+Nov 07, 2024 22:11:24.520 [137271145089680] DEBUG - HttpServer: Stopping server.
+Nov 07, 2024 22:11:24.520 [137271118408504] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Nov 07, 2024 22:11:24.520 [137271118408504] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Nov 07, 2024 22:11:24.520 [137271118408504] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Nov 07, 2024 22:11:24.520 [137271145089680] DEBUG - Server stopped.
+Nov 07, 2024 22:11:24.520 [137271145089680] DEBUG - NetworkService: Stopping advertisement.
+Nov 07, 2024 22:11:24.520 [137271068076856] ERROR - Network Service: Error in advertiser handle read: 125 (Operation canceled) socket=75
+Nov 07, 2024 22:11:24.520 [137271145089680] DEBUG - Killing plug-ins.
+Nov 07, 2024 22:11:24.607 [137271145089680] DEBUG - [com.plexapp.agents.imdb] Killing.
+Nov 07, 2024 22:11:24.619 [137271135185720] WARN - JobManager: Could not find job for handle 370
+Nov 07, 2024 22:11:24.621 [137271068076856] INFO - Network Service: Abandoning advertise socket, it was closed.
+Nov 07, 2024 22:11:24.637 [137271145089680] DEBUG - [com.plexapp.system] Killing.
+Nov 07, 2024 22:11:24.651 [137271135185720] WARN - JobManager: Could not find job for handle 281
+Nov 07, 2024 22:11:24.673 [137271145089680] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Nov 07, 2024 22:11:24.673 [137271145089680] DEBUG - [JobRunner] Signalling job ID 334 with 2
+Nov 07, 2024 22:11:24.730 [137271135185720] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 334 is 0 (success)
+Nov 07, 2024 22:11:24.731 [137271055493944] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Nov 07, 2024 22:11:24.732 [137271145089680] DEBUG - Job was already killed, not killing again.
+Nov 07, 2024 22:11:24.732 [137271145089680] DEBUG - Database: Shutting down.
+Nov 07, 2024 22:11:24.777 [137271145089680] DEBUG - Database: Shutting down.
